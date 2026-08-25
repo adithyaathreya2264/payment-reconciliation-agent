@@ -1,11 +1,3 @@
-"""Standalone sanity checks over a generated dataset. Run as:
-
-    python -m generator.verify --data-dir data/
-
-Plain assertion-style checks with a pass/fail summary; no test framework needed at
-this scale.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -55,12 +47,12 @@ def run_checks(data_dir: Path) -> bool:
         if not condition:
             failures.append(name)
 
-    # 1. Uniqueness
+    
     check("invoice_id uniqueness", len(invoices_by_id) == len(invoices))
     check("settlement_id uniqueness", len(settlements_by_id) == len(settlements))
     check("bank_record_id uniqueness", len(bank_by_id) == len(bank_records))
 
-    # 2. Referential integrity
+    
     ref_ok = True
     for e in entries:
         sid = e.get("settlement_id")
@@ -71,7 +63,7 @@ def run_checks(data_dir: Path) -> bool:
             ref_ok = False
     check("ground truth settlement/bank references resolve", ref_ok)
 
-    # 3. Clean-batch reconciliation
+    
     clean_ok = True
     for e in entries:
         if e["failure_mode_injected"] != "clean_match" or not e["settlement_id"]:
@@ -88,7 +80,7 @@ def run_checks(data_dir: Path) -> bool:
             clean_ok = False
     check("clean-match settlements reconcile to invoice sums minus fees", clean_ok)
 
-    # 4. Rounding-variance deltas within configured band
+    
     rounding_ok = True
     for e in entries:
         if e["failure_mode_injected"] != "rounding_fee_variance" or not e["settlement_id"]:
@@ -106,7 +98,7 @@ def run_checks(data_dir: Path) -> bool:
             rounding_ok = False
     check("rounding_fee_variance deltas within configured band", rounding_ok)
 
-    # 5. Orphan invariants
+    
     orphan_invoice_ids = {e["invoice_ids"][0] for e in entries if e["failure_mode_injected"] == "orphan_invoice"}
     batched_invoice_ids = set()
     for e in entries:
@@ -123,7 +115,7 @@ def run_checks(data_dir: Path) -> bool:
     )
     check("orphan payments have no settlement/match", orphan_payment_ok)
 
-    # 6. Duplicate-collision pairs
+    
     collision_ok = True
     for group in gt["collision_groups"]:
         ids = group["invoice_ids"]
@@ -135,7 +127,7 @@ def run_checks(data_dir: Path) -> bool:
             collision_ok = False
     check("duplicate-amount collision pairs have matching amounts", collision_ok)
 
-    # 7. Ambiguous subset-sum: both subsets within tolerance of each other
+    
     ambiguous_ok = True
     for e in entries:
         if e["failure_mode_injected"] != "ambiguous_subset_sum":
@@ -146,9 +138,7 @@ def run_checks(data_dir: Path) -> bool:
             ambiguous_ok = False
     check("ambiguous_subset_sum competing subsets are within tolerance of each other", ambiguous_ok)
 
-    # 7b. ambiguous_subset_sum settlements must have order_id/UTR blanked, else a
-    # downstream matcher could trivially resolve invoice membership from order_id
-    # instead of genuinely reconstructing it via subset-sum.
+    
     blanking_ok = True
     for e in entries:
         if e["failure_mode_injected"] != "ambiguous_subset_sum":
@@ -163,14 +153,9 @@ def run_checks(data_dir: Path) -> bool:
             blanking_ok = False
     check("ambiguous_subset_sum settlements have order_id/UTR blanked", blanking_ok)
 
-    # 8. Distribution check
+    
     mode_counts = Counter(e["failure_mode_injected"] for e in entries)
-    # invoices never resolved to any entry (i.e. batched normally, no distinct entry
-    # per invoice) are implicitly clean_match/rounding/etc. via their settlement;
-    # recompute the true per-invoice-level distribution from invoices.csv's own tags
-    # isn't available post-write (planned_failure_mode isn't a CSV column by design),
-    # so this check instead reports the settlement/bank/invoice-level entry distribution,
-    # which is a reasonable proxy at this granularity.
+    
     total_entries = sum(mode_counts.values())
     print("\nGround-truth entry distribution vs configured targets (proxy check, not identical granularity):")
     dist_ok = True
