@@ -1,5 +1,3 @@
-"""Phase D: turn Settlements (+ orphan-payment specs) into bank statement rows."""
-
 from __future__ import annotations
 
 import random
