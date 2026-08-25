@@ -1,5 +1,3 @@
-"""Phase A: build Invoice objects with ground-truth failure mode assigned up front."""
-
 from __future__ import annotations
 
 import random
@@ -35,13 +33,7 @@ def generate_invoices(
     start_date: date = config.DEFAULT_START_DATE,
     end_date: date = config.DEFAULT_END_DATE,
 ) -> tuple[list[Invoice], list[dict]]:
-    """Returns (invoices, orphan_payment_specs).
-
-    orphan_payment has no corresponding invoice by definition, so a draw of that mode
-    does not create an Invoice — it instead records a spec (amount/date/counterparty)
-    that bank_factory later turns into a standalone bank credit with no backing
-    invoice or settlement.
-    """
+    
     invoices: list[Invoice] = []
     orphan_payment_specs: list[dict] = []
     counter = 0
@@ -62,7 +54,7 @@ def generate_invoices(
             expected_amount=amount,
             expected_date=inv_date,
             payment_method=method,
-            status="unpaid",  # resolved later by batching
+            status="unpaid",  
             planned_failure_mode=mode,
         )
 
