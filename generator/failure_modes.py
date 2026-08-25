@@ -1,12 +1,3 @@
-"""Failure-mode registry: sampling, distortion helpers, and metadata lookups.
-
-Each mode's structural construction (batching, narration, amounts) lives in the phase
-module that owns that layer (invoice_factory / batching / settlement_factory /
-bank_factory). This module is the shared registry other modules pull from so adding a
-new mode means touching one place for its weight/metadata and one small distortion
-helper here (if any), rather than hunting through every phase module.
-"""
-
 from __future__ import annotations
 
 import random
