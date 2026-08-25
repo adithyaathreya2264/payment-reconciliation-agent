@@ -1,5 +1,3 @@
-"""Counterparty registry helpers: weighted canonical selection and variant lookup."""
-
 from __future__ import annotations
 
 import random
