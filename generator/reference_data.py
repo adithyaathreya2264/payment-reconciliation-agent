@@ -1,14 +1,5 @@
-"""Curated, human-reviewable reference data: names, banks, narration templates.
-
-Kept separate from generation logic so a non-engineer can review "does this look like
-real Indian bank/PG data" by reading this one file.
-"""
-
 from __future__ import annotations
 
-# Each counterparty: canonical name, a recurrence weight (higher = appears on more
-# invoices, mimicking realistic B2B concentration), and a list of alternate forms that
-# may show up in bank narrations instead of the canonical name (entity_name_variant mode).
 COUNTERPARTIES: list[dict] = [
     {"canonical": "Zomato Ltd", "weight": 6, "variants": ["ZOMATO LTD", "Zomato", "zomato@icici", "ZOMATO PVT LTD"]},
     {"canonical": "Swiggy Bundl Technologies", "weight": 6, "variants": ["SWIGGY", "Bundl Technologies Pvt Ltd", "swiggy@hdfc"]},
@@ -42,7 +33,6 @@ BANKS: list[str] = [
     "IDFC First",
 ]
 
-# {ref}, {name}, {bank}, {utr} placeholders filled at bank-record generation time.
 NARRATION_TEMPLATES_UPI: list[str] = [
     "UPI/CR/{ref}/{name}/{bank}",
     "UPI-{name}-{ref}@{bank}-CREDIT",
@@ -55,7 +45,5 @@ NARRATION_TEMPLATES_NEFT_RTGS: list[str] = [
     "NEFT/{utr}/{name}/{bank}",
 ]
 
-# Lognormal parameters (in ln-space) tuned so most draws cluster ~2,000-50,000 with a
-# long tail; actual draws are clipped to [config.AMOUNT_MIN, config.AMOUNT_MAX].
 AMOUNT_LOGNORMAL_MEAN = 9.0
 AMOUNT_LOGNORMAL_SIGMA = 0.9
