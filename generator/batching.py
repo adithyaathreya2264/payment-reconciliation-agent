@@ -1,18 +1,3 @@
-"""Phase B: group invoices into settlement batches.
-
-Handles the batch-level failure-mode constructions (ambiguous_subset_sum,
-partial_batch_failure) before falling back to generic batching for everything else.
-Settlement-level distortions that ride on an otherwise-normal batch (rounding_fee_variance,
-late_settlement, entity_name_variant, clean_match) are resolved here to a single
-"batch failure mode" per batch, taken from ONE randomly-designated invoice in the
-batch (its planned_failure_mode if it's one of those four, else clean_match).
-Using a single designated invoice rather than "any tagged invoice wins" matters: a
-batch can have up to 40 invoices, so scanning all of them for a tag would make
-"at least one invoice is tagged" the effective condition — inflating the observed
-distorted-batch rate far above the configured per-invoice target and making
-clean_match nearly disappear at the settlement level.
-"""
-
 from __future__ import annotations
 
 import itertools
@@ -49,9 +34,6 @@ def _build_ambiguous_subset_sum_batch(
     unconsumed: list[Invoice],
     consumed_ids: set[str],
 ) -> Batch | None:
-    """Build a genuinely ambiguous settlement: two distinct subsets of a shared
-    invoice cluster sum to the same amount within tolerance. Only subset_A is
-    actually settled; subset_B's IDs are recorded as the decoy."""
     candidates = [
         inv
         for inv in unconsumed
@@ -73,10 +55,6 @@ def _build_ambiguous_subset_sum_batch(
     subset_a_ids = frozenset(inv.invoice_id for inv in subset_a)
     sum_a = round(sum(inv.expected_amount for inv in subset_a), 2)
 
-    # Cluster is small (<=10), so brute-force every non-empty subset rather than
-    # random-sampling — guarantees the true best match is found, not just "found
-    # within N random attempts," which was previously producing decoys that missed
-    # the tolerance band the ambiguity is supposed to hold within.
     best_subset_b: list[Invoice] | None = None
     best_delta = float("inf")
     for r in range(1, len(cluster) + 1):
@@ -112,21 +90,18 @@ def form_batches(
     consumed_ids: set[str] = set()
     batches: list[Batch] = []
 
-    # Pass 1a: ambiguous_subset_sum constructions
     for inv in list(pool):
         if inv.invoice_id in consumed_ids or inv.planned_failure_mode != "ambiguous_subset_sum":
             continue
         unconsumed = [i for i in pool if i.invoice_id not in consumed_ids]
         batch = _build_ambiguous_subset_sum_batch(rng, inv, unconsumed, consumed_ids)
         if batch is None:
-            # Not enough nearby invoices to build a real ambiguity; demote to clean
-            # so downstream code doesn't claim ambiguity that wasn't actually built.
+            
             inv.planned_failure_mode = "clean_match"
             continue
         batches.append(batch)
         consumed_ids.update(batch.invoice_ids)
 
-    # Pass 1b: partial_batch_failure constructions
     for inv in list(pool):
         if inv.invoice_id in consumed_ids or inv.planned_failure_mode != "partial_batch_failure":
             continue
@@ -139,7 +114,7 @@ def form_batches(
         rng.shuffle(near)
         batch_invoices = [inv] + near[: max(target_size - 1, config.MIN_BATCH_SIZE - 1)]
         if len(batch_invoices) < config.MIN_BATCH_SIZE:
-            # Not enough invoices nearby to form a real batch to drop from; demote.
+            
             inv.planned_failure_mode = "clean_match"
             continue
         kept = [i for i in batch_invoices if i.invoice_id != inv.invoice_id]
@@ -153,7 +128,7 @@ def form_batches(
         consumed_ids.update(i.invoice_id for i in kept)
         consumed_ids.add(inv.invoice_id)  # dropped invoice is consumed too: never settled elsewhere
 
-    # Pass 2: generic batching over whatever remains
+    
     remaining = [i for i in pool if i.invoice_id not in consumed_ids]
     rng.shuffle(remaining)
     i = 0
@@ -162,7 +137,7 @@ def form_batches(
         chunk = remaining[i : i + size]
         i += size
         if len(chunk) < config.MIN_BATCH_SIZE and batches:
-            # fold a too-small tail into the previously formed generic batch
+            
             last = batches[-1]
             if last.failure_mode != "ambiguous_subset_sum" and last.dropped_invoice_id is None:
                 last.invoice_ids.extend(inv.invoice_id for inv in chunk)
