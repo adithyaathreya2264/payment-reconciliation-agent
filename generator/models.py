@@ -1,5 +1,3 @@
-"""Dataclasses for the reconciliation-generator entity model."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -12,9 +10,9 @@ class Invoice:
     counterparty_canonical: str
     expected_amount: float
     expected_date: date
-    payment_method: str  # UPI | NEFT | RTGS | card
-    status: str  # paid | unpaid | partially_paid
-    planned_failure_mode: str  # internal only, not written to invoices.csv
+    payment_method: str  
+    status: str  
+    planned_failure_mode: str  
     collision_group_id: str | None = None
 
 
@@ -22,10 +20,10 @@ class Invoice:
 class Settlement:
     settlement_id: str
     entity_id: str
-    type: str  # "settlement"
+    type: str  
     debit: float
     credit: float
-    amount: float  # gross_amount (Razorpay convention)
+    amount: float  
     fee: float
     tax: float
     net_amount: float
@@ -34,7 +32,7 @@ class Settlement:
     order_id: str
     invoice_ids: list[str] = field(default_factory=list)
     failure_mode: str = "clean_match"
-    true_net_amount: float | None = None  # pre-distortion value, for rounding_fee_variance
+    true_net_amount: float | None = None  
 
 
 @dataclass
@@ -45,7 +43,7 @@ class BankRecord:
     amount: float
     bank_name: str
     utr_reference: str | None
-    settlement_id: str | None  # None for orphan_payment
+    settlement_id: str | None  
     payment_method: str
 
 
@@ -57,8 +55,8 @@ class GroundTruthEntry:
     true_match_ids: list[str]
     failure_mode_injected: str
     true_reason: str
-    detectable_at_tier: str  # exact | tolerance | fuzzy | subset_sum | llm_escalation | unresolvable
-    identifiable_at_tier: str  # tier at which the *specific* correct match can be pinned down
+    detectable_at_tier: str
+    identifiable_at_tier: str
     competing_subset_ids: list[str] | None = None
     collision_group_id: str | None = None
     dropped_invoice_id: str | None = None
