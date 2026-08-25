@@ -1,5 +1,3 @@
-"""CLI entry point: orchestrates phases A-D and writes the 3 CSVs + ground_truth.json."""
-
 from __future__ import annotations
 
 import argparse
