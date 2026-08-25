@@ -1,5 +1,3 @@
-"""Phase C: turn a Batch + its invoices into a Settlement row (fee/GST math, UTR, lag)."""
-
 from __future__ import annotations
 
 import random
@@ -30,7 +28,7 @@ def _settled_at(rng: random.Random, latest_invoice_date: date, is_late: bool) ->
     settled = latest_invoice_date + timedelta(days=normal_lag)
     if is_late:
         settled += timedelta(days=failure_modes.late_settlement_extra_days(rng))
-        if settled.weekday() not in (5, 6):  # nudge onto a weekend to exercise the lag-window edge case
+        if settled.weekday() not in (5, 6):  
             days_to_saturday = (5 - settled.weekday()) % 7
             settled += timedelta(days=days_to_saturday)
     return settled
@@ -61,11 +59,7 @@ def build_settlement(
 
     settlement_id = f"SETL-{seed}-{counter:06d}"
     settlement_utr = f"UTR{rng.randint(10**11, 10**12 - 1)}"
-    # ambiguous_subset_sum models a system that lost the order-level breakdown for
-    # this settlement: order_id is blanked so a downstream matcher can't just read
-    # off invoice membership -- it must genuinely reconstruct it via subset-sum,
-    # which is the only way this failure mode is a real test rather than one that
-    # trivially resolves via the (otherwise always-trusted) order_id column.
+    
     order_id = "" if batch.failure_mode == "ambiguous_subset_sum" else "|".join(batch.invoice_ids)
 
     for inv in batch_invoices:
