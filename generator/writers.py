@@ -1,5 +1,3 @@
-"""CSV/JSON serialization for the 3 input-shaped files and the hidden ground truth."""
-
 from __future__ import annotations
 
 import csv
@@ -59,10 +57,7 @@ def write_invoices_csv(path: Path, invoices: list[Invoice]) -> None:
 
 
 def write_settlement_report_csv(path: Path, settlements: list[Settlement]) -> None:
-    # net_amount is intentionally NOT a column here: real Razorpay settlement reports
-    # don't expose a "true" net amount separately from amount/fee/tax, and this is the
-    # file the matching pipeline reads. The true value (pre rounding-variance distortion)
-    # lives only in ground_truth.json.
+    
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=SETTLEMENT_FIELDS)
         writer.writeheader()
