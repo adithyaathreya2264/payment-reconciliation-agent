@@ -1,0 +1,204 @@
+{
+  "precision_recall_by_tier": {
+    "exact": {
+      "tp": 42,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "tolerance": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "subset_sum": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null
+    }
+  },
+  "outcome_counts": {
+    "overconfident_and_wrong": 1,
+    "overconfident_but_correct": 1,
+    "resolved_wrong_tier_correct_ids": 30,
+    "true_negative_correctly_deferred": 34,
+    "true_positive": 52
+  },
+  "ambiguous_subset_sum": {
+    "ambiguous_subset_sum_total": 35,
+    "ambiguous_correctly_flagged": 9,
+    "ambiguous_incorrectly_resolved": 25,
+    "resolved_by_stronger_signal_than_intended": 0,
+    "resolved_by_stronger_signal_rate": 0.0,
+    "ambiguous_missed_other": 1,
+    "examples": [
+      {
+        "bank_record_id": "BANK-42-000002",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000406",
+          "INV-42-001395",
+          "INV-42-001819"
+        ],
+        "true_match_ids": [
+          "INV-42-001819",
+          "INV-42-000406",
+          "INV-42-001395"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000003",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000238",
+          "INV-42-001058",
+          "INV-42-001452"
+        ],
+        "true_match_ids": [
+          "INV-42-001452",
+          "INV-42-001058",
+          "INV-42-000238"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000006",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000653",
+          "INV-42-000859",
+          "INV-42-000953",
+          "INV-42-001261",
+          "INV-42-001952"
+        ],
+        "true_match_ids": [
+          "INV-42-000653",
+          "INV-42-000953",
+          "INV-42-001261",
+          "INV-42-000859",
+          "INV-42-001952"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000007",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-001197",
+          "INV-42-001627"
+        ],
+        "true_match_ids": [
+          "INV-42-001627",
+          "INV-42-001197"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000008",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000999",
+          "INV-42-001460"
+        ],
+        "true_match_ids": [
+          "INV-42-001460",
+          "INV-42-000999"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000010",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000398",
+          "INV-42-000586",
+          "INV-42-000965",
+          "INV-42-001181"
+        ],
+        "true_match_ids": [
+          "INV-42-001181",
+          "INV-42-000965",
+          "INV-42-000586",
+          "INV-42-000398"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000011",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000300",
+          "INV-42-000510",
+          "INV-42-001869"
+        ],
+        "true_match_ids": [
+          "INV-42-000300",
+          "INV-42-000510",
+          "INV-42-001869"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000013",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000164",
+          "INV-42-001171"
+        ],
+        "true_match_ids": [
+          "INV-42-000164",
+          "INV-42-001171"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000014",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000235",
+          "INV-42-000480",
+          "INV-42-000665",
+          "INV-42-000680",
+          "INV-42-001046"
+        ],
+        "true_match_ids": [
+          "INV-42-000235",
+          "INV-42-000665",
+          "INV-42-000480",
+          "INV-42-000680",
+          "INV-42-001046"
+        ]
+      },
+      {
+        "bank_record_id": "BANK-42-000015",
+        "outcome": "ambiguous_incorrectly_resolved",
+        "got_tier": "subset_sum",
+        "matched_invoice_ids": [
+          "INV-42-000226",
+          "INV-42-001923"
+        ],
+        "true_match_ids": [
+          "INV-42-000226",
+          "INV-42-001923"
+        ]
+      }
+    ]
+  },
+  "orphan_invoices": {
+    "orphan_invoice_total": 27,
+    "orphan_invoice_false_matches": []
+  },
+  "duplicate_collisions": {
+    "collision_groups_checked": 68,
+    "cross_assigned_count": 0,
+    "cross_assigned_rate": 0.0,
+    "cross_assigned_examples": []
+  }
+}
