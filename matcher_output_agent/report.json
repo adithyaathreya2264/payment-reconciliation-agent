@@ -1,0 +1,23 @@
+{
+  "total_bank_records": 153,
+  "resolved": 109,
+  "resolved_pct": 0.7124,
+  "by_tier": {
+    "exact": 73,
+    "tolerance": 10,
+    "subset_sum": 26
+  },
+  "unresolved": 44,
+  "unresolved_pct": 0.2876,
+  "escalation_breakdown": {
+    "tier3_ambiguous": 9,
+    "tier3_no_candidates": 35
+  },
+  "mean_confidence_by_tier": {
+    "exact": 1.0,
+    "tolerance": 0.658,
+    "subset_sum": 0.812
+  },
+  "cross_claimed_invoice_count": 0,
+  "cross_claimed_invoice_ids": {}
+}
