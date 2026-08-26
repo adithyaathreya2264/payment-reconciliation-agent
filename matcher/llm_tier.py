@@ -1,18 +1,3 @@
-"""Tier 4: LLM escalation.
-
-Resolves the residual the deterministic tiers correctly declined to guess on --
-EscalationRecords from orchestrator.py -- via a bounded tool-calling loop with a
-strict-schema final decision. The system prompt explicitly biases toward
-insufficient_evidence over a low-confidence guess: an honest exception list is the
-deliverable, not a higher resolution rate bought with hallucinated matches.
-
-Context fed to the model is deliberately scoped to what a human reconciler would look
-at for this one case (the bank record, the competing candidate subsets or the
-already-bounded Tier 3 pool) -- never the whole dataset. An optional tool lets the
-model request one more real, computed signal (counterparty settlement-batch history
-from already-resolved matches) rather than receiving a data dump upfront.
-"""
-
 from __future__ import annotations
 
 import json
@@ -117,9 +102,7 @@ SUBMIT_DECISION_TOOL = {
 def build_counterparty_stats(
     matches: list[MatchResult], invoices_by_id: dict[str, InvoiceRecord]
 ) -> dict[str, dict]:
-    """Real historical batch-size data per counterparty, computed from already-resolved
-    exact/tolerance-tier matches (genuine settlement batches -- Tier 3 subset_sum
-    resolutions aren't full batches in the same sense, so excluded)."""
+
     observations: dict[str, list[int]] = defaultdict(list)
     for m in matches:
         if m.tier not in ("exact", "tolerance"):
@@ -180,16 +163,7 @@ def build_context(
 ) -> dict:
     base = {"stage": escalation.stage_reached, "bank_record": _bank_dict(bank)}
     if escalation.stage_reached == "tier3_ambiguous":
-        # Deduped invoice pool + subsets-as-ID-lists, NOT each subset fully expanded
-        # inline. A real ambiguous_subset_sum case's competing subsets overlap heavily
-        # (measured on the dataset: as much as 65 invoice mentions across only 13
-        # distinct invoices for one case) -- expanding every invoice's full detail
-        # inside every subset that contains it repeats the same fields 5x on average
-        # for zero additional information, and was the direct cause of a real Groq
-        # 413 (request too large for the account's TPM ceiling) on a 10-subset case.
-        # This representation carries the identical information at a fraction of the
-        # token cost: a lookup table of unique invoices, referenced by ID from each
-        # subset.
+        
         subsets = escalation.candidate_subsets or []
         unique_ids = sorted({iid for subset in subsets for iid in subset if iid in invoices_by_id})
         base["invoice_pool"] = [_invoice_dict(invoices_by_id[iid]) for iid in unique_ids]
@@ -257,11 +231,7 @@ def resolve_one(
                 max_tokens=config.LLM_MAX_TOKENS,
             )
         except ContextTooLargeError as exc:
-            # A real, provider-specific hard limit (see ContextTooLargeError's
-            # docstring -- discovered via an actual Groq 413), not a model judgment.
-            # origin stays "rule" (no LLM call was actually made, zero cost/latency,
-            # same as the zero-candidate orphan rule) but the reason names the real
-            # cause distinctly so this is never confused with that rule's logic.
+
             return LLMDecision(
                 bank_record_id=escalation.bank_record_id,
                 decision="insufficient_evidence",
@@ -301,7 +271,7 @@ def resolve_one(
             )
 
         if not tool_use_blocks:
-            break  # model produced no tool call at all (unexpected) -- fall through to the default below
+            break
 
         tool_results = []
         for b in tool_use_blocks:
