@@ -1,14 +1,3 @@
-"""CLI entry point for the agent-wrapped pipeline: python -m matcher.run_agent
---data-dir data/ [--llm | --llm-groq | --llm-mock]
-
-Mirrors matcher/run.py but drives AgentController instead of orchestrator.run(),
-writing to a separate output directory (default matcher_output_agent/) and
-additionally dumping decision_traces.json -- one DecisionTrace per bank record,
-the full tier-by-tier path with reasons and observed data. Does not touch
-matcher/run.py or matcher/orchestrator.py; see matcher/agent/regression_check.py
-for the proof that this path produces identical matches/escalations/llm_decisions.
-"""
-
 from __future__ import annotations
 
 import argparse
