@@ -1,8 +1,3 @@
-"""Runs the tiers in order across ALL bank records at each stage (not per-record
-tier-1-through-3), so pool consumption doesn't depend on arbitrary CSV row order --
-see the plan's rationale. Tier 1 for everyone, then Tier 2 for the rest, then Tier 3
-for the rest."""
-
 from __future__ import annotations
 
 from . import llm_tier, tier_exact, tier_subset_sum, tier_tolerance
@@ -52,11 +47,6 @@ def run(
 
     llm_decisions: list[LLMDecision] = []
     if llm_client is not None and escalations:
-        # Deterministic rule first: a tier3_no_candidates escalation already means
-        # Tier 3's own search concluded nothing in the pool explains the amount --
-        # that's real evidence, not a guess, so it needs no LLM call. Gated on the
-        # stage field explicitly (classify_zero_candidate_orphan raises on any other
-        # stage), so this can never accidentally swallow a genuinely ambiguous case.
         rule_resolved: list[LLMDecision] = []
         remaining_escalations: list[EscalationRecord] = []
         for e in escalations:
