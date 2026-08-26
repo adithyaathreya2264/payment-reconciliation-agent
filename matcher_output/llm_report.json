@@ -1,0 +1,28 @@
+{
+  "total_bank_records": 153,
+  "n_escalated": 44,
+  "escalated_pct_of_total": 0.2876,
+  "n_resolved_by_rule": 35,
+  "n_resolved_by_llm": 9,
+  "llm_call_pct_of_total": 0.0588,
+  "decision_counts": {
+    "no_match": 35,
+    "match": 8,
+    "insufficient_evidence": 1
+  },
+  "decision_counts_by_origin": {
+    "rule": {
+      "no_match": 35
+    },
+    "llm": {
+      "match": 8,
+      "insufficient_evidence": 1
+    }
+  },
+  "mean_tool_calls_used_llm_only": 1.33,
+  "total_input_tokens": 20693,
+  "total_output_tokens": 12968,
+  "estimated_cost_usd": 0.0109,
+  "total_latency_ms": 43046.5,
+  "mean_latency_ms_llm_only": 4782.9
+}
