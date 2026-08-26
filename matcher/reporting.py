@@ -1,5 +1,3 @@
-"""Internal stats: match-rate %, per-tier breakdown -- no ground truth needed."""
-
 from __future__ import annotations
 
 import json
@@ -67,17 +65,7 @@ def build_llm_report(
     input_cost_per_mtok: float = config.LLM_INPUT_COST_PER_MTOK,
     output_cost_per_mtok: float = config.LLM_OUTPUT_COST_PER_MTOK,
 ) -> dict:
-    """Cost/latency/throughput accounting for the escalation tier -- the evidence
-    behind the 'AI touches only the genuinely-ambiguous residual' architecture claim.
-    Distinguishes origin="rule" (the zero-candidate orphan rule, zero cost/latency by
-    construction) from origin="llm" (an actual model call) -- summing/averaging cost
-    or latency across both would understate the true per-LLM-call figures and overstate
-    how much of the residual actually needed AI.
 
-    input_cost_per_mtok/output_cost_per_mtok default to the Anthropic rates but are
-    overridable -- pass config.GROQ_INPUT_COST_PER_MTOK/GROQ_OUTPUT_COST_PER_MTOK when
-    the decisions came from GroqLLMClient, since the two providers' pricing differs by
-    over 30x and defaulting silently to Anthropic's rate would misreport actual spend."""
     n_escalated = len(llm_decisions)
     rule_decisions = [d for d in llm_decisions if d.origin == "rule"]
     llm_only = [d for d in llm_decisions if d.origin == "llm"]
