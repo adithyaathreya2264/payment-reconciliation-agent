@@ -29,11 +29,6 @@ htmlcov/
 .ruff_cache/
 .tox/
 
-# Generated datasets and matcher outputs
-data/
-matcher_output/
-matcher_output_agent/
-
 # Local IDE and OS files
 .idea/
 .vscode/
