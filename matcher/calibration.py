@@ -1,16 +1,3 @@
-"""Reliability diagram / calibration check for matcher confidence scores.
-
-This is the only matcher module (besides grade.py and its own CLI) allowed to read
-data/answer_key/ -- the matcher proper never sees it.
-
-Calibration answers a different question than grade.py's tier-expectation grading:
-"if I trust this confidence score, will I actually be right?" -- i.e. whether
-matched_invoice_ids == true_match_ids, independent of which tier ground truth expected
-this case to need. A match resolved via a "stronger signal than intended" (see
-MATCHER_STATUS.md) is still a CORRECT match for calibration purposes even though
-grade.py flags it separately as a tier-expectation mismatch.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -33,7 +20,7 @@ def build_calibration_table(matches: list[dict], gt_entries: list[dict]) -> list
     for m in matches:
         e = entries_by_bank.get(m["bank_record_id"])
         if e is None:
-            continue  # defensive: every resolved match should have a ground-truth entry
+            continue  
         is_correct = set(m["matched_invoice_ids"]) == set(e["true_match_ids"])
         rows.append({
             "bank_record_id": m["bank_record_id"],
@@ -55,9 +42,7 @@ def reliability_table(rows: list[dict], bucket_edges: list[float] = _BUCKET_EDGE
         in_bucket = [r for r in rows if (lo <= r["confidence"] < hi) or (is_last and r["confidence"] == hi)]
         buckets.append(_summarize_bucket(lo, hi, in_bucket))
 
-    # closed top bucket for confidence exactly 1.0, kept separate from [0.9, 1.0)
-    # since Tier 1's degenerate 1.0-only distribution deserves its own row rather
-    # than being folded into a range that also covers real (non-degenerate) scores.
+    
     exact_one = [r for r in rows if r["confidence"] == 1.0]
     if bucket_edges[-1] != 1.0 or len(bucket_edges) < 2:
         buckets.append(_summarize_bucket(1.0, 1.0, exact_one))
@@ -81,9 +66,7 @@ def _summarize_bucket(lo: float, hi: float, rows: list[dict]) -> dict:
 
 
 def threshold_scan(rows: list[dict]) -> list[dict]:
-    """For every distinct confidence value present (ascending), report empirical
-    accuracy for matches AT OR ABOVE it and BELOW it -- this is what makes threshold
-    selection an empirical decision rather than a guessed round number."""
+    
     distinct = sorted({r["confidence"] for r in rows})
     scan = []
     for cutoff in distinct:
