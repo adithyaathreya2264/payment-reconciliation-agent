@@ -1,5 +1,3 @@
-"""CLI entry point: python -m matcher.run --data-dir data/ [--grade] [--llm | --llm-groq | --llm-mock]"""
-
 from __future__ import annotations
 
 import argparse
