@@ -1,16 +1,3 @@
-"""Assembles the existing JSON output artifacts (matches/escalations/llm_decisions/
-report/llm_report/calibration_report/grade_report/llm_grade_report, plus
-matcher_output_agent/decision_traces.json when available) into one human-readable
-Markdown report -- the one document a judge would actually read, not another JSON
-dump.
-
-Pure aggregation: every number here is either a direct pass-through of an already-
-validated JSON field, or (for throughput only) freshly measured by timing a real,
-zero-cost run of the deterministic tiers. Per-record exception grading reuses
-grade_llm.grade_entries(...) directly rather than re-deriving correctness by hand --
-see that module for the actual grading logic; this file only presents its output.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -24,17 +11,8 @@ from . import grade_llm, loaders, orchestrator
 
 _TEMPLATE_PATH = Path(__file__).parent / "templates" / "report.md"
 
-# Outcomes from grade.py::grade_generic_entries / grade_ambiguous_subset_sum that
-# represent a genuinely wrong invoice-id match or a missed detection -- NOT
-# "resolved_wrong_tier_correct_ids" (right ids, ground truth just expected a
-# different tier) or "ambiguous_incorrectly_resolved" (right ids, ground truth
-# expected ambiguity but the decoy invoices happened to already be claimed
-# elsewhere -- a documented processing-order artifact, not a correctness error).
 _GRADE_ERROR_OUTCOMES = {"overconfident_and_wrong", "false_positive_wrong_ids", "false_negative"}
 
-# Outcomes from grade_llm.py::grade_entries that represent a genuinely wrong
-# decision -- NOT "honest_defer_*" (insufficient_evidence is a correct behavior,
-# not an error) or "correct_*".
 _LLM_ERROR_OUTCOMES = {"wrong_match", "hallucinated_match", "incorrect_no_match"}
 
 
@@ -61,9 +39,7 @@ def load_artifacts(matcher_output_dir: Path, agent_output_dir: Path | None, grou
 
 
 def measure_throughput(data_dir: Path) -> dict:
-    """Times a real, zero-cost run of the deterministic tiers only (llm_client=None)
-    -- reproducible, no API cost. The LLM-touched segment's cost/latency is reported
-    separately from the already-recorded llm_report.json rather than re-run."""
+
     invoices = loaders.load_invoices(data_dir / "invoices.csv")
     settlements = loaders.load_settlements(data_dir / "settlement_report.csv")
     bank_records = loaders.load_bank_statement(data_dir / "bank_statement.csv")
@@ -256,9 +232,7 @@ def build_exception_list(artifacts: dict) -> tuple[str, str]:
             for t in trace["transitions"]:
                 reason = t["reason"]
                 if t["to_stage"] == "resolved" and t["from_stage"] == "llm_escalation" and real_decision.get("reason"):
-                    # decision_traces.json was generated with --llm-mock (a fixed placeholder
-                    # decision, for plumbing only); swap in the real Groq decision's reason
-                    # here so this example reflects the actual graded run, not the mock.
+                    
                     reason = real_decision["reason"]
                 lines.append(f"1. **{t['from_stage']} → {t['to_stage']}**: {reason}")
             lines.append(f"\nFinal stage: `{trace['final_stage']}`")
