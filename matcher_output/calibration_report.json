@@ -1,0 +1,223 @@
+{
+  "n_total": 109,
+  "overall": [
+    {
+      "bucket": "[0.0, 0.45)",
+      "n": 1,
+      "n_correct": 0,
+      "empirical_accuracy": 0.0,
+      "mean_confidence": 0.402,
+      "calibration_gap": 0.402
+    },
+    {
+      "bucket": "[0.45, 0.7)",
+      "n": 6,
+      "n_correct": 6,
+      "empirical_accuracy": 1.0,
+      "mean_confidence": 0.542,
+      "calibration_gap": -0.458
+    },
+    {
+      "bucket": "[0.7, 0.9)",
+      "n": 29,
+      "n_correct": 29,
+      "empirical_accuracy": 1.0,
+      "mean_confidence": 0.829,
+      "calibration_gap": -0.171
+    },
+    {
+      "bucket": "[0.9, 1.0]",
+      "n": 73,
+      "n_correct": 73,
+      "empirical_accuracy": 1.0,
+      "mean_confidence": 1.0,
+      "calibration_gap": 0.0
+    }
+  ],
+  "by_tier": {
+    "exact": [
+      {
+        "bucket": "[0.0, 0.45)",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      },
+      {
+        "bucket": "[0.45, 0.7)",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      },
+      {
+        "bucket": "[0.7, 0.9)",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      },
+      {
+        "bucket": "[0.9, 1.0]",
+        "n": 73,
+        "n_correct": 73,
+        "empirical_accuracy": 1.0,
+        "mean_confidence": 1.0,
+        "calibration_gap": 0.0
+      }
+    ],
+    "tolerance": [
+      {
+        "bucket": "[0.0, 0.45)",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      },
+      {
+        "bucket": "[0.45, 0.7)",
+        "n": 6,
+        "n_correct": 6,
+        "empirical_accuracy": 1.0,
+        "mean_confidence": 0.542,
+        "calibration_gap": -0.458
+      },
+      {
+        "bucket": "[0.7, 0.9)",
+        "n": 4,
+        "n_correct": 4,
+        "empirical_accuracy": 1.0,
+        "mean_confidence": 0.833,
+        "calibration_gap": -0.167
+      },
+      {
+        "bucket": "[0.9, 1.0]",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      }
+    ],
+    "subset_sum": [
+      {
+        "bucket": "[0.0, 0.45)",
+        "n": 1,
+        "n_correct": 0,
+        "empirical_accuracy": 0.0,
+        "mean_confidence": 0.402,
+        "calibration_gap": 0.402
+      },
+      {
+        "bucket": "[0.45, 0.7)",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      },
+      {
+        "bucket": "[0.7, 0.9)",
+        "n": 25,
+        "n_correct": 25,
+        "empirical_accuracy": 1.0,
+        "mean_confidence": 0.828,
+        "calibration_gap": -0.172
+      },
+      {
+        "bucket": "[0.9, 1.0]",
+        "n": 0,
+        "n_correct": 0,
+        "empirical_accuracy": null,
+        "mean_confidence": null,
+        "calibration_gap": null
+      }
+    ]
+  },
+  "threshold_scan": [
+    {
+      "cutoff": 0.402,
+      "n_at_or_above": 109,
+      "accuracy_at_or_above": 0.991,
+      "n_below": 0,
+      "accuracy_below": null
+    },
+    {
+      "cutoff": 0.5,
+      "n_at_or_above": 108,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 1,
+      "accuracy_below": 0.0
+    },
+    {
+      "cutoff": 0.583,
+      "n_at_or_above": 104,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 5,
+      "accuracy_below": 0.8
+    },
+    {
+      "cutoff": 0.667,
+      "n_at_or_above": 103,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 6,
+      "accuracy_below": 0.833
+    },
+    {
+      "cutoff": 0.7,
+      "n_at_or_above": 102,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 7,
+      "accuracy_below": 0.857
+    },
+    {
+      "cutoff": 0.82,
+      "n_at_or_above": 99,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 10,
+      "accuracy_below": 0.9
+    },
+    {
+      "cutoff": 0.833,
+      "n_at_or_above": 96,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 13,
+      "accuracy_below": 0.923
+    },
+    {
+      "cutoff": 0.85,
+      "n_at_or_above": 92,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 17,
+      "accuracy_below": 0.941
+    },
+    {
+      "cutoff": 1.0,
+      "n_at_or_above": 73,
+      "accuracy_at_or_above": 1.0,
+      "n_below": 36,
+      "accuracy_below": 0.972
+    }
+  ],
+  "bands": {
+    "auto_match": {
+      "n": 102,
+      "n_correct": 102,
+      "empirical_accuracy": 1.0
+    },
+    "needs_review": {
+      "n": 6,
+      "n_correct": 6,
+      "empirical_accuracy": 1.0
+    },
+    "exception": {
+      "n": 1,
+      "n_correct": 0,
+      "empirical_accuracy": 0.0
+    }
+  }
+}
