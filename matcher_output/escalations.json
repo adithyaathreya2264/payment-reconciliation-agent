@@ -1,0 +1,815 @@
+[
+  {
+    "bank_record_id": "BANK-42-000001",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "4 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000012",
+        "INV-42-000342",
+        "INV-42-000563",
+        "INV-42-001736",
+        "INV-42-001856"
+      ],
+      [
+        "INV-42-000012",
+        "INV-42-001749"
+      ],
+      [
+        "INV-42-000111",
+        "INV-42-000342",
+        "INV-42-000639",
+        "INV-42-001736",
+        "INV-42-001856"
+      ],
+      [
+        "INV-42-000012",
+        "INV-42-000018",
+        "INV-42-000111",
+        "INV-42-000563",
+        "INV-42-000639",
+        "INV-42-001471",
+        "INV-42-001736"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000012",
+      "INV-42-000018",
+      "INV-42-000111",
+      "INV-42-000342",
+      "INV-42-000563",
+      "INV-42-000639",
+      "INV-42-001081",
+      "INV-42-001471",
+      "INV-42-001736",
+      "INV-42-001749",
+      "INV-42-001856"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000004",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "10 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000284",
+        "INV-42-000995",
+        "INV-42-001164",
+        "INV-42-001672",
+        "INV-42-001808",
+        "INV-42-001869"
+      ],
+      [
+        "INV-42-000284",
+        "INV-42-000510",
+        "INV-42-001164",
+        "INV-42-001808",
+        "INV-42-001863",
+        "INV-42-001869",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000284",
+        "INV-42-000300",
+        "INV-42-001828",
+        "INV-42-001863",
+        "INV-42-001869",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000284",
+        "INV-42-001808",
+        "INV-42-001828",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000284",
+        "INV-42-000300",
+        "INV-42-000510",
+        "INV-42-000616",
+        "INV-42-000995",
+        "INV-42-001828",
+        "INV-42-001863",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000284",
+        "INV-42-000300",
+        "INV-42-000616",
+        "INV-42-000995",
+        "INV-42-001672",
+        "INV-42-001863",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000510",
+        "INV-42-001164",
+        "INV-42-001672",
+        "INV-42-001808",
+        "INV-42-001863"
+      ],
+      [
+        "INV-42-000284",
+        "INV-42-000616",
+        "INV-42-001164",
+        "INV-42-001828",
+        "INV-42-001863",
+        "INV-42-001869",
+        "INV-42-001924"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000616",
+        "INV-42-001808",
+        "INV-42-001828",
+        "INV-42-001863"
+      ],
+      [
+        "INV-42-000214",
+        "INV-42-000300",
+        "INV-42-000995",
+        "INV-42-001164",
+        "INV-42-001808",
+        "INV-42-001863"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000214",
+      "INV-42-000284",
+      "INV-42-000300",
+      "INV-42-000510",
+      "INV-42-000616",
+      "INV-42-000995",
+      "INV-42-001164",
+      "INV-42-001672",
+      "INV-42-001808",
+      "INV-42-001828",
+      "INV-42-001863",
+      "INV-42-001869",
+      "INV-42-001924"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000005",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "8 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000174",
+        "INV-42-000265",
+        "INV-42-000398",
+        "INV-42-000965",
+        "INV-42-001975"
+      ],
+      [
+        "INV-42-000174",
+        "INV-42-000265",
+        "INV-42-000398",
+        "INV-42-001762",
+        "INV-42-001975"
+      ],
+      [
+        "INV-42-000174",
+        "INV-42-000398",
+        "INV-42-000797",
+        "INV-42-001762",
+        "INV-42-001892"
+      ],
+      [
+        "INV-42-000174",
+        "INV-42-000965",
+        "INV-42-001892",
+        "INV-42-001975"
+      ],
+      [
+        "INV-42-000398",
+        "INV-42-000797",
+        "INV-42-000965",
+        "INV-42-001762",
+        "INV-42-001975"
+      ],
+      [
+        "INV-42-000398",
+        "INV-42-000965",
+        "INV-42-001214",
+        "INV-42-001762",
+        "INV-42-001892"
+      ],
+      [
+        "INV-42-000174",
+        "INV-42-000398",
+        "INV-42-000797",
+        "INV-42-000965",
+        "INV-42-001892"
+      ],
+      [
+        "INV-42-000174",
+        "INV-42-001762",
+        "INV-42-001892",
+        "INV-42-001975"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000174",
+      "INV-42-000265",
+      "INV-42-000302",
+      "INV-42-000371",
+      "INV-42-000398",
+      "INV-42-000797",
+      "INV-42-000965",
+      "INV-42-001181",
+      "INV-42-001214",
+      "INV-42-001762",
+      "INV-42-001892",
+      "INV-42-001975"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000009",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "6 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000111",
+        "INV-42-000342",
+        "INV-42-000563",
+        "INV-42-000639",
+        "INV-42-001081",
+        "INV-42-001471",
+        "INV-42-001736",
+        "INV-42-001856"
+      ],
+      [
+        "INV-42-000111",
+        "INV-42-000639",
+        "INV-42-001081",
+        "INV-42-001471",
+        "INV-42-001749"
+      ],
+      [
+        "INV-42-000012",
+        "INV-42-000563",
+        "INV-42-001081",
+        "INV-42-001471",
+        "INV-42-001749"
+      ],
+      [
+        "INV-42-000012",
+        "INV-42-000563",
+        "INV-42-000976",
+        "INV-42-001081",
+        "INV-42-001856"
+      ],
+      [
+        "INV-42-000012",
+        "INV-42-000018",
+        "INV-42-001081",
+        "INV-42-001471",
+        "INV-42-001856"
+      ],
+      [
+        "INV-42-000976",
+        "INV-42-001081",
+        "INV-42-001471",
+        "INV-42-001856"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000012",
+      "INV-42-000018",
+      "INV-42-000111",
+      "INV-42-000342",
+      "INV-42-000563",
+      "INV-42-000639",
+      "INV-42-000976",
+      "INV-42-001081",
+      "INV-42-001471",
+      "INV-42-001736",
+      "INV-42-001749",
+      "INV-42-001856"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000012",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "2 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000255",
+        "INV-42-000531",
+        "INV-42-001008",
+        "INV-42-001183"
+      ],
+      [
+        "INV-42-000255",
+        "INV-42-001008",
+        "INV-42-001347",
+        "INV-42-001611"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000255",
+      "INV-42-000531",
+      "INV-42-001008",
+      "INV-42-001183",
+      "INV-42-001233",
+      "INV-42-001347",
+      "INV-42-001376",
+      "INV-42-001414",
+      "INV-42-001560",
+      "INV-42-001611"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000022",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "2 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000531",
+        "INV-42-001183",
+        "INV-42-001233",
+        "INV-42-001376",
+        "INV-42-001560"
+      ],
+      [
+        "INV-42-001233",
+        "INV-42-001347",
+        "INV-42-001376",
+        "INV-42-001560",
+        "INV-42-001611"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000531",
+      "INV-42-001008",
+      "INV-42-001183",
+      "INV-42-001233",
+      "INV-42-001347",
+      "INV-42-001376",
+      "INV-42-001560",
+      "INV-42-001611"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000024",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000740",
+      "INV-42-000909",
+      "INV-42-000991",
+      "INV-42-001920",
+      "INV-42-001933"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000027",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "2 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000083",
+        "INV-42-000249",
+        "INV-42-000621"
+      ],
+      [
+        "INV-42-000083",
+        "INV-42-000249",
+        "INV-42-000633"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000083",
+      "INV-42-000249",
+      "INV-42-000621",
+      "INV-42-000633",
+      "INV-42-001053",
+      "INV-42-001105"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000028",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "2 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000214",
+        "INV-42-000995",
+        "INV-42-001607"
+      ],
+      [
+        "INV-42-000695",
+        "INV-42-000995",
+        "INV-42-001863",
+        "INV-42-001976"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000214",
+      "INV-42-000284",
+      "INV-42-000616",
+      "INV-42-000687",
+      "INV-42-000695",
+      "INV-42-000995",
+      "INV-42-001607",
+      "INV-42-001808",
+      "INV-42-001828",
+      "INV-42-001863",
+      "INV-42-001976"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000031",
+    "stage_reached": "tier3_ambiguous",
+    "reason": "3 minimal subsets sum within tolerance",
+    "candidate_subsets": [
+      [
+        "INV-42-000976",
+        "INV-42-001412",
+        "INV-42-001868"
+      ],
+      [
+        "INV-42-000592",
+        "INV-42-001412",
+        "INV-42-001431",
+        "INV-42-001868",
+        "INV-42-001934"
+      ],
+      [
+        "INV-42-001412",
+        "INV-42-001817",
+        "INV-42-001832",
+        "INV-42-001868",
+        "INV-42-001934"
+      ]
+    ],
+    "pool_invoice_ids": [
+      "INV-42-000111",
+      "INV-42-000390",
+      "INV-42-000592",
+      "INV-42-000976",
+      "INV-42-001412",
+      "INV-42-001431",
+      "INV-42-001749",
+      "INV-42-001817",
+      "INV-42-001832",
+      "INV-42-001838",
+      "INV-42-001868",
+      "INV-42-001934"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000119",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-001361",
+      "INV-42-001692",
+      "INV-42-001953"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000120",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-001361",
+      "INV-42-001692",
+      "INV-42-001953"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000121",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000063"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000122",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000724"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000123",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000255",
+      "INV-42-000531",
+      "INV-42-000986",
+      "INV-42-001008",
+      "INV-42-001183",
+      "INV-42-001233",
+      "INV-42-001347",
+      "INV-42-001376",
+      "INV-42-001414",
+      "INV-42-001560",
+      "INV-42-001611"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000124",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-001879"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000125",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000126",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000139",
+      "INV-42-000724",
+      "INV-42-000952"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000127",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000432",
+      "INV-42-000621",
+      "INV-42-000633",
+      "INV-42-001053",
+      "INV-42-001105",
+      "INV-42-001210"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000128",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000302",
+      "INV-42-001762",
+      "INV-42-001892"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000129",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000130",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000255",
+      "INV-42-000531",
+      "INV-42-000986",
+      "INV-42-001414"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000131",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000497",
+      "INV-42-001001"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000132",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000170"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000133",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000307",
+      "INV-42-001568"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000134",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000382"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000135",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000559",
+      "INV-42-001475",
+      "INV-42-001800"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000136",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000802",
+      "INV-42-001256"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000137",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000063"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000138",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000255",
+      "INV-42-000531",
+      "INV-42-001008",
+      "INV-42-001183",
+      "INV-42-001233",
+      "INV-42-001347",
+      "INV-42-001376",
+      "INV-42-001414",
+      "INV-42-001560",
+      "INV-42-001611"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000139",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000687"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000140",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000139",
+      "INV-42-000724",
+      "INV-42-000952"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000141",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000086"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000142",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000724",
+      "INV-42-001123"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000143",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000724",
+      "INV-42-001123"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000144",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000563",
+      "INV-42-001081",
+      "INV-42-001471",
+      "INV-42-001736",
+      "INV-42-001856"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000145",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000083",
+      "INV-42-000249",
+      "INV-42-000432",
+      "INV-42-000621",
+      "INV-42-000633",
+      "INV-42-001053",
+      "INV-42-001105"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000146",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000147",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-000497",
+      "INV-42-001001"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000148",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000149",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000150",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  },
+  {
+    "bank_record_id": "BANK-42-000151",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no subset of candidate pool sums within tolerance",
+    "candidate_subsets": null,
+    "pool_invoice_ids": [
+      "INV-42-001233",
+      "INV-42-001560"
+    ]
+  },
+  {
+    "bank_record_id": "BANK-42-000153",
+    "stage_reached": "tier3_no_candidates",
+    "reason": "no invoices in date window",
+    "candidate_subsets": null,
+    "pool_invoice_ids": []
+  }
+]
