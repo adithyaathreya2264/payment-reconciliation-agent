@@ -1,29 +1,3 @@
-"""Tier 3: bounded subset-sum search.
-
-For a bank record unresolved after Tiers 1-2 -- this includes both orphan_payment
-(no settlement/UTR exists at all) and ambiguous_subset_sum (a settlement DOES exist,
-but its order_id is deliberately blanked, so Tier 1/2 can never confirm its identity
-via compute_settlement_lag_days -- see tier_exact.py's docstring on that function).
-Both land here identically: search a date-bounded pool of still-unmatched invoices
-for any subset summing to the bank amount within tolerance.
-
-Zero minimal subsets -> escalate (arithmetic alone can't explain this record:
-entity_name_variant, duplicate_amount_collision). Exactly one -> resolved, but at a
-confidence below 1.0. More than one -> genuine ambiguity -- package all of them as
-competing hypotheses and do not guess.
-
-Note: the pool is "still unmatched" at the time THIS bank record is processed (Tier 3
-runs after Tier 1/2 have resolved everything they can across ALL bank records). For
-an ambiguous_subset_sum case, this means the specific decoy invoices the generator
-engineered may already have been claimed by their own legitimate settlement and are
-no longer visible here -- in which case this search may find only the true subset and
-resolve it as if unique. This is a real, reported limitation (see
-grade.py's ambiguous_incorrectly_resolved bucket), not a silent failure: many cases
-still exhibit genuine multi-candidate ambiguity from whatever else remains unclaimed
-in the pool at that point, which is itself an honest reflection of how ambiguity in a
-real reconciliation system depends on processing order.
-"""
-
 from __future__ import annotations
 
 from collections import defaultdict
@@ -32,8 +6,7 @@ from datetime import timedelta
 from . import config, scoring
 from .models import BankRecordRow, EscalationRecord, InvoiceRecord, LLMDecision, MatchResult, ScoreBreakdown
 
-_MAX_DP_SUBSETS = 5000  # safety valve against combinatorial blow-up in pathological pools
-
+_MAX_DP_SUBSETS = 5000
 
 class _PoolTooComplex(Exception):
     pass
@@ -69,7 +42,7 @@ def find_subsets_within_tolerance(
                     continue
                 new_sum = s + amt_c
                 if new_sum > target_c + tol_c:
-                    continue  # all amounts positive: can never come back down
+                    continue
                 new_dp[new_sum].append(subset | {inv_id})
                 total_stored += 1
                 if total_stored > _MAX_DP_SUBSETS:
@@ -77,7 +50,7 @@ def find_subsets_within_tolerance(
         dp = new_dp
 
     valid_sums = [s for s in dp if target_c - tol_c <= s <= target_c + tol_c]
-    raw_subsets = [subset for s in valid_sums for subset in dp[s] if subset]  # drop the empty set
+    raw_subsets = [subset for s in valid_sums for subset in dp[s] if subset]
     return _minimal_subsets(raw_subsets)
 
 
@@ -162,27 +135,7 @@ def match(
 
 
 def classify_zero_candidate_orphan(escalation: EscalationRecord) -> LLMDecision | None:
-    """A tier3_no_candidates escalation means Tier 3's own subset-sum search already
-    concluded, exhaustively, that nothing in the bounded pool explains the bank
-    amount -- a real computed result already stored on the escalation, not something
-    this function re-derives or guesses at. That's strong enough evidence to classify
-    it as a likely orphan payment without an LLM call.
 
-    Hard precondition: only ever call this on a tier3_no_candidates escalation. It
-    raises rather than silently handling tier3_ambiguous (or any other stage), so a
-    future refactor can't accidentally widen this rule's scope to cases where
-    candidate subsets genuinely exist and picking "no_match" would be wrong.
-
-    Known, accepted limitation (validated against ground truth, see config.py's
-    ORPHAN_RULE_CONFIDENCE comment): 34/35 tier3_no_candidates cases on the seed-42
-    dataset are genuine orphans this rule correctly classifies. The 1 miss is an
-    ambiguous_subset_sum case whose decoy fell outside Tier 3's search window --
-    structurally indistinguishable from a genuine orphan at runtime (there is no
-    stored signal that tells the two apart without seeing ground truth), so this
-    function cannot and does not special-case it. It's excluded from being counted as
-    a *new* failure mode in grading -- it's the same already-documented
-    search-window limitation, not a defect in this rule.
-    """
     if escalation.stage_reached != "tier3_no_candidates":
         raise ValueError(
             f"classify_zero_candidate_orphan only applies to tier3_no_candidates "
