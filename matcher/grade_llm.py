@@ -1,16 +1,3 @@
-"""Grades the LLM tier's decisions against data/answer_key/ground_truth.json.
-
-Mirrors grade.py's structure and its "only grading code touches answer_key/"
-convention. Distinguishes the two headline cases confirmed present in the escalation
-queue (see MATCHER_STATUS.md): tier3_ambiguous (genuine competing-subset
-disambiguation) and tier3_no_candidates (overwhelmingly orphan_payment -- the correct
-answer is usually "nothing to find here"). The found/nudged construction_method
-comparison from the original spec is NOT computed here -- construction_method does
-not exist in ground_truth.json (batching.py never implemented the nudge fallback; see
-MATCHER_STATUS.md), so every ambiguous_subset_sum case is "found" and the comparison
-would be vacuous, not omitted by oversight.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -38,7 +25,7 @@ def grade_entries(decisions: list[dict], gt_entries: list[dict], escalations: li
         decision = d["decision"]
 
         if not true_ids:
-            # genuine exception (orphan_payment, or an orphan-like case) -- nothing to find
+            
             if decision == "no_match":
                 outcome = "correct_no_match"
             elif decision == "insufficient_evidence":
@@ -46,14 +33,14 @@ def grade_entries(decisions: list[dict], gt_entries: list[dict], escalations: li
             else:
                 outcome = "hallucinated_match"
         else:
-            # a real match exists
+            
             if decision == "match" and candidate_ids == true_ids:
                 outcome = "correct_match"
             elif decision == "insufficient_evidence":
                 outcome = "honest_defer_match_case"
             elif decision == "match":
                 outcome = "wrong_match"
-            else:  # decision == "no_match" but a real match exists
+            else:  
                 outcome = "incorrect_no_match"
 
         results.append({
@@ -68,11 +55,7 @@ def grade_entries(decisions: list[dict], gt_entries: list[dict], escalations: li
 
 
 def origin_breakdown(graded: list[dict]) -> dict:
-    """Reports the rule-resolved and LLM-resolved populations separately -- the
-    headline evidence for how small the tier's true load-bearing AI scope actually
-    is. A per-population correct-rate that silently merged the two would hide that
-    the rule's near-certain accuracy on genuine orphans is doing most of the volume,
-    not the LLM."""
+    
     breakdown = {}
     for origin in ("rule", "llm"):
         subset = [g for g in graded if g["origin"] == origin]
@@ -95,8 +78,7 @@ def precision_recall(graded: list[dict]) -> dict:
     hallucinated = sum(1 for g in graded if g["outcome"] == "hallucinated_match")
     fp = wrong_match + hallucinated
 
-    # honest_defer_match_case/incorrect_no_match are exactly the "a real match existed
-    # but we didn't confidently find it" cases -- the false negatives for match-detection.
+    
     fn = sum(1 for g in graded if g["outcome"] in ("honest_defer_match_case", "incorrect_no_match"))
 
     precision = round(correct_match / (correct_match + fp), 3) if (correct_match + fp) else None
@@ -151,7 +133,7 @@ def print_grade_report(report: dict) -> None:
     print(f"Graded {report['n_graded']} LLM decisions.")
     print(f"Outcome counts: {report['outcome_counts']}")
 
-    print("\n=== Origin breakdown (rule vs. actual LLM call) ===")
+    print("\n Origin breakdown (rule vs. actual LLM call) ")
     for origin, stats in report["origin_breakdown"].items():
         print(f"  {origin:<6} n={stats['n']:>4}  correct={stats['n_correct']:>4}  "
               f"accuracy={stats['accuracy']}  outcomes={stats['outcome_counts']}")
@@ -161,10 +143,10 @@ def print_grade_report(report: dict) -> None:
           f"precision={pr['precision']} recall={pr['recall']}")
 
     hb = report["headline_breakdowns"]
-    print("\n=== tier3_ambiguous breakdown (competing-subset disambiguation) ===")
+    print("\n tier3_ambiguous breakdown (competing-subset disambiguation) ")
     for k, v in hb["tier3_ambiguous"].items():
         print(f"  {k:<20} {v}")
-    print("\n=== tier3_no_candidates breakdown (mostly orphan_payment) ===")
+    print("\n tier3_no_candidates breakdown (mostly orphan_payment) ")
     for k, v in hb["tier3_no_candidates"].items():
         print(f"  {k:<20} {v}")
 
