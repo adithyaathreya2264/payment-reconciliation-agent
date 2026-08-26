@@ -1,0 +1,53 @@
+{
+  "n_graded": 44,
+  "outcome_counts": {
+    "incorrect_no_match": 1,
+    "correct_no_match": 34,
+    "correct_match": 8,
+    "honest_defer_match_case": 1
+  },
+  "origin_breakdown": {
+    "rule": {
+      "n": 35,
+      "n_correct": 34,
+      "accuracy": 0.971,
+      "outcome_counts": {
+        "incorrect_no_match": 1,
+        "correct_no_match": 34
+      }
+    },
+    "llm": {
+      "n": 9,
+      "n_correct": 8,
+      "accuracy": 0.889,
+      "outcome_counts": {
+        "correct_match": 8,
+        "honest_defer_match_case": 1
+      }
+    }
+  },
+  "precision_recall": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.8
+  },
+  "headline_breakdowns": {
+    "tier3_ambiguous": {
+      "total": 9,
+      "correct_match": 8,
+      "honest_defer": 1,
+      "wrong_match": 0,
+      "incorrect_no_match": 0
+    },
+    "tier3_no_candidates": {
+      "total": 35,
+      "correct_no_match": 34,
+      "honest_defer": 0,
+      "hallucinated_match": 0,
+      "correct_match": 0
+    }
+  },
+  "note_construction_method": "construction_method (found/nudged) does not exist in ground_truth.json -- batching.py never implemented the nudge fallback described in the original spec, so every ambiguous_subset_sum case is 'found'. This comparison is moot on this dataset, not omitted by oversight."
+}
