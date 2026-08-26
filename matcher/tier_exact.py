@@ -1,8 +1,3 @@
-"""Tier 1: exact match.
-
-All three of UTR + amount + settlement-lag must hold -- never match on UTR alone.
-"""
-
 from __future__ import annotations
 
 from . import config
@@ -12,18 +7,7 @@ from .models import BankRecordRow, InvoiceRecord, MatchResult, ScoreBreakdown, S
 def compute_settlement_lag_days(
     settlement: SettlementRecord, invoices_by_id: dict[str, InvoiceRecord]
 ) -> int | None:
-    """settled_at - latest expected_date among the settlement's claimed invoices.
 
-    This, not (bank.date - settled_at), is the dimension that actually distinguishes
-    a late settlement from a clean one -- see the plan's "date-tolerance anchor fix".
-
-    Returns None if claimed_invoice_ids is empty (currently only ambiguous_subset_sum,
-    whose order_id is deliberately blanked). This is intentional, not a gap to patch:
-    with no known invoice membership there is no principled way to confirm this
-    settlement is "on time" vs "late", so Tier 1/2 correctly decline to claim its
-    identity at all and the bank record falls through to Tier 3's subset-sum search --
-    which is exactly the point of blanking order_id for this failure mode.
-    """
     if settlement.settled_at is None:
         return None
     dates = [
