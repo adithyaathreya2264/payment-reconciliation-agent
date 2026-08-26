@@ -1,11 +1,3 @@
-"""CSV -> typed records.
-
-This module (and grade.py alone) are the only places allowed to read repo data.
-matcher must never `import generator.*` -- it only ever sees what a real downstream
-consumer would see: the three CSVs, and (in grade.py only) the hidden
-data/answer_key/ground_truth.json.
-"""
-
 from __future__ import annotations
 
 import csv
@@ -15,10 +7,6 @@ from pathlib import Path
 
 from .models import BankRecordRow, InvoiceRecord, SettlementRecord
 
-# Matches the generator's literal UTR<12 digits> format. Only NEFT/RTGS-style
-# narration templates interpolate a UTR at all (UPI-style templates interpolate a
-# random 12-digit {ref} with no "UTR" prefix), so this correctly returns no match on
-# UPI-style narrations rather than a false hit.
 _UTR_RE = re.compile(r"UTR\d{12}")
 
 _warned_missing_settled_at = False
