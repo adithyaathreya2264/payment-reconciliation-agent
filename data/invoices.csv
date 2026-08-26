@@ -1,0 +1,2001 @@
+invoice_id,counterparty_canonical,expected_amount,expected_date,payment_method,status
+INV-42-000001,Zomato Ltd,5181.45,2025-04-15,NEFT,paid
+INV-42-000002,Swiggy Bundl Technologies,7156.29,2025-08-12,UPI,paid
+INV-42-000003,Zomato Ltd,7156.29,2025-08-13,UPI,paid
+INV-42-000004,Urban Company,2833.08,2025-01-07,RTGS,paid
+INV-42-000005,BigBasket Supermarket Pvt Ltd,5234.01,2025-12-11,UPI,paid
+INV-42-000006,Infosys BPM Ltd,5839.61,2025-02-14,NEFT,paid
+INV-42-000007,Sundaram Logistics Pvt Ltd,5331.28,2026-01-06,NEFT,paid
+INV-42-000008,Zomato Ltd,4486.35,2025-03-23,card,paid
+INV-42-000009,Infosys BPM Ltd,5252.07,2025-06-16,UPI,paid
+INV-42-000010,Razorpay Software Pvt Ltd,9929.7,2025-09-08,UPI,paid
+INV-42-000011,Sundaram Logistics Pvt Ltd,13198.81,2025-11-29,RTGS,paid
+INV-42-000012,Razorpay Software Pvt Ltd,2820.49,2025-10-02,UPI,paid
+INV-42-000013,Meesho Inc,12423.09,2026-05-27,UPI,paid
+INV-42-000014,BigBasket Supermarket Pvt Ltd,12423.09,2026-05-29,UPI,paid
+INV-42-000015,Urban Company,3354.9,2026-08-21,UPI,paid
+INV-42-000016,Sundaram Logistics Pvt Ltd,8235.25,2025-02-18,card,paid
+INV-42-000017,Swiggy Bundl Technologies,16162.48,2026-01-30,UPI,paid
+INV-42-000018,Urban Company,14852.36,2025-10-01,RTGS,unpaid
+INV-42-000019,Tata Consultancy Services,27536.4,2026-05-28,RTGS,paid
+INV-42-000020,Swiggy Bundl Technologies,27498.19,2026-06-04,NEFT,paid
+INV-42-000021,Deepika Textiles Pvt Ltd,10664.23,2026-06-28,card,paid
+INV-42-000022,Nykaa E-Retail Pvt Ltd,3162.96,2025-11-11,UPI,paid
+INV-42-000023,Meesho Inc,8584.91,2026-05-02,card,paid
+INV-42-000024,Urban Company,22499.54,2026-02-13,card,paid
+INV-42-000025,BigBasket Supermarket Pvt Ltd,8357.15,2025-08-19,UPI,paid
+INV-42-000026,Urban Company,9297.85,2025-03-02,UPI,paid
+INV-42-000027,PharmEasy Health Solutions,3396.36,2026-05-13,UPI,paid
+INV-42-000028,Anand Freelance Studio,3396.36,2026-05-11,card,paid
+INV-42-000029,Razorpay Software Pvt Ltd,7552.42,2025-04-07,UPI,paid
+INV-42-000030,BigBasket Supermarket Pvt Ltd,6714.85,2025-04-11,UPI,paid
+INV-42-000031,Ola Fleet Technologies,3841.99,2026-07-04,UPI,paid
+INV-42-000032,Tata Consultancy Services,4301.51,2026-07-18,UPI,paid
+INV-42-000033,Urban Company,13530.31,2026-02-21,UPI,paid
+INV-42-000034,BigBasket Supermarket Pvt Ltd,2704.56,2026-02-04,UPI,paid
+INV-42-000035,BigBasket Supermarket Pvt Ltd,500.15,2026-07-24,NEFT,paid
+INV-42-000036,Freshworks Inc,11939.4,2025-11-18,UPI,paid
+INV-42-000037,Nykaa E-Retail Pvt Ltd,15465.19,2026-06-05,UPI,paid
+INV-42-000038,Meesho Inc,11541.68,2025-05-03,card,paid
+INV-42-000039,Meesho Inc,14169.78,2025-11-20,card,paid
+INV-42-000040,Priya Menon Consulting,4155.77,2025-11-04,UPI,paid
+INV-42-000041,Vikram Enterprises,9027.81,2026-07-05,UPI,paid
+INV-42-000042,Vikram Enterprises,6379.36,2026-07-11,NEFT,paid
+INV-42-000043,Sundaram Logistics Pvt Ltd,16298.19,2025-04-17,card,paid
+INV-42-000044,Swiggy Bundl Technologies,2083.89,2025-10-06,UPI,paid
+INV-42-000045,Infosys BPM Ltd,57997.69,2026-06-02,UPI,paid
+INV-42-000046,PharmEasy Health Solutions,2718.83,2025-10-11,UPI,paid
+INV-42-000047,Deepika Textiles Pvt Ltd,2718.83,2025-10-10,NEFT,paid
+INV-42-000048,Anand Freelance Studio,9315.38,2025-01-10,UPI,paid
+INV-42-000049,Priya Menon Consulting,5160.25,2026-03-17,UPI,paid
+INV-42-000050,Lenskart Solutions Pvt Ltd,17671.94,2025-09-13,NEFT,paid
+INV-42-000051,Urban Company,4987.35,2025-07-01,card,paid
+INV-42-000052,Anand Freelance Studio,15589.95,2025-04-21,UPI,paid
+INV-42-000053,Nykaa E-Retail Pvt Ltd,2222.9,2025-08-22,UPI,paid
+INV-42-000054,BigBasket Supermarket Pvt Ltd,5612.03,2025-10-13,UPI,paid
+INV-42-000055,Rahul Sharma,17913.47,2025-01-29,UPI,paid
+INV-42-000056,Deepika Textiles Pvt Ltd,6596.9,2026-07-06,NEFT,paid
+INV-42-000057,Anand Freelance Studio,3559.87,2025-12-05,NEFT,paid
+INV-42-000058,Swiggy Bundl Technologies,28372.51,2026-02-23,UPI,paid
+INV-42-000059,Urban Company,1958.68,2026-01-24,NEFT,paid
+INV-42-000060,Meesho Inc,4105.83,2025-01-01,UPI,paid
+INV-42-000061,BigBasket Supermarket Pvt Ltd,4105.83,2025-01-01,NEFT,paid
+INV-42-000062,Nykaa E-Retail Pvt Ltd,7233.11,2026-04-30,RTGS,paid
+INV-42-000063,Anand Freelance Studio,11412.24,2025-12-10,UPI,unpaid
+INV-42-000064,Razorpay Software Pvt Ltd,1784.35,2025-05-31,UPI,paid
+INV-42-000065,Nykaa E-Retail Pvt Ltd,5671.43,2025-07-19,NEFT,paid
+INV-42-000066,BigBasket Supermarket Pvt Ltd,1419.51,2025-04-20,RTGS,paid
+INV-42-000067,Ola Fleet Technologies,14255.72,2026-07-25,UPI,paid
+INV-42-000068,BigBasket Supermarket Pvt Ltd,32858.49,2026-07-27,NEFT,paid
+INV-42-000069,Lenskart Solutions Pvt Ltd,15056.73,2026-06-01,UPI,unpaid
+INV-42-000070,BigBasket Supermarket Pvt Ltd,5939.79,2025-10-11,RTGS,paid
+INV-42-000071,Nykaa E-Retail Pvt Ltd,5939.79,2025-10-12,UPI,paid
+INV-42-000072,Priya Menon Consulting,4371.1,2026-07-08,UPI,paid
+INV-42-000073,Infosys BPM Ltd,4097.08,2026-03-01,UPI,paid
+INV-42-000074,BigBasket Supermarket Pvt Ltd,3712.25,2026-08-22,card,paid
+INV-42-000075,PharmEasy Health Solutions,10131.86,2025-12-27,UPI,paid
+INV-42-000076,Lenskart Solutions Pvt Ltd,24897.43,2026-07-14,RTGS,paid
+INV-42-000077,Nykaa E-Retail Pvt Ltd,4098.63,2026-02-03,UPI,paid
+INV-42-000078,Ola Fleet Technologies,4098.63,2026-02-05,NEFT,paid
+INV-42-000079,Lenskart Solutions Pvt Ltd,37779.31,2025-01-28,UPI,paid
+INV-42-000080,PharmEasy Health Solutions,4170.55,2025-12-02,UPI,paid
+INV-42-000081,Deepika Textiles Pvt Ltd,3817.86,2026-03-08,UPI,paid
+INV-42-000082,Zomato Ltd,4179.09,2025-02-11,RTGS,paid
+INV-42-000083,Freshworks Inc,1413.83,2026-08-01,card,paid
+INV-42-000084,Razorpay Software Pvt Ltd,4848.27,2025-04-28,RTGS,paid
+INV-42-000085,Tata Consultancy Services,44728.82,2026-08-13,NEFT,paid
+INV-42-000086,BigBasket Supermarket Pvt Ltd,11606.05,2025-09-06,UPI,unpaid
+INV-42-000087,PharmEasy Health Solutions,9666.15,2026-08-03,RTGS,paid
+INV-42-000088,BigBasket Supermarket Pvt Ltd,5407.31,2025-12-16,UPI,paid
+INV-42-000089,Nykaa E-Retail Pvt Ltd,6898.63,2026-04-16,NEFT,paid
+INV-42-000090,Anand Freelance Studio,21689.94,2026-07-06,RTGS,paid
+INV-42-000091,Ola Fleet Technologies,10003.42,2025-09-09,RTGS,paid
+INV-42-000092,PharmEasy Health Solutions,3870.77,2026-01-24,UPI,paid
+INV-42-000093,Tata Consultancy Services,7865.22,2025-09-22,UPI,paid
+INV-42-000094,Priya Menon Consulting,15746.95,2025-09-04,NEFT,paid
+INV-42-000095,Nykaa E-Retail Pvt Ltd,13342.18,2025-08-15,UPI,paid
+INV-42-000096,Rahul Sharma,5151.83,2025-12-19,UPI,paid
+INV-42-000097,Tata Consultancy Services,12451.35,2025-09-15,UPI,paid
+INV-42-000098,Tata Consultancy Services,11651.26,2026-05-11,UPI,paid
+INV-42-000099,Deepika Textiles Pvt Ltd,16810.49,2026-01-05,UPI,paid
+INV-42-000100,Urban Company,10638.9,2025-05-10,NEFT,paid
+INV-42-000101,Swiggy Bundl Technologies,7709.06,2025-02-22,UPI,paid
+INV-42-000102,Swiggy Bundl Technologies,2163.75,2026-08-14,NEFT,paid
+INV-42-000103,Swiggy Bundl Technologies,9314.87,2025-09-12,UPI,paid
+INV-42-000104,Meesho Inc,14468.59,2026-06-20,UPI,paid
+INV-42-000105,Tata Consultancy Services,10293.82,2026-08-06,NEFT,paid
+INV-42-000106,Sundaram Logistics Pvt Ltd,10293.82,2026-08-07,UPI,paid
+INV-42-000107,Cred Avenue Pvt Ltd,5456.22,2025-09-03,UPI,paid
+INV-42-000108,Zomato Ltd,6713.38,2025-10-26,UPI,paid
+INV-42-000109,Tata Consultancy Services,4630.21,2025-07-22,UPI,paid
+INV-42-000110,Cred Avenue Pvt Ltd,2481.86,2026-08-06,card,paid
+INV-42-000111,Nykaa E-Retail Pvt Ltd,4884.16,2025-10-06,UPI,paid
+INV-42-000112,Zomato Ltd,2319.61,2025-11-27,NEFT,paid
+INV-42-000113,Razorpay Software Pvt Ltd,55790.22,2025-01-22,card,paid
+INV-42-000114,Tata Consultancy Services,7110.34,2025-10-12,UPI,paid
+INV-42-000115,Cred Avenue Pvt Ltd,7989.97,2025-12-23,UPI,paid
+INV-42-000116,Swiggy Bundl Technologies,3327.34,2026-05-23,UPI,paid
+INV-42-000117,Ola Fleet Technologies,9338.28,2025-11-19,UPI,paid
+INV-42-000118,Deepika Textiles Pvt Ltd,7615.4,2026-06-15,UPI,paid
+INV-42-000119,Cred Avenue Pvt Ltd,13413.48,2026-07-17,UPI,paid
+INV-42-000120,PharmEasy Health Solutions,7908.5,2025-09-03,NEFT,paid
+INV-42-000121,Zomato Ltd,6746.42,2025-04-27,UPI,paid
+INV-42-000122,Ola Fleet Technologies,8031.68,2026-06-06,NEFT,paid
+INV-42-000123,Nykaa E-Retail Pvt Ltd,7487.88,2025-05-29,UPI,paid
+INV-42-000124,Urban Company,1563.78,2026-03-01,UPI,paid
+INV-42-000125,Razorpay Software Pvt Ltd,28011.75,2026-05-17,card,paid
+INV-42-000126,Nykaa E-Retail Pvt Ltd,2721.64,2026-01-22,UPI,paid
+INV-42-000127,Freshworks Inc,16516.63,2025-08-28,card,paid
+INV-42-000128,Tata Consultancy Services,5004.19,2026-01-26,UPI,paid
+INV-42-000129,Ola Fleet Technologies,35277.45,2025-02-07,UPI,paid
+INV-42-000130,Tata Consultancy Services,3093.34,2026-02-12,NEFT,unpaid
+INV-42-000131,PharmEasy Health Solutions,19828.53,2025-11-21,NEFT,paid
+INV-42-000132,Nykaa E-Retail Pvt Ltd,9561.93,2025-08-29,NEFT,paid
+INV-42-000133,Sundaram Logistics Pvt Ltd,9561.93,2025-08-28,NEFT,paid
+INV-42-000134,Swiggy Bundl Technologies,40971.86,2026-03-31,UPI,paid
+INV-42-000135,Zomato Ltd,6079.74,2026-01-03,UPI,paid
+INV-42-000136,Urban Company,13234.82,2025-06-24,UPI,paid
+INV-42-000137,Infosys BPM Ltd,14226.82,2026-08-21,UPI,paid
+INV-42-000138,Razorpay Software Pvt Ltd,11222.5,2026-03-29,card,paid
+INV-42-000139,Tata Consultancy Services,7365.07,2026-01-29,card,unpaid
+INV-42-000140,Infosys BPM Ltd,5947.54,2025-10-30,UPI,paid
+INV-42-000141,BigBasket Supermarket Pvt Ltd,14086.76,2025-12-27,UPI,paid
+INV-42-000142,Razorpay Software Pvt Ltd,44223.54,2025-05-21,NEFT,paid
+INV-42-000143,Cred Avenue Pvt Ltd,4781.14,2026-08-17,UPI,paid
+INV-42-000144,Swiggy Bundl Technologies,4781.14,2026-08-15,UPI,paid
+INV-42-000145,Freshworks Inc,2361.24,2026-01-10,UPI,paid
+INV-42-000146,Ola Fleet Technologies,953.0,2026-05-09,card,paid
+INV-42-000147,Deepika Textiles Pvt Ltd,953.0,2026-05-08,UPI,paid
+INV-42-000148,Sundaram Logistics Pvt Ltd,60855.05,2026-02-11,card,paid
+INV-42-000149,Infosys BPM Ltd,8987.3,2025-09-26,NEFT,paid
+INV-42-000150,Vikram Enterprises,3680.31,2025-01-26,NEFT,paid
+INV-42-000151,Tata Consultancy Services,13126.34,2026-04-21,card,paid
+INV-42-000152,BigBasket Supermarket Pvt Ltd,4467.88,2025-04-10,UPI,paid
+INV-42-000153,Infosys BPM Ltd,15674.15,2025-06-08,card,paid
+INV-42-000154,Ola Fleet Technologies,151725.69,2025-10-14,UPI,paid
+INV-42-000155,BigBasket Supermarket Pvt Ltd,179596.22,2026-01-03,UPI,paid
+INV-42-000156,Sundaram Logistics Pvt Ltd,3640.35,2025-01-22,UPI,paid
+INV-42-000157,Sundaram Logistics Pvt Ltd,14150.23,2026-07-22,UPI,paid
+INV-42-000158,PharmEasy Health Solutions,5940.1,2025-01-03,UPI,paid
+INV-42-000159,Zomato Ltd,14581.64,2025-11-28,UPI,paid
+INV-42-000160,Swiggy Bundl Technologies,7060.83,2025-03-07,UPI,paid
+INV-42-000161,Urban Company,2400.51,2025-02-14,NEFT,paid
+INV-42-000162,Cred Avenue Pvt Ltd,3433.24,2025-02-01,UPI,paid
+INV-42-000163,PharmEasy Health Solutions,3433.24,2025-02-01,UPI,paid
+INV-42-000164,Priya Menon Consulting,3411.68,2025-11-26,NEFT,paid
+INV-42-000165,Tata Consultancy Services,12771.0,2025-11-29,UPI,paid
+INV-42-000166,Tata Consultancy Services,8225.89,2025-04-28,card,paid
+INV-42-000167,Deepika Textiles Pvt Ltd,12511.09,2026-04-08,card,paid
+INV-42-000168,Ola Fleet Technologies,4544.74,2025-11-17,UPI,paid
+INV-42-000169,Infosys BPM Ltd,57454.01,2026-07-24,UPI,paid
+INV-42-000170,Urban Company,12651.35,2026-03-10,card,unpaid
+INV-42-000171,Sundaram Logistics Pvt Ltd,10291.92,2026-08-15,UPI,paid
+INV-42-000172,Nykaa E-Retail Pvt Ltd,18491.06,2026-07-24,UPI,paid
+INV-42-000173,Meesho Inc,13237.05,2025-01-27,NEFT,paid
+INV-42-000174,Priya Menon Consulting,2978.68,2025-11-13,card,paid
+INV-42-000175,Freshworks Inc,1623.8,2025-03-13,UPI,paid
+INV-42-000176,Zomato Ltd,13149.59,2026-03-06,UPI,paid
+INV-42-000177,Tata Consultancy Services,28955.89,2025-06-09,UPI,paid
+INV-42-000178,Rahul Sharma,2861.67,2026-05-13,NEFT,paid
+INV-42-000179,Freshworks Inc,8342.44,2025-04-24,UPI,paid
+INV-42-000180,Nykaa E-Retail Pvt Ltd,10618.21,2026-02-09,card,paid
+INV-42-000181,Freshworks Inc,14385.85,2025-05-03,UPI,paid
+INV-42-000182,Freshworks Inc,4340.91,2026-05-28,NEFT,paid
+INV-42-000183,Infosys BPM Ltd,4376.19,2026-03-23,UPI,paid
+INV-42-000184,PharmEasy Health Solutions,10659.34,2026-03-04,UPI,paid
+INV-42-000185,Sundaram Logistics Pvt Ltd,6644.27,2026-01-06,UPI,paid
+INV-42-000186,Razorpay Software Pvt Ltd,10810.19,2026-02-10,card,paid
+INV-42-000187,Freshworks Inc,12920.74,2025-04-27,UPI,paid
+INV-42-000188,Deepika Textiles Pvt Ltd,10545.69,2025-04-16,UPI,paid
+INV-42-000189,Meesho Inc,26010.6,2025-07-01,card,paid
+INV-42-000190,BigBasket Supermarket Pvt Ltd,10239.45,2026-08-02,NEFT,paid
+INV-42-000191,Tata Consultancy Services,23466.54,2026-03-27,UPI,unpaid
+INV-42-000192,Tata Consultancy Services,5604.9,2026-06-04,UPI,paid
+INV-42-000193,Zomato Ltd,6098.06,2025-04-03,NEFT,paid
+INV-42-000194,BigBasket Supermarket Pvt Ltd,12122.7,2025-02-12,UPI,paid
+INV-42-000195,Cred Avenue Pvt Ltd,4791.02,2025-06-04,card,paid
+INV-42-000196,Ola Fleet Technologies,1321.33,2025-02-10,UPI,paid
+INV-42-000197,BigBasket Supermarket Pvt Ltd,8448.55,2026-01-17,card,paid
+INV-42-000198,Deepika Textiles Pvt Ltd,10845.19,2025-12-09,UPI,paid
+INV-42-000199,Rahul Sharma,2425.17,2025-06-03,UPI,paid
+INV-42-000200,Swiggy Bundl Technologies,13413.16,2025-03-28,UPI,paid
+INV-42-000201,Ola Fleet Technologies,35095.16,2026-06-24,UPI,paid
+INV-42-000202,Urban Company,2762.08,2025-08-08,UPI,paid
+INV-42-000203,Freshworks Inc,1829.74,2026-06-04,RTGS,paid
+INV-42-000204,PharmEasy Health Solutions,2762.53,2025-05-15,NEFT,paid
+INV-42-000205,Freshworks Inc,17915.97,2025-06-19,NEFT,paid
+INV-42-000206,Infosys BPM Ltd,16149.14,2026-04-05,UPI,paid
+INV-42-000207,Sundaram Logistics Pvt Ltd,1865.76,2026-08-08,card,paid
+INV-42-000208,Tata Consultancy Services,5508.41,2025-06-15,RTGS,paid
+INV-42-000209,Swiggy Bundl Technologies,2763.59,2026-01-16,NEFT,paid
+INV-42-000210,PharmEasy Health Solutions,17298.53,2025-06-14,UPI,paid
+INV-42-000211,Swiggy Bundl Technologies,1337.32,2025-08-16,RTGS,paid
+INV-42-000212,Vikram Enterprises,1337.32,2025-08-15,UPI,paid
+INV-42-000213,Infosys BPM Ltd,6691.72,2025-08-18,UPI,paid
+INV-42-000214,Ola Fleet Technologies,24583.9,2025-05-21,UPI,paid
+INV-42-000215,Nykaa E-Retail Pvt Ltd,67499.39,2026-04-26,UPI,paid
+INV-42-000216,Lenskart Solutions Pvt Ltd,67499.39,2026-04-23,UPI,paid
+INV-42-000217,Swiggy Bundl Technologies,46065.74,2026-03-10,UPI,paid
+INV-42-000218,Tata Consultancy Services,2431.98,2026-04-14,UPI,paid
+INV-42-000219,Nykaa E-Retail Pvt Ltd,9426.2,2026-08-12,UPI,paid
+INV-42-000220,BigBasket Supermarket Pvt Ltd,10233.42,2026-03-03,UPI,paid
+INV-42-000221,Urban Company,11144.02,2026-06-04,NEFT,paid
+INV-42-000222,Nykaa E-Retail Pvt Ltd,15992.87,2025-04-17,RTGS,paid
+INV-42-000223,Tata Consultancy Services,1720.41,2025-06-29,RTGS,paid
+INV-42-000224,Sundaram Logistics Pvt Ltd,7781.18,2025-05-19,UPI,paid
+INV-42-000225,BigBasket Supermarket Pvt Ltd,5804.97,2025-07-24,card,paid
+INV-42-000226,Tata Consultancy Services,3458.98,2026-04-30,UPI,paid
+INV-42-000227,Freshworks Inc,2958.33,2025-12-06,UPI,paid
+INV-42-000228,BigBasket Supermarket Pvt Ltd,6151.68,2026-01-31,UPI,paid
+INV-42-000229,Priya Menon Consulting,2950.18,2025-10-01,RTGS,paid
+INV-42-000230,Zomato Ltd,19739.73,2026-07-13,UPI,paid
+INV-42-000231,Tata Consultancy Services,4584.99,2026-03-13,UPI,paid
+INV-42-000232,BigBasket Supermarket Pvt Ltd,11090.25,2025-02-28,UPI,paid
+INV-42-000233,Infosys BPM Ltd,34547.61,2025-02-01,UPI,paid
+INV-42-000234,Deepika Textiles Pvt Ltd,15972.4,2026-01-28,card,paid
+INV-42-000235,Swiggy Bundl Technologies,7165.87,2026-03-31,RTGS,paid
+INV-42-000236,Urban Company,5170.66,2025-09-13,card,paid
+INV-42-000237,Freshworks Inc,11124.43,2025-05-01,UPI,paid
+INV-42-000238,BigBasket Supermarket Pvt Ltd,28676.21,2025-05-06,UPI,paid
+INV-42-000239,Freshworks Inc,16629.62,2025-10-25,card,paid
+INV-42-000240,Priya Menon Consulting,20395.8,2025-05-05,card,paid
+INV-42-000241,Razorpay Software Pvt Ltd,7986.9,2026-08-10,UPI,paid
+INV-42-000242,Urban Company,9790.36,2025-11-13,UPI,paid
+INV-42-000243,Nykaa E-Retail Pvt Ltd,6417.49,2026-08-12,UPI,paid
+INV-42-000244,Urban Company,14525.66,2025-05-13,UPI,paid
+INV-42-000245,Zomato Ltd,4084.2,2025-06-18,UPI,paid
+INV-42-000246,Razorpay Software Pvt Ltd,4084.2,2025-06-20,card,paid
+INV-42-000247,Tata Consultancy Services,3608.16,2026-07-19,UPI,paid
+INV-42-000248,Meesho Inc,1410.21,2026-08-18,UPI,paid
+INV-42-000249,Anand Freelance Studio,22717.13,2026-08-01,UPI,paid
+INV-42-000250,Zomato Ltd,5113.16,2026-08-09,UPI,paid
+INV-42-000251,Nykaa E-Retail Pvt Ltd,10682.95,2025-11-06,UPI,paid
+INV-42-000252,Rahul Sharma,5782.69,2025-03-03,UPI,paid
+INV-42-000253,BigBasket Supermarket Pvt Ltd,6074.56,2025-11-23,NEFT,paid
+INV-42-000254,Sundaram Logistics Pvt Ltd,3275.82,2026-07-30,UPI,paid
+INV-42-000255,Swiggy Bundl Technologies,7401.34,2025-02-21,UPI,paid
+INV-42-000256,Meesho Inc,3710.0,2026-08-15,NEFT,paid
+INV-42-000257,Swiggy Bundl Technologies,25963.38,2025-04-03,card,paid
+INV-42-000258,Sundaram Logistics Pvt Ltd,4106.57,2025-02-21,UPI,paid
+INV-42-000259,Ola Fleet Technologies,11765.56,2025-01-09,RTGS,paid
+INV-42-000260,PharmEasy Health Solutions,35864.95,2026-01-10,UPI,paid
+INV-42-000261,Urban Company,6012.71,2026-01-31,UPI,paid
+INV-42-000262,Tata Consultancy Services,3645.79,2025-12-14,NEFT,paid
+INV-42-000263,Swiggy Bundl Technologies,10554.19,2025-02-11,UPI,paid
+INV-42-000264,Tata Consultancy Services,7520.18,2026-06-12,UPI,paid
+INV-42-000265,Tata Consultancy Services,5266.04,2025-11-03,NEFT,paid
+INV-42-000266,Urban Company,7817.6,2026-05-02,RTGS,paid
+INV-42-000267,Rahul Sharma,42962.5,2025-01-28,NEFT,paid
+INV-42-000268,Cred Avenue Pvt Ltd,7604.93,2026-01-25,UPI,paid
+INV-42-000269,Zomato Ltd,2745.62,2025-06-05,UPI,paid
+INV-42-000270,Nykaa E-Retail Pvt Ltd,11223.22,2025-03-05,NEFT,paid
+INV-42-000271,Urban Company,7091.17,2026-07-14,UPI,paid
+INV-42-000272,Anand Freelance Studio,16671.76,2026-05-11,UPI,paid
+INV-42-000273,Urban Company,5221.33,2025-08-01,NEFT,paid
+INV-42-000274,Nykaa E-Retail Pvt Ltd,33708.45,2025-10-08,UPI,paid
+INV-42-000275,Urban Company,22230.28,2025-12-20,card,paid
+INV-42-000276,Tata Consultancy Services,2573.32,2025-12-21,card,paid
+INV-42-000277,Deepika Textiles Pvt Ltd,3616.26,2025-10-06,UPI,paid
+INV-42-000278,Meesho Inc,2429.99,2026-06-28,UPI,paid
+INV-42-000279,Swiggy Bundl Technologies,4931.34,2025-05-21,UPI,paid
+INV-42-000280,Lenskart Solutions Pvt Ltd,886.82,2026-05-03,UPI,paid
+INV-42-000281,Sundaram Logistics Pvt Ltd,3715.42,2025-04-02,NEFT,paid
+INV-42-000282,Anand Freelance Studio,24782.42,2025-06-30,card,paid
+INV-42-000283,Ola Fleet Technologies,13994.31,2025-10-24,card,paid
+INV-42-000284,Meesho Inc,9247.43,2025-05-18,card,paid
+INV-42-000285,Freshworks Inc,3967.53,2026-04-15,NEFT,paid
+INV-42-000286,Zomato Ltd,5671.78,2025-07-17,UPI,paid
+INV-42-000287,Lenskart Solutions Pvt Ltd,22961.17,2025-03-30,UPI,paid
+INV-42-000288,Sundaram Logistics Pvt Ltd,4710.59,2025-01-07,UPI,paid
+INV-42-000289,Deepika Textiles Pvt Ltd,22120.2,2026-08-10,UPI,paid
+INV-42-000290,Priya Menon Consulting,4906.56,2026-05-30,card,paid
+INV-42-000291,Deepika Textiles Pvt Ltd,18273.55,2025-10-30,UPI,paid
+INV-42-000292,Freshworks Inc,18273.55,2025-10-28,UPI,paid
+INV-42-000293,Deepika Textiles Pvt Ltd,10715.84,2026-07-17,card,paid
+INV-42-000294,Ola Fleet Technologies,66905.68,2025-03-25,UPI,paid
+INV-42-000295,Infosys BPM Ltd,3003.41,2025-06-18,UPI,paid
+INV-42-000296,Swiggy Bundl Technologies,2721.23,2025-04-04,card,paid
+INV-42-000297,Zomato Ltd,3065.28,2026-08-01,UPI,paid
+INV-42-000298,Ola Fleet Technologies,14338.61,2025-01-04,NEFT,paid
+INV-42-000299,Zomato Ltd,6270.49,2025-03-03,card,paid
+INV-42-000300,Vikram Enterprises,2384.97,2025-05-19,RTGS,paid
+INV-42-000301,Cred Avenue Pvt Ltd,9654.08,2025-12-23,UPI,paid
+INV-42-000302,Infosys BPM Ltd,67523.57,2025-11-02,UPI,unpaid
+INV-42-000303,BigBasket Supermarket Pvt Ltd,6361.6,2026-04-17,UPI,paid
+INV-42-000304,Vikram Enterprises,11987.55,2026-03-06,NEFT,paid
+INV-42-000305,Lenskart Solutions Pvt Ltd,5274.86,2025-02-04,UPI,paid
+INV-42-000306,PharmEasy Health Solutions,6602.72,2025-02-27,UPI,paid
+INV-42-000307,Razorpay Software Pvt Ltd,36926.47,2026-08-15,NEFT,unpaid
+INV-42-000308,Tata Consultancy Services,5668.89,2026-06-18,UPI,paid
+INV-42-000309,Zomato Ltd,44314.83,2026-03-14,NEFT,paid
+INV-42-000310,Infosys BPM Ltd,11586.12,2026-06-22,UPI,paid
+INV-42-000311,Swiggy Bundl Technologies,3726.82,2026-04-30,UPI,paid
+INV-42-000312,PharmEasy Health Solutions,2914.34,2025-03-01,NEFT,paid
+INV-42-000313,Urban Company,3842.34,2025-07-28,UPI,paid
+INV-42-000314,BigBasket Supermarket Pvt Ltd,5278.21,2025-07-15,UPI,paid
+INV-42-000315,Meesho Inc,25349.88,2026-07-27,UPI,paid
+INV-42-000316,Lenskart Solutions Pvt Ltd,4678.11,2025-05-01,NEFT,paid
+INV-42-000317,Lenskart Solutions Pvt Ltd,22462.79,2026-02-11,card,paid
+INV-42-000318,Deepika Textiles Pvt Ltd,5458.33,2026-01-03,UPI,paid
+INV-42-000319,PharmEasy Health Solutions,6209.32,2026-04-26,RTGS,paid
+INV-42-000320,Freshworks Inc,5986.84,2025-08-15,NEFT,paid
+INV-42-000321,Urban Company,12879.45,2025-10-30,UPI,paid
+INV-42-000322,Infosys BPM Ltd,22651.27,2025-12-12,UPI,paid
+INV-42-000323,Sundaram Logistics Pvt Ltd,12449.9,2025-06-22,NEFT,paid
+INV-42-000324,Swiggy Bundl Technologies,8849.15,2026-07-10,card,paid
+INV-42-000325,Urban Company,10061.95,2025-06-04,UPI,unpaid
+INV-42-000326,Infosys BPM Ltd,13987.9,2026-05-10,NEFT,paid
+INV-42-000327,Urban Company,7049.98,2025-10-09,UPI,paid
+INV-42-000328,Nykaa E-Retail Pvt Ltd,13856.17,2025-07-03,UPI,paid
+INV-42-000329,Swiggy Bundl Technologies,2967.74,2025-12-29,UPI,paid
+INV-42-000330,Infosys BPM Ltd,5804.88,2025-08-20,UPI,paid
+INV-42-000331,Zomato Ltd,2402.32,2026-01-22,NEFT,paid
+INV-42-000332,Zomato Ltd,2938.15,2026-03-21,NEFT,paid
+INV-42-000333,Sundaram Logistics Pvt Ltd,18773.72,2026-08-04,UPI,paid
+INV-42-000334,Zomato Ltd,8967.78,2025-11-19,UPI,paid
+INV-42-000335,Swiggy Bundl Technologies,20847.39,2026-08-01,UPI,paid
+INV-42-000336,Infosys BPM Ltd,20254.56,2025-05-24,RTGS,paid
+INV-42-000337,Zomato Ltd,14463.07,2025-04-11,UPI,paid
+INV-42-000338,Infosys BPM Ltd,4006.56,2025-01-31,NEFT,paid
+INV-42-000339,BigBasket Supermarket Pvt Ltd,3168.1,2026-01-20,UPI,paid
+INV-42-000340,Cred Avenue Pvt Ltd,1514.36,2025-09-10,NEFT,paid
+INV-42-000341,Swiggy Bundl Technologies,19785.82,2026-02-03,UPI,paid
+INV-42-000342,Zomato Ltd,5102.63,2025-10-04,UPI,paid
+INV-42-000343,BigBasket Supermarket Pvt Ltd,9705.59,2025-04-16,UPI,paid
+INV-42-000344,Swiggy Bundl Technologies,10138.28,2026-01-30,UPI,paid
+INV-42-000345,Deepika Textiles Pvt Ltd,17821.39,2025-09-06,NEFT,paid
+INV-42-000346,Infosys BPM Ltd,3648.63,2026-05-20,UPI,paid
+INV-42-000347,Tata Consultancy Services,1953.55,2026-01-05,UPI,paid
+INV-42-000348,Cred Avenue Pvt Ltd,9701.56,2025-04-20,UPI,paid
+INV-42-000349,BigBasket Supermarket Pvt Ltd,18969.03,2025-12-04,UPI,paid
+INV-42-000350,Ola Fleet Technologies,14399.28,2025-11-04,UPI,paid
+INV-42-000351,Freshworks Inc,22502.44,2026-05-18,card,paid
+INV-42-000352,Tata Consultancy Services,1662.19,2026-01-09,UPI,paid
+INV-42-000353,Meesho Inc,10110.62,2026-07-18,UPI,paid
+INV-42-000354,Vikram Enterprises,883.74,2025-03-12,RTGS,paid
+INV-42-000355,BigBasket Supermarket Pvt Ltd,8079.34,2025-09-05,UPI,paid
+INV-42-000356,BigBasket Supermarket Pvt Ltd,5740.32,2026-05-06,NEFT,paid
+INV-42-000357,Lenskart Solutions Pvt Ltd,21614.08,2025-02-07,RTGS,paid
+INV-42-000358,Lenskart Solutions Pvt Ltd,9485.19,2025-03-29,UPI,paid
+INV-42-000359,Rahul Sharma,2142.93,2026-07-31,card,paid
+INV-42-000360,BigBasket Supermarket Pvt Ltd,7269.77,2025-09-22,UPI,paid
+INV-42-000361,Urban Company,11754.19,2026-01-19,UPI,paid
+INV-42-000362,Meesho Inc,8111.99,2025-01-26,UPI,paid
+INV-42-000363,Lenskart Solutions Pvt Ltd,13978.64,2025-12-18,UPI,paid
+INV-42-000364,Nykaa E-Retail Pvt Ltd,7589.28,2026-04-09,UPI,paid
+INV-42-000365,Ola Fleet Technologies,16442.38,2025-06-18,card,paid
+INV-42-000366,Urban Company,9134.38,2026-03-13,card,paid
+INV-42-000367,BigBasket Supermarket Pvt Ltd,2089.89,2026-03-19,UPI,paid
+INV-42-000368,PharmEasy Health Solutions,7069.32,2025-01-05,NEFT,paid
+INV-42-000369,Deepika Textiles Pvt Ltd,3955.71,2026-04-14,UPI,paid
+INV-42-000370,Nykaa E-Retail Pvt Ltd,23103.15,2026-02-02,NEFT,paid
+INV-42-000371,Infosys BPM Ltd,32669.41,2025-11-01,card,paid
+INV-42-000372,Rahul Sharma,5547.98,2025-04-30,UPI,paid
+INV-42-000373,Urban Company,6999.38,2026-01-28,UPI,paid
+INV-42-000374,Urban Company,4422.39,2025-10-23,UPI,paid
+INV-42-000375,BigBasket Supermarket Pvt Ltd,2764.79,2025-01-10,UPI,paid
+INV-42-000376,Infosys BPM Ltd,10657.98,2026-02-23,NEFT,paid
+INV-42-000377,Ola Fleet Technologies,7950.42,2025-02-01,RTGS,paid
+INV-42-000378,Zomato Ltd,4459.36,2026-04-14,NEFT,paid
+INV-42-000379,Nykaa E-Retail Pvt Ltd,8425.74,2025-10-02,RTGS,paid
+INV-42-000380,Infosys BPM Ltd,17073.68,2026-03-12,UPI,paid
+INV-42-000381,Deepika Textiles Pvt Ltd,7192.96,2025-03-31,UPI,paid
+INV-42-000382,Deepika Textiles Pvt Ltd,948.08,2025-12-26,card,unpaid
+INV-42-000383,BigBasket Supermarket Pvt Ltd,18648.67,2025-07-31,RTGS,paid
+INV-42-000384,Urban Company,9699.45,2025-10-27,UPI,paid
+INV-42-000385,PharmEasy Health Solutions,2123.51,2025-09-11,RTGS,paid
+INV-42-000386,Nykaa E-Retail Pvt Ltd,9542.11,2026-03-01,UPI,paid
+INV-42-000387,Ola Fleet Technologies,16239.81,2025-10-12,NEFT,paid
+INV-42-000388,BigBasket Supermarket Pvt Ltd,7753.07,2025-04-06,NEFT,paid
+INV-42-000389,Rahul Sharma,6414.39,2026-07-02,UPI,paid
+INV-42-000390,Ola Fleet Technologies,8006.02,2025-10-18,UPI,unpaid
+INV-42-000391,Meesho Inc,7828.33,2025-02-19,UPI,paid
+INV-42-000392,Ola Fleet Technologies,3066.73,2026-03-15,UPI,paid
+INV-42-000393,Swiggy Bundl Technologies,10671.9,2025-10-08,UPI,paid
+INV-42-000394,Zomato Ltd,16704.89,2025-02-23,UPI,paid
+INV-42-000395,Priya Menon Consulting,2461.54,2025-04-08,UPI,paid
+INV-42-000396,Swiggy Bundl Technologies,2162.38,2025-01-10,UPI,paid
+INV-42-000397,Swiggy Bundl Technologies,49928.26,2026-05-05,UPI,paid
+INV-42-000398,Anand Freelance Studio,3314.4,2025-11-03,UPI,paid
+INV-42-000399,Deepika Textiles Pvt Ltd,2503.6,2025-01-09,NEFT,paid
+INV-42-000400,Infosys BPM Ltd,1394.16,2026-02-26,NEFT,paid
+INV-42-000401,Freshworks Inc,5422.33,2025-05-24,UPI,paid
+INV-42-000402,Razorpay Software Pvt Ltd,14175.71,2025-10-19,RTGS,paid
+INV-42-000403,PharmEasy Health Solutions,11501.31,2026-06-15,NEFT,paid
+INV-42-000404,Infosys BPM Ltd,23014.22,2025-09-03,UPI,paid
+INV-42-000405,Nykaa E-Retail Pvt Ltd,11019.74,2025-01-13,card,paid
+INV-42-000406,Swiggy Bundl Technologies,29457.14,2026-01-10,UPI,paid
+INV-42-000407,Nykaa E-Retail Pvt Ltd,9290.74,2025-08-09,UPI,paid
+INV-42-000408,Ola Fleet Technologies,8328.84,2026-05-29,RTGS,paid
+INV-42-000409,BigBasket Supermarket Pvt Ltd,12956.03,2025-06-06,UPI,paid
+INV-42-000410,Urban Company,8885.87,2025-03-09,UPI,paid
+INV-42-000411,Vikram Enterprises,4749.91,2026-03-21,UPI,paid
+INV-42-000412,Zomato Ltd,17152.32,2025-06-29,UPI,paid
+INV-42-000413,Priya Menon Consulting,9544.07,2025-09-23,UPI,paid
+INV-42-000414,Deepika Textiles Pvt Ltd,15542.15,2025-03-07,UPI,paid
+INV-42-000415,Infosys BPM Ltd,5316.31,2026-08-11,NEFT,paid
+INV-42-000416,Anand Freelance Studio,582.5,2025-07-03,card,paid
+INV-42-000417,Urban Company,6744.19,2026-03-03,card,paid
+INV-42-000418,Ola Fleet Technologies,9185.91,2025-02-23,UPI,paid
+INV-42-000419,Sundaram Logistics Pvt Ltd,7516.88,2025-11-15,UPI,paid
+INV-42-000420,Zomato Ltd,2808.7,2025-11-08,NEFT,paid
+INV-42-000421,Infosys BPM Ltd,39821.39,2026-07-14,RTGS,paid
+INV-42-000422,Zomato Ltd,6760.84,2025-12-21,NEFT,paid
+INV-42-000423,Zomato Ltd,2816.76,2026-01-21,RTGS,paid
+INV-42-000424,Swiggy Bundl Technologies,8607.8,2026-05-19,card,paid
+INV-42-000425,Priya Menon Consulting,1774.13,2026-03-22,NEFT,paid
+INV-42-000426,Tata Consultancy Services,3031.42,2025-12-01,UPI,paid
+INV-42-000427,Zomato Ltd,1006.48,2026-08-22,UPI,paid
+INV-42-000428,BigBasket Supermarket Pvt Ltd,5845.6,2026-01-02,card,paid
+INV-42-000429,Tata Consultancy Services,5365.49,2025-06-11,RTGS,paid
+INV-42-000430,Priya Menon Consulting,9928.71,2025-12-02,UPI,paid
+INV-42-000431,Sundaram Logistics Pvt Ltd,6846.95,2025-11-03,UPI,paid
+INV-42-000432,Zomato Ltd,6189.0,2026-07-18,UPI,unpaid
+INV-42-000433,Ola Fleet Technologies,4752.56,2025-03-28,NEFT,paid
+INV-42-000434,Ola Fleet Technologies,24749.56,2025-05-12,UPI,paid
+INV-42-000435,Ola Fleet Technologies,5571.86,2026-05-24,UPI,paid
+INV-42-000436,Freshworks Inc,4713.16,2025-10-14,UPI,paid
+INV-42-000437,Meesho Inc,13521.64,2026-05-26,UPI,paid
+INV-42-000438,Zomato Ltd,5463.77,2025-07-24,NEFT,paid
+INV-42-000439,Razorpay Software Pvt Ltd,2437.32,2026-01-03,UPI,paid
+INV-42-000440,Infosys BPM Ltd,9408.95,2025-10-04,UPI,paid
+INV-42-000441,Freshworks Inc,9846.79,2025-08-27,card,paid
+INV-42-000442,Cred Avenue Pvt Ltd,1138.93,2025-02-27,RTGS,paid
+INV-42-000443,Meesho Inc,27406.2,2025-06-27,UPI,paid
+INV-42-000444,Ola Fleet Technologies,39477.17,2026-07-31,card,paid
+INV-42-000445,Ola Fleet Technologies,39583.48,2025-06-29,UPI,paid
+INV-42-000446,Razorpay Software Pvt Ltd,3239.58,2025-01-01,UPI,paid
+INV-42-000447,Ola Fleet Technologies,6009.47,2025-11-28,UPI,paid
+INV-42-000448,Priya Menon Consulting,8637.98,2025-03-16,UPI,paid
+INV-42-000449,BigBasket Supermarket Pvt Ltd,3353.57,2025-05-20,card,paid
+INV-42-000450,BigBasket Supermarket Pvt Ltd,12324.1,2025-11-21,UPI,paid
+INV-42-000451,Priya Menon Consulting,2865.31,2025-06-29,UPI,unpaid
+INV-42-000452,Tata Consultancy Services,16817.13,2026-08-05,UPI,paid
+INV-42-000453,Lenskart Solutions Pvt Ltd,40076.82,2025-05-25,UPI,paid
+INV-42-000454,Infosys BPM Ltd,3767.1,2025-04-01,RTGS,paid
+INV-42-000455,Anand Freelance Studio,1880.13,2025-12-25,UPI,paid
+INV-42-000456,Zomato Ltd,4194.11,2025-06-20,card,paid
+INV-42-000457,Infosys BPM Ltd,8769.9,2026-05-06,RTGS,paid
+INV-42-000458,Deepika Textiles Pvt Ltd,3743.74,2025-02-04,UPI,paid
+INV-42-000459,Vikram Enterprises,3954.23,2026-07-15,card,paid
+INV-42-000460,Zomato Ltd,5918.65,2026-07-08,UPI,paid
+INV-42-000461,Razorpay Software Pvt Ltd,1597.54,2026-05-18,UPI,paid
+INV-42-000462,BigBasket Supermarket Pvt Ltd,3169.89,2026-05-07,UPI,paid
+INV-42-000463,Freshworks Inc,5709.43,2025-04-29,UPI,paid
+INV-42-000464,Nykaa E-Retail Pvt Ltd,10652.76,2026-07-12,UPI,paid
+INV-42-000465,Infosys BPM Ltd,7141.59,2025-10-03,NEFT,paid
+INV-42-000466,Priya Menon Consulting,1240.98,2026-07-09,UPI,paid
+INV-42-000467,Razorpay Software Pvt Ltd,2681.28,2026-06-20,UPI,paid
+INV-42-000468,PharmEasy Health Solutions,5834.55,2026-05-03,UPI,paid
+INV-42-000469,PharmEasy Health Solutions,8609.27,2025-05-31,UPI,paid
+INV-42-000470,Freshworks Inc,13975.08,2026-03-10,UPI,paid
+INV-42-000471,Freshworks Inc,14537.11,2025-09-22,UPI,paid
+INV-42-000472,Ola Fleet Technologies,1925.12,2026-07-20,UPI,paid
+INV-42-000473,BigBasket Supermarket Pvt Ltd,12063.67,2026-03-06,UPI,paid
+INV-42-000474,Meesho Inc,60747.11,2026-07-03,card,paid
+INV-42-000475,Razorpay Software Pvt Ltd,14163.37,2026-04-30,UPI,paid
+INV-42-000476,Swiggy Bundl Technologies,14011.48,2025-02-09,UPI,paid
+INV-42-000477,Priya Menon Consulting,2151.58,2025-10-03,card,paid
+INV-42-000478,Ola Fleet Technologies,5310.63,2026-05-19,card,paid
+INV-42-000479,Sundaram Logistics Pvt Ltd,4445.06,2026-03-30,RTGS,paid
+INV-42-000480,Anand Freelance Studio,9681.54,2026-03-29,UPI,paid
+INV-42-000481,Anand Freelance Studio,22527.96,2025-06-12,UPI,paid
+INV-42-000482,BigBasket Supermarket Pvt Ltd,20139.6,2026-08-06,UPI,paid
+INV-42-000483,Ola Fleet Technologies,16207.68,2026-04-13,UPI,paid
+INV-42-000484,Freshworks Inc,5544.86,2026-02-11,NEFT,paid
+INV-42-000485,Zomato Ltd,4988.81,2025-07-01,card,paid
+INV-42-000486,Urban Company,1842.26,2025-09-22,NEFT,paid
+INV-42-000487,Tata Consultancy Services,6573.33,2026-08-09,RTGS,paid
+INV-42-000488,Freshworks Inc,4745.6,2026-02-24,UPI,paid
+INV-42-000489,Sundaram Logistics Pvt Ltd,13834.38,2025-05-16,NEFT,paid
+INV-42-000490,Zomato Ltd,1139.8,2025-11-09,NEFT,paid
+INV-42-000491,Tata Consultancy Services,7472.79,2025-11-06,NEFT,paid
+INV-42-000492,BigBasket Supermarket Pvt Ltd,2305.41,2026-01-19,NEFT,paid
+INV-42-000493,Tata Consultancy Services,14036.17,2025-12-11,card,paid
+INV-42-000494,PharmEasy Health Solutions,2260.9,2025-11-02,UPI,paid
+INV-42-000495,Razorpay Software Pvt Ltd,18093.03,2025-11-24,NEFT,paid
+INV-42-000496,Cred Avenue Pvt Ltd,6597.61,2025-02-06,NEFT,paid
+INV-42-000497,Ola Fleet Technologies,3481.43,2026-07-02,NEFT,unpaid
+INV-42-000498,Vikram Enterprises,5930.14,2025-06-24,RTGS,paid
+INV-42-000499,Freshworks Inc,1159.46,2025-07-07,card,paid
+INV-42-000500,Cred Avenue Pvt Ltd,4665.07,2025-11-11,UPI,paid
+INV-42-000501,Infosys BPM Ltd,4665.07,2025-11-10,NEFT,paid
+INV-42-000502,Swiggy Bundl Technologies,11236.05,2026-04-29,card,paid
+INV-42-000503,PharmEasy Health Solutions,6245.47,2025-02-25,card,paid
+INV-42-000504,Sundaram Logistics Pvt Ltd,5968.04,2026-04-08,UPI,paid
+INV-42-000505,Swiggy Bundl Technologies,18034.38,2025-04-01,UPI,paid
+INV-42-000506,BigBasket Supermarket Pvt Ltd,6570.28,2025-01-05,UPI,paid
+INV-42-000507,Infosys BPM Ltd,2678.69,2026-06-28,UPI,paid
+INV-42-000508,Cred Avenue Pvt Ltd,2286.12,2025-12-19,UPI,paid
+INV-42-000509,Nykaa E-Retail Pvt Ltd,5882.5,2025-02-16,UPI,paid
+INV-42-000510,Anand Freelance Studio,10144.7,2025-05-18,UPI,paid
+INV-42-000511,Infosys BPM Ltd,23915.51,2025-08-22,UPI,paid
+INV-42-000512,Freshworks Inc,23915.51,2025-08-20,UPI,paid
+INV-42-000513,Swiggy Bundl Technologies,38871.62,2026-01-20,card,paid
+INV-42-000514,Urban Company,16678.33,2025-01-21,UPI,paid
+INV-42-000515,BigBasket Supermarket Pvt Ltd,3722.98,2025-06-06,UPI,paid
+INV-42-000516,Zomato Ltd,7073.46,2026-06-17,UPI,paid
+INV-42-000517,Swiggy Bundl Technologies,14333.55,2025-05-01,UPI,paid
+INV-42-000518,Nykaa E-Retail Pvt Ltd,17291.15,2026-06-20,card,paid
+INV-42-000519,BigBasket Supermarket Pvt Ltd,2538.99,2025-08-01,NEFT,paid
+INV-42-000520,Razorpay Software Pvt Ltd,1973.49,2026-05-21,UPI,paid
+INV-42-000521,Urban Company,11897.46,2025-09-20,NEFT,paid
+INV-42-000522,Sundaram Logistics Pvt Ltd,5522.66,2025-06-28,card,paid
+INV-42-000523,Infosys BPM Ltd,13036.02,2025-04-29,UPI,paid
+INV-42-000524,Zomato Ltd,40716.67,2025-06-24,UPI,paid
+INV-42-000525,Vikram Enterprises,2121.47,2026-01-17,RTGS,paid
+INV-42-000526,Swiggy Bundl Technologies,2121.47,2026-01-15,UPI,paid
+INV-42-000527,Ola Fleet Technologies,14213.66,2026-03-08,NEFT,paid
+INV-42-000528,Swiggy Bundl Technologies,11178.54,2025-06-13,UPI,paid
+INV-42-000529,Nykaa E-Retail Pvt Ltd,9793.38,2026-01-24,RTGS,paid
+INV-42-000530,Zomato Ltd,9793.38,2026-01-25,NEFT,paid
+INV-42-000531,Sundaram Logistics Pvt Ltd,2936.24,2025-02-17,UPI,paid
+INV-42-000532,Zomato Ltd,26817.11,2026-08-14,NEFT,paid
+INV-42-000533,Vikram Enterprises,26849.75,2025-04-08,UPI,paid
+INV-42-000534,Nykaa E-Retail Pvt Ltd,16397.35,2025-06-02,RTGS,paid
+INV-42-000535,Sundaram Logistics Pvt Ltd,2227.81,2025-09-04,UPI,paid
+INV-42-000536,Nykaa E-Retail Pvt Ltd,9186.34,2025-08-29,UPI,paid
+INV-42-000537,Meesho Inc,2279.57,2025-11-20,UPI,paid
+INV-42-000538,Cred Avenue Pvt Ltd,2852.69,2026-07-25,UPI,paid
+INV-42-000539,Ola Fleet Technologies,32087.06,2026-04-13,card,paid
+INV-42-000540,Zomato Ltd,3698.97,2026-07-28,RTGS,paid
+INV-42-000541,Priya Menon Consulting,5510.78,2025-04-10,RTGS,paid
+INV-42-000542,Infosys BPM Ltd,4138.6,2025-04-19,UPI,paid
+INV-42-000543,Swiggy Bundl Technologies,26970.07,2025-04-20,UPI,paid
+INV-42-000544,Swiggy Bundl Technologies,16207.56,2025-07-15,NEFT,paid
+INV-42-000545,BigBasket Supermarket Pvt Ltd,14791.32,2026-04-07,UPI,paid
+INV-42-000546,Nykaa E-Retail Pvt Ltd,18330.39,2026-03-20,RTGS,paid
+INV-42-000547,Urban Company,17859.82,2026-08-16,UPI,paid
+INV-42-000548,Swiggy Bundl Technologies,15025.97,2025-11-26,UPI,paid
+INV-42-000549,Sundaram Logistics Pvt Ltd,30566.08,2025-05-17,UPI,paid
+INV-42-000550,PharmEasy Health Solutions,9145.03,2026-07-15,card,paid
+INV-42-000551,Vikram Enterprises,10468.92,2025-10-25,NEFT,paid
+INV-42-000552,Swiggy Bundl Technologies,2731.76,2025-11-27,NEFT,paid
+INV-42-000553,Urban Company,75374.76,2026-03-04,NEFT,paid
+INV-42-000554,Urban Company,22225.72,2025-01-14,UPI,paid
+INV-42-000555,Infosys BPM Ltd,22225.72,2025-01-11,UPI,paid
+INV-42-000556,Razorpay Software Pvt Ltd,11290.58,2025-03-05,NEFT,paid
+INV-42-000557,Deepika Textiles Pvt Ltd,19017.18,2025-09-01,UPI,paid
+INV-42-000558,Priya Menon Consulting,11076.41,2026-01-26,UPI,paid
+INV-42-000559,Sundaram Logistics Pvt Ltd,4247.8,2025-01-14,NEFT,unpaid
+INV-42-000560,PharmEasy Health Solutions,22009.92,2025-08-19,card,paid
+INV-42-000561,Cred Avenue Pvt Ltd,19317.25,2025-07-21,RTGS,paid
+INV-42-000562,Tata Consultancy Services,1686.76,2025-07-11,card,unpaid
+INV-42-000563,Swiggy Bundl Technologies,3029.48,2025-09-28,UPI,paid
+INV-42-000564,Razorpay Software Pvt Ltd,3290.76,2025-06-08,UPI,paid
+INV-42-000565,Meesho Inc,25030.19,2025-11-05,UPI,paid
+INV-42-000566,Infosys BPM Ltd,15411.73,2025-08-14,card,paid
+INV-42-000567,Deepika Textiles Pvt Ltd,2563.12,2026-02-18,UPI,paid
+INV-42-000568,Freshworks Inc,5398.73,2025-08-12,card,paid
+INV-42-000569,Nykaa E-Retail Pvt Ltd,11873.42,2025-01-10,UPI,paid
+INV-42-000570,Razorpay Software Pvt Ltd,120412.3,2025-09-07,card,paid
+INV-42-000571,Tata Consultancy Services,5523.4,2025-10-17,UPI,paid
+INV-42-000572,Deepika Textiles Pvt Ltd,8475.81,2026-05-14,UPI,paid
+INV-42-000573,Freshworks Inc,12261.83,2025-06-21,card,paid
+INV-42-000574,Urban Company,12261.83,2025-06-24,UPI,paid
+INV-42-000575,Rahul Sharma,7111.08,2026-07-05,RTGS,paid
+INV-42-000576,Anand Freelance Studio,4695.37,2025-03-15,NEFT,paid
+INV-42-000577,BigBasket Supermarket Pvt Ltd,6095.17,2025-02-25,UPI,paid
+INV-42-000578,Zomato Ltd,6248.97,2026-02-19,UPI,paid
+INV-42-000579,Rahul Sharma,9414.36,2025-03-06,RTGS,paid
+INV-42-000580,Priya Menon Consulting,5792.08,2026-03-25,UPI,paid
+INV-42-000581,Zomato Ltd,4104.44,2026-02-05,RTGS,paid
+INV-42-000582,Tata Consultancy Services,10881.76,2026-01-18,card,paid
+INV-42-000583,PharmEasy Health Solutions,9752.69,2026-07-15,card,paid
+INV-42-000584,Deepika Textiles Pvt Ltd,20943.43,2026-02-27,card,paid
+INV-42-000585,Swiggy Bundl Technologies,2267.59,2025-09-16,UPI,paid
+INV-42-000586,Ola Fleet Technologies,7095.37,2025-10-25,NEFT,paid
+INV-42-000587,Freshworks Inc,105644.83,2026-01-01,UPI,paid
+INV-42-000588,Swiggy Bundl Technologies,51404.69,2025-11-22,UPI,paid
+INV-42-000589,Cred Avenue Pvt Ltd,11526.43,2026-08-04,UPI,paid
+INV-42-000590,BigBasket Supermarket Pvt Ltd,1552.29,2026-03-23,UPI,paid
+INV-42-000591,Rahul Sharma,4914.39,2026-04-02,UPI,paid
+INV-42-000592,Urban Company,2269.71,2025-10-15,card,paid
+INV-42-000593,Urban Company,1793.46,2025-02-01,RTGS,paid
+INV-42-000594,Deepika Textiles Pvt Ltd,9672.15,2025-06-02,UPI,paid
+INV-42-000595,Deepika Textiles Pvt Ltd,13465.59,2026-04-21,UPI,paid
+INV-42-000596,Infosys BPM Ltd,26137.35,2025-05-24,UPI,paid
+INV-42-000597,Vikram Enterprises,16403.34,2026-01-03,UPI,paid
+INV-42-000598,Razorpay Software Pvt Ltd,5039.28,2025-07-31,UPI,paid
+INV-42-000599,Infosys BPM Ltd,10762.87,2025-09-27,NEFT,paid
+INV-42-000600,Infosys BPM Ltd,5141.51,2025-03-21,UPI,paid
+INV-42-000601,Lenskart Solutions Pvt Ltd,8425.88,2025-12-20,UPI,paid
+INV-42-000602,Meesho Inc,8129.82,2025-06-19,UPI,paid
+INV-42-000603,Tata Consultancy Services,4269.0,2025-05-02,NEFT,paid
+INV-42-000604,Tata Consultancy Services,1289.22,2026-05-06,UPI,paid
+INV-42-000605,Ola Fleet Technologies,9276.64,2026-06-09,UPI,paid
+INV-42-000606,Zomato Ltd,5139.99,2026-02-20,NEFT,paid
+INV-42-000607,Zomato Ltd,22073.44,2025-10-18,card,paid
+INV-42-000608,Meesho Inc,7441.65,2025-08-13,RTGS,paid
+INV-42-000609,Ola Fleet Technologies,14835.37,2026-06-08,UPI,paid
+INV-42-000610,Infosys BPM Ltd,6798.95,2025-08-24,UPI,paid
+INV-42-000611,Zomato Ltd,11929.62,2026-03-06,RTGS,paid
+INV-42-000612,Freshworks Inc,38156.88,2026-06-29,UPI,paid
+INV-42-000613,Nykaa E-Retail Pvt Ltd,1920.98,2025-01-02,card,paid
+INV-42-000614,Cred Avenue Pvt Ltd,8553.17,2025-02-14,NEFT,paid
+INV-42-000615,Vikram Enterprises,7191.72,2025-12-25,NEFT,paid
+INV-42-000616,Deepika Textiles Pvt Ltd,11345.81,2025-05-18,UPI,paid
+INV-42-000617,Lenskart Solutions Pvt Ltd,1636.62,2026-07-11,UPI,paid
+INV-42-000618,Priya Menon Consulting,23362.33,2025-05-01,UPI,paid
+INV-42-000619,Freshworks Inc,17939.05,2025-04-20,UPI,paid
+INV-42-000620,Razorpay Software Pvt Ltd,20968.91,2026-01-10,NEFT,paid
+INV-42-000621,BigBasket Supermarket Pvt Ltd,2917.78,2026-07-25,UPI,unpaid
+INV-42-000622,Urban Company,4683.03,2025-12-19,RTGS,paid
+INV-42-000623,Swiggy Bundl Technologies,15331.8,2025-08-24,UPI,paid
+INV-42-000624,Swiggy Bundl Technologies,3883.65,2025-12-13,RTGS,paid
+INV-42-000625,Rahul Sharma,2611.97,2025-01-06,RTGS,paid
+INV-42-000626,Nykaa E-Retail Pvt Ltd,9602.1,2025-09-27,UPI,paid
+INV-42-000627,Zomato Ltd,11700.1,2025-02-28,card,paid
+INV-42-000628,Cred Avenue Pvt Ltd,7200.93,2026-06-15,UPI,paid
+INV-42-000629,Meesho Inc,8364.72,2025-06-23,NEFT,paid
+INV-42-000630,Cred Avenue Pvt Ltd,4554.92,2026-02-09,UPI,paid
+INV-42-000631,Zomato Ltd,10717.07,2026-07-27,card,paid
+INV-42-000632,Sundaram Logistics Pvt Ltd,3372.43,2025-07-19,UPI,paid
+INV-42-000633,Zomato Ltd,2933.19,2026-07-27,UPI,paid
+INV-42-000634,Vikram Enterprises,11826.84,2026-01-22,NEFT,paid
+INV-42-000635,Deepika Textiles Pvt Ltd,30211.36,2026-04-17,card,paid
+INV-42-000636,Nykaa E-Retail Pvt Ltd,4421.75,2025-08-14,NEFT,paid
+INV-42-000637,Tata Consultancy Services,34696.74,2025-01-10,NEFT,paid
+INV-42-000638,Tata Consultancy Services,4353.85,2025-12-17,UPI,paid
+INV-42-000639,Nykaa E-Retail Pvt Ltd,953.63,2025-10-03,UPI,paid
+INV-42-000640,Vikram Enterprises,1313.32,2025-08-29,NEFT,paid
+INV-42-000641,Freshworks Inc,4395.58,2025-12-31,UPI,paid
+INV-42-000642,Lenskart Solutions Pvt Ltd,18151.4,2025-01-07,RTGS,paid
+INV-42-000643,Zomato Ltd,7539.6,2026-05-20,card,paid
+INV-42-000644,Meesho Inc,5294.14,2026-06-08,UPI,paid
+INV-42-000645,Meesho Inc,7533.46,2026-05-30,UPI,paid
+INV-42-000646,Deepika Textiles Pvt Ltd,7516.59,2026-06-15,UPI,paid
+INV-42-000647,Zomato Ltd,2790.93,2025-11-30,UPI,paid
+INV-42-000648,Freshworks Inc,4908.99,2025-12-18,UPI,paid
+INV-42-000649,Freshworks Inc,13275.92,2026-02-15,UPI,paid
+INV-42-000650,Swiggy Bundl Technologies,9432.29,2025-04-13,NEFT,paid
+INV-42-000651,Urban Company,16063.38,2025-06-03,UPI,paid
+INV-42-000652,BigBasket Supermarket Pvt Ltd,12492.29,2025-11-20,RTGS,paid
+INV-42-000653,Urban Company,9644.03,2025-06-17,UPI,paid
+INV-42-000654,Nykaa E-Retail Pvt Ltd,11666.26,2025-12-09,UPI,paid
+INV-42-000655,Urban Company,16811.45,2026-02-26,UPI,paid
+INV-42-000656,Sundaram Logistics Pvt Ltd,2708.21,2026-07-06,UPI,paid
+INV-42-000657,Infosys BPM Ltd,13653.62,2026-04-03,card,paid
+INV-42-000658,Tata Consultancy Services,10278.46,2025-06-21,NEFT,paid
+INV-42-000659,BigBasket Supermarket Pvt Ltd,10843.53,2025-03-15,UPI,paid
+INV-42-000660,Tata Consultancy Services,18322.21,2026-02-09,UPI,paid
+INV-42-000661,PharmEasy Health Solutions,4858.81,2026-04-07,UPI,paid
+INV-42-000662,Zomato Ltd,22937.48,2025-03-23,UPI,paid
+INV-42-000663,Swiggy Bundl Technologies,29148.1,2025-02-25,UPI,paid
+INV-42-000664,Deepika Textiles Pvt Ltd,3386.6,2025-06-09,UPI,paid
+INV-42-000665,Infosys BPM Ltd,1648.4,2026-03-30,NEFT,paid
+INV-42-000666,Ola Fleet Technologies,18481.82,2026-05-03,UPI,paid
+INV-42-000667,Vikram Enterprises,8836.64,2026-07-07,UPI,paid
+INV-42-000668,Cred Avenue Pvt Ltd,13109.11,2026-06-21,NEFT,paid
+INV-42-000669,Lenskart Solutions Pvt Ltd,7811.45,2025-04-02,UPI,paid
+INV-42-000670,Razorpay Software Pvt Ltd,5145.61,2025-01-09,NEFT,paid
+INV-42-000671,Deepika Textiles Pvt Ltd,2161.44,2025-10-27,NEFT,paid
+INV-42-000672,Urban Company,7119.15,2026-02-04,RTGS,paid
+INV-42-000673,Zomato Ltd,12091.87,2025-10-06,UPI,paid
+INV-42-000674,Ola Fleet Technologies,3236.34,2025-07-06,UPI,paid
+INV-42-000675,BigBasket Supermarket Pvt Ltd,6352.03,2026-05-19,UPI,paid
+INV-42-000676,Zomato Ltd,8658.76,2025-04-15,UPI,paid
+INV-42-000677,BigBasket Supermarket Pvt Ltd,4561.03,2026-05-26,card,paid
+INV-42-000678,Ola Fleet Technologies,1517.46,2025-05-30,UPI,paid
+INV-42-000679,Zomato Ltd,7653.67,2025-09-14,RTGS,paid
+INV-42-000680,Swiggy Bundl Technologies,14062.27,2026-03-30,UPI,paid
+INV-42-000681,Freshworks Inc,12100.62,2025-08-02,UPI,unpaid
+INV-42-000682,Tata Consultancy Services,3878.96,2025-02-13,NEFT,paid
+INV-42-000683,Swiggy Bundl Technologies,7775.0,2026-01-05,card,paid
+INV-42-000684,Freshworks Inc,1590.79,2025-11-29,UPI,paid
+INV-42-000685,Meesho Inc,6551.61,2025-02-13,NEFT,paid
+INV-42-000686,Rahul Sharma,3730.11,2025-12-13,card,paid
+INV-42-000687,Cred Avenue Pvt Ltd,35976.63,2025-05-09,UPI,unpaid
+INV-42-000688,Urban Company,11409.17,2026-03-26,NEFT,paid
+INV-42-000689,Infosys BPM Ltd,12866.53,2025-02-10,UPI,paid
+INV-42-000690,Tata Consultancy Services,11795.56,2025-07-11,UPI,paid
+INV-42-000691,Nykaa E-Retail Pvt Ltd,33339.02,2026-07-22,UPI,paid
+INV-42-000692,BigBasket Supermarket Pvt Ltd,23762.74,2026-04-10,UPI,paid
+INV-42-000693,Infosys BPM Ltd,1909.19,2026-07-06,RTGS,paid
+INV-42-000694,Rahul Sharma,13161.46,2025-10-17,UPI,paid
+INV-42-000695,Swiggy Bundl Technologies,8420.13,2025-05-13,UPI,paid
+INV-42-000696,Swiggy Bundl Technologies,11590.79,2026-05-17,UPI,paid
+INV-42-000697,Razorpay Software Pvt Ltd,4799.85,2025-03-14,UPI,paid
+INV-42-000698,Cred Avenue Pvt Ltd,7068.63,2026-01-05,NEFT,paid
+INV-42-000699,BigBasket Supermarket Pvt Ltd,4050.76,2025-09-30,UPI,paid
+INV-42-000700,Ola Fleet Technologies,3529.5,2026-06-16,UPI,paid
+INV-42-000701,Urban Company,2945.58,2025-09-12,NEFT,paid
+INV-42-000702,Urban Company,11539.98,2026-08-14,UPI,paid
+INV-42-000703,Rahul Sharma,16471.82,2025-07-04,UPI,paid
+INV-42-000704,Cred Avenue Pvt Ltd,9235.65,2025-12-27,card,paid
+INV-42-000705,Sundaram Logistics Pvt Ltd,20051.3,2026-03-17,RTGS,paid
+INV-42-000706,Razorpay Software Pvt Ltd,9069.97,2026-07-18,card,paid
+INV-42-000707,Sundaram Logistics Pvt Ltd,7083.71,2025-02-05,card,paid
+INV-42-000708,Urban Company,5452.4,2025-11-19,UPI,paid
+INV-42-000709,Rahul Sharma,3733.08,2026-07-24,NEFT,paid
+INV-42-000710,Swiggy Bundl Technologies,7536.35,2025-09-29,UPI,paid
+INV-42-000711,Razorpay Software Pvt Ltd,13751.45,2026-02-14,NEFT,paid
+INV-42-000712,Zomato Ltd,4802.69,2026-05-15,RTGS,paid
+INV-42-000713,Meesho Inc,38368.3,2025-11-04,UPI,paid
+INV-42-000714,Infosys BPM Ltd,965.71,2026-03-21,UPI,paid
+INV-42-000715,PharmEasy Health Solutions,2403.8,2025-01-12,NEFT,paid
+INV-42-000716,Zomato Ltd,8563.88,2026-08-02,UPI,paid
+INV-42-000717,Freshworks Inc,6012.98,2026-08-13,UPI,paid
+INV-42-000718,Tata Consultancy Services,6714.22,2025-03-26,UPI,paid
+INV-42-000719,Urban Company,4404.97,2026-03-21,RTGS,paid
+INV-42-000720,Swiggy Bundl Technologies,9689.17,2026-08-09,UPI,paid
+INV-42-000721,Anand Freelance Studio,5313.33,2026-03-17,UPI,paid
+INV-42-000722,Swiggy Bundl Technologies,12835.94,2025-12-23,UPI,paid
+INV-42-000723,Cred Avenue Pvt Ltd,13375.96,2025-12-25,NEFT,paid
+INV-42-000724,BigBasket Supermarket Pvt Ltd,14970.25,2026-01-18,UPI,unpaid
+INV-42-000725,Swiggy Bundl Technologies,13209.36,2025-06-01,card,paid
+INV-42-000726,Zomato Ltd,11346.68,2026-04-06,UPI,paid
+INV-42-000727,Anand Freelance Studio,3038.81,2025-09-22,UPI,paid
+INV-42-000728,Sundaram Logistics Pvt Ltd,20088.37,2026-01-21,NEFT,paid
+INV-42-000729,Zomato Ltd,3980.12,2025-10-05,UPI,paid
+INV-42-000730,Zomato Ltd,6400.02,2026-01-04,card,paid
+INV-42-000731,PharmEasy Health Solutions,10938.55,2026-01-25,UPI,paid
+INV-42-000732,Lenskart Solutions Pvt Ltd,7640.53,2025-04-01,UPI,paid
+INV-42-000733,BigBasket Supermarket Pvt Ltd,3537.59,2025-12-08,UPI,paid
+INV-42-000734,Zomato Ltd,12600.05,2025-11-06,UPI,paid
+INV-42-000735,Zomato Ltd,9116.53,2025-06-05,UPI,paid
+INV-42-000736,Swiggy Bundl Technologies,16993.29,2025-08-21,UPI,paid
+INV-42-000737,BigBasket Supermarket Pvt Ltd,3889.19,2026-04-05,UPI,paid
+INV-42-000738,Swiggy Bundl Technologies,11152.45,2025-05-22,UPI,paid
+INV-42-000739,Urban Company,4287.4,2025-05-02,UPI,paid
+INV-42-000740,Swiggy Bundl Technologies,2789.8,2026-02-28,card,paid
+INV-42-000741,Anand Freelance Studio,31816.15,2025-10-08,UPI,paid
+INV-42-000742,Swiggy Bundl Technologies,12807.94,2025-08-25,NEFT,paid
+INV-42-000743,Zomato Ltd,7061.23,2025-07-08,card,paid
+INV-42-000744,Swiggy Bundl Technologies,4423.2,2025-07-27,RTGS,paid
+INV-42-000745,Lenskart Solutions Pvt Ltd,7918.83,2026-04-14,card,paid
+INV-42-000746,Deepika Textiles Pvt Ltd,20922.81,2025-11-17,UPI,paid
+INV-42-000747,Meesho Inc,9468.1,2025-02-09,UPI,paid
+INV-42-000748,Ola Fleet Technologies,8499.63,2025-02-10,NEFT,paid
+INV-42-000749,Cred Avenue Pvt Ltd,3035.89,2026-02-12,card,paid
+INV-42-000750,Tata Consultancy Services,3905.71,2025-02-25,NEFT,paid
+INV-42-000751,BigBasket Supermarket Pvt Ltd,10383.85,2026-05-28,UPI,paid
+INV-42-000752,Meesho Inc,10383.85,2026-05-31,card,paid
+INV-42-000753,Infosys BPM Ltd,6127.02,2026-04-10,NEFT,paid
+INV-42-000754,Freshworks Inc,7381.26,2025-06-17,NEFT,paid
+INV-42-000755,Swiggy Bundl Technologies,7167.85,2026-06-21,NEFT,paid
+INV-42-000756,Sundaram Logistics Pvt Ltd,9956.41,2026-07-18,UPI,paid
+INV-42-000757,Lenskart Solutions Pvt Ltd,10905.19,2025-06-03,UPI,paid
+INV-42-000758,Deepika Textiles Pvt Ltd,2977.39,2026-04-02,UPI,paid
+INV-42-000759,Lenskart Solutions Pvt Ltd,8044.1,2025-01-06,NEFT,paid
+INV-42-000760,Freshworks Inc,12717.5,2026-03-29,UPI,paid
+INV-42-000761,Razorpay Software Pvt Ltd,9820.58,2026-07-25,RTGS,paid
+INV-42-000762,Freshworks Inc,2820.63,2025-05-29,card,paid
+INV-42-000763,Ola Fleet Technologies,2454.74,2025-07-02,UPI,paid
+INV-42-000764,Cred Avenue Pvt Ltd,16670.69,2026-07-30,UPI,paid
+INV-42-000765,Meesho Inc,4960.36,2026-01-24,RTGS,paid
+INV-42-000766,Ola Fleet Technologies,2276.97,2025-05-05,NEFT,paid
+INV-42-000767,Urban Company,9182.96,2025-03-01,UPI,paid
+INV-42-000768,Cred Avenue Pvt Ltd,34780.63,2025-10-22,UPI,paid
+INV-42-000769,Razorpay Software Pvt Ltd,11025.22,2025-05-13,NEFT,paid
+INV-42-000770,Anand Freelance Studio,7957.24,2025-08-27,NEFT,paid
+INV-42-000771,Cred Avenue Pvt Ltd,12009.98,2025-03-11,UPI,paid
+INV-42-000772,Tata Consultancy Services,3331.85,2025-01-30,RTGS,paid
+INV-42-000773,Ola Fleet Technologies,28330.08,2026-05-01,RTGS,paid
+INV-42-000774,Nykaa E-Retail Pvt Ltd,49983.54,2026-07-04,card,paid
+INV-42-000775,Ola Fleet Technologies,8732.32,2025-11-20,NEFT,paid
+INV-42-000776,Meesho Inc,5445.23,2026-07-02,RTGS,paid
+INV-42-000777,Infosys BPM Ltd,23990.87,2025-11-12,NEFT,paid
+INV-42-000778,Zomato Ltd,6220.41,2025-09-01,UPI,paid
+INV-42-000779,Tata Consultancy Services,8492.81,2026-01-19,RTGS,paid
+INV-42-000780,Lenskart Solutions Pvt Ltd,7412.84,2026-05-10,card,paid
+INV-42-000781,Infosys BPM Ltd,6618.76,2025-11-14,RTGS,paid
+INV-42-000782,PharmEasy Health Solutions,11098.88,2025-02-07,UPI,paid
+INV-42-000783,Urban Company,16512.03,2025-03-31,UPI,paid
+INV-42-000784,Swiggy Bundl Technologies,40748.83,2025-01-24,NEFT,paid
+INV-42-000785,Cred Avenue Pvt Ltd,40748.83,2025-01-23,UPI,paid
+INV-42-000786,Tata Consultancy Services,10090.23,2025-05-01,UPI,paid
+INV-42-000787,Swiggy Bundl Technologies,40409.36,2025-04-15,UPI,paid
+INV-42-000788,Tata Consultancy Services,1246.48,2025-10-18,NEFT,paid
+INV-42-000789,Tata Consultancy Services,30278.86,2025-02-21,UPI,paid
+INV-42-000790,Rahul Sharma,7056.57,2026-04-02,NEFT,paid
+INV-42-000791,Ola Fleet Technologies,21998.41,2026-07-01,UPI,paid
+INV-42-000792,Deepika Textiles Pvt Ltd,9094.15,2026-04-25,UPI,paid
+INV-42-000793,Cred Avenue Pvt Ltd,17626.15,2025-08-18,UPI,paid
+INV-42-000794,Razorpay Software Pvt Ltd,6259.36,2025-12-05,RTGS,paid
+INV-42-000795,BigBasket Supermarket Pvt Ltd,6259.36,2025-12-04,UPI,paid
+INV-42-000796,Infosys BPM Ltd,7538.9,2025-12-23,NEFT,paid
+INV-42-000797,Swiggy Bundl Technologies,3763.3,2025-11-06,UPI,paid
+INV-42-000798,BigBasket Supermarket Pvt Ltd,12244.68,2026-05-09,UPI,paid
+INV-42-000799,Ola Fleet Technologies,15540.5,2026-03-22,NEFT,paid
+INV-42-000800,Priya Menon Consulting,1758.63,2026-08-11,RTGS,paid
+INV-42-000801,Meesho Inc,6010.18,2026-04-01,UPI,paid
+INV-42-000802,Zomato Ltd,15907.35,2026-05-22,NEFT,unpaid
+INV-42-000803,Freshworks Inc,2143.47,2025-01-01,RTGS,paid
+INV-42-000804,BigBasket Supermarket Pvt Ltd,3507.35,2026-04-03,UPI,paid
+INV-42-000805,Tata Consultancy Services,28285.91,2025-11-08,card,paid
+INV-42-000806,Priya Menon Consulting,11257.22,2026-06-07,UPI,paid
+INV-42-000807,Tata Consultancy Services,5179.2,2025-02-24,UPI,paid
+INV-42-000808,Sundaram Logistics Pvt Ltd,3499.79,2025-02-01,UPI,paid
+INV-42-000809,Infosys BPM Ltd,5141.18,2026-01-26,UPI,paid
+INV-42-000810,Freshworks Inc,2313.52,2026-01-04,RTGS,paid
+INV-42-000811,Sundaram Logistics Pvt Ltd,10974.23,2025-03-15,NEFT,paid
+INV-42-000812,PharmEasy Health Solutions,4222.61,2026-03-02,card,paid
+INV-42-000813,Priya Menon Consulting,47262.31,2026-04-11,UPI,paid
+INV-42-000814,Ola Fleet Technologies,47262.31,2026-04-12,UPI,paid
+INV-42-000815,BigBasket Supermarket Pvt Ltd,27958.91,2025-10-03,UPI,paid
+INV-42-000816,Infosys BPM Ltd,11576.11,2026-05-09,card,paid
+INV-42-000817,Anand Freelance Studio,10828.03,2025-10-14,UPI,paid
+INV-42-000818,Lenskart Solutions Pvt Ltd,2429.66,2025-03-21,NEFT,paid
+INV-42-000819,Meesho Inc,49523.18,2026-07-02,RTGS,paid
+INV-42-000820,Urban Company,6778.67,2026-03-08,UPI,paid
+INV-42-000821,Zomato Ltd,7708.88,2025-02-22,NEFT,paid
+INV-42-000822,Anand Freelance Studio,1965.49,2025-05-10,UPI,paid
+INV-42-000823,Tata Consultancy Services,3681.03,2025-09-21,UPI,paid
+INV-42-000824,Freshworks Inc,9575.07,2026-04-03,UPI,paid
+INV-42-000825,Deepika Textiles Pvt Ltd,4928.52,2026-06-25,card,paid
+INV-42-000826,Zomato Ltd,2809.1,2026-02-27,RTGS,paid
+INV-42-000827,BigBasket Supermarket Pvt Ltd,10605.92,2025-12-20,UPI,paid
+INV-42-000828,Ola Fleet Technologies,2232.74,2026-05-03,UPI,paid
+INV-42-000829,Deepika Textiles Pvt Ltd,8786.4,2026-02-04,UPI,paid
+INV-42-000830,PharmEasy Health Solutions,6337.38,2026-06-27,NEFT,paid
+INV-42-000831,Lenskart Solutions Pvt Ltd,2241.59,2025-10-07,UPI,paid
+INV-42-000832,Swiggy Bundl Technologies,11984.86,2025-09-05,NEFT,paid
+INV-42-000833,Freshworks Inc,3602.8,2025-07-04,UPI,paid
+INV-42-000834,Zomato Ltd,2609.65,2026-06-22,UPI,paid
+INV-42-000835,Freshworks Inc,5352.7,2025-01-25,NEFT,paid
+INV-42-000836,Meesho Inc,17618.03,2025-05-05,NEFT,paid
+INV-42-000837,PharmEasy Health Solutions,1536.1,2026-08-03,RTGS,paid
+INV-42-000838,Swiggy Bundl Technologies,4060.04,2025-03-19,NEFT,paid
+INV-42-000839,Tata Consultancy Services,2522.65,2025-11-28,UPI,paid
+INV-42-000840,Tata Consultancy Services,2683.59,2025-03-03,UPI,paid
+INV-42-000841,Freshworks Inc,3786.04,2026-05-19,UPI,paid
+INV-42-000842,BigBasket Supermarket Pvt Ltd,9866.29,2026-03-29,NEFT,paid
+INV-42-000843,Zomato Ltd,9386.14,2026-04-02,UPI,paid
+INV-42-000844,Cred Avenue Pvt Ltd,6638.85,2025-12-04,card,paid
+INV-42-000845,Urban Company,30747.51,2026-03-23,UPI,paid
+INV-42-000846,Ola Fleet Technologies,3437.86,2026-01-29,card,paid
+INV-42-000847,Nykaa E-Retail Pvt Ltd,40067.16,2026-01-03,UPI,paid
+INV-42-000848,Zomato Ltd,1963.53,2025-12-15,UPI,paid
+INV-42-000849,Deepika Textiles Pvt Ltd,10690.76,2025-02-10,card,paid
+INV-42-000850,Tata Consultancy Services,6701.21,2026-01-03,UPI,paid
+INV-42-000851,BigBasket Supermarket Pvt Ltd,4185.63,2026-07-08,NEFT,paid
+INV-42-000852,Urban Company,4185.63,2026-07-08,RTGS,paid
+INV-42-000853,Sundaram Logistics Pvt Ltd,13055.36,2026-07-04,UPI,paid
+INV-42-000854,Lenskart Solutions Pvt Ltd,12697.62,2025-02-16,UPI,paid
+INV-42-000855,Zomato Ltd,69454.48,2025-04-10,UPI,paid
+INV-42-000856,Meesho Inc,14031.46,2026-05-25,NEFT,paid
+INV-42-000857,Zomato Ltd,4052.79,2026-02-16,UPI,paid
+INV-42-000858,Swiggy Bundl Technologies,5264.07,2026-07-21,UPI,paid
+INV-42-000859,Meesho Inc,11239.17,2025-06-11,UPI,paid
+INV-42-000860,Zomato Ltd,4705.94,2025-10-18,UPI,paid
+INV-42-000861,Deepika Textiles Pvt Ltd,11779.62,2025-10-05,UPI,paid
+INV-42-000862,Vikram Enterprises,9675.38,2025-07-04,NEFT,paid
+INV-42-000863,Swiggy Bundl Technologies,16669.8,2026-03-05,UPI,paid
+INV-42-000864,Swiggy Bundl Technologies,8531.84,2026-01-06,card,paid
+INV-42-000865,Urban Company,6988.98,2025-08-02,UPI,unpaid
+INV-42-000866,Ola Fleet Technologies,7723.61,2025-02-14,UPI,paid
+INV-42-000867,Freshworks Inc,2975.68,2026-04-10,UPI,paid
+INV-42-000868,Lenskart Solutions Pvt Ltd,7894.38,2025-08-29,NEFT,paid
+INV-42-000869,Tata Consultancy Services,1921.11,2025-11-30,UPI,paid
+INV-42-000870,Razorpay Software Pvt Ltd,4060.35,2025-07-24,UPI,paid
+INV-42-000871,Nykaa E-Retail Pvt Ltd,6503.97,2025-05-29,UPI,paid
+INV-42-000872,Freshworks Inc,5652.05,2025-07-18,NEFT,paid
+INV-42-000873,Nykaa E-Retail Pvt Ltd,4784.66,2025-08-14,card,paid
+INV-42-000874,Ola Fleet Technologies,14023.3,2025-06-24,NEFT,paid
+INV-42-000875,Razorpay Software Pvt Ltd,6093.09,2025-08-10,NEFT,paid
+INV-42-000876,Tata Consultancy Services,31136.8,2025-09-10,UPI,paid
+INV-42-000877,Freshworks Inc,7095.15,2026-04-27,NEFT,paid
+INV-42-000878,BigBasket Supermarket Pvt Ltd,3437.52,2025-04-11,UPI,paid
+INV-42-000879,Urban Company,3311.62,2025-04-03,UPI,paid
+INV-42-000880,Swiggy Bundl Technologies,7000.03,2026-08-21,UPI,paid
+INV-42-000881,Deepika Textiles Pvt Ltd,21409.79,2026-01-15,NEFT,paid
+INV-42-000882,Zomato Ltd,11153.85,2025-12-07,UPI,paid
+INV-42-000883,Deepika Textiles Pvt Ltd,17839.01,2026-08-13,RTGS,paid
+INV-42-000884,Zomato Ltd,89967.34,2025-04-24,UPI,paid
+INV-42-000885,Zomato Ltd,4509.08,2025-03-10,NEFT,paid
+INV-42-000886,Swiggy Bundl Technologies,4658.21,2026-05-05,NEFT,paid
+INV-42-000887,PharmEasy Health Solutions,28820.68,2025-08-19,UPI,paid
+INV-42-000888,Nykaa E-Retail Pvt Ltd,7144.88,2026-01-17,UPI,paid
+INV-42-000889,Nykaa E-Retail Pvt Ltd,7144.88,2026-01-17,RTGS,paid
+INV-42-000890,Urban Company,7205.91,2025-03-09,UPI,paid
+INV-42-000891,Swiggy Bundl Technologies,6597.62,2025-03-20,UPI,paid
+INV-42-000892,Priya Menon Consulting,7743.86,2026-06-18,card,paid
+INV-42-000893,BigBasket Supermarket Pvt Ltd,7559.18,2025-01-22,UPI,paid
+INV-42-000894,PharmEasy Health Solutions,11845.25,2025-12-18,NEFT,paid
+INV-42-000895,Nykaa E-Retail Pvt Ltd,13975.16,2026-07-16,UPI,paid
+INV-42-000896,Swiggy Bundl Technologies,13896.3,2025-09-24,UPI,paid
+INV-42-000897,Tata Consultancy Services,15159.47,2025-10-19,UPI,paid
+INV-42-000898,Lenskart Solutions Pvt Ltd,12804.43,2025-06-29,RTGS,paid
+INV-42-000899,Rahul Sharma,4015.73,2025-02-12,card,paid
+INV-42-000900,BigBasket Supermarket Pvt Ltd,6290.78,2025-02-05,NEFT,paid
+INV-42-000901,BigBasket Supermarket Pvt Ltd,8094.55,2026-04-15,card,paid
+INV-42-000902,Sundaram Logistics Pvt Ltd,9364.1,2025-10-30,UPI,paid
+INV-42-000903,Vikram Enterprises,2313.93,2026-03-29,UPI,paid
+INV-42-000904,Nykaa E-Retail Pvt Ltd,10226.51,2026-01-01,UPI,paid
+INV-42-000905,Cred Avenue Pvt Ltd,9562.5,2025-10-12,UPI,paid
+INV-42-000906,PharmEasy Health Solutions,27260.62,2026-05-18,UPI,paid
+INV-42-000907,Vikram Enterprises,21742.07,2025-06-01,NEFT,paid
+INV-42-000908,Infosys BPM Ltd,2566.43,2025-11-12,card,paid
+INV-42-000909,Swiggy Bundl Technologies,15259.91,2026-03-02,RTGS,paid
+INV-42-000910,Ola Fleet Technologies,28579.37,2026-03-01,UPI,paid
+INV-42-000911,Swiggy Bundl Technologies,3433.22,2026-06-22,card,paid
+INV-42-000912,Sundaram Logistics Pvt Ltd,12503.99,2026-02-24,NEFT,paid
+INV-42-000913,Freshworks Inc,7077.26,2025-05-21,UPI,paid
+INV-42-000914,Tata Consultancy Services,7464.93,2025-11-06,RTGS,paid
+INV-42-000915,Urban Company,7646.58,2025-01-03,UPI,paid
+INV-42-000916,Cred Avenue Pvt Ltd,10308.67,2025-10-22,UPI,paid
+INV-42-000917,Rahul Sharma,5179.63,2025-10-11,UPI,paid
+INV-42-000918,Nykaa E-Retail Pvt Ltd,11391.76,2026-06-09,NEFT,paid
+INV-42-000919,Razorpay Software Pvt Ltd,9392.34,2026-04-18,card,paid
+INV-42-000920,Swiggy Bundl Technologies,4426.43,2025-12-31,UPI,paid
+INV-42-000921,Cred Avenue Pvt Ltd,3603.12,2025-07-07,RTGS,paid
+INV-42-000922,Swiggy Bundl Technologies,5428.68,2025-11-05,UPI,paid
+INV-42-000923,Infosys BPM Ltd,8795.24,2025-05-28,UPI,paid
+INV-42-000924,Infosys BPM Ltd,7821.7,2025-06-16,UPI,paid
+INV-42-000925,Freshworks Inc,22898.66,2026-06-23,RTGS,paid
+INV-42-000926,Priya Menon Consulting,18066.38,2025-03-20,UPI,paid
+INV-42-000927,Zomato Ltd,3794.96,2025-05-23,RTGS,paid
+INV-42-000928,Meesho Inc,15041.17,2025-11-08,UPI,paid
+INV-42-000929,Swiggy Bundl Technologies,15041.17,2025-11-11,UPI,paid
+INV-42-000930,Rahul Sharma,5562.0,2025-03-22,UPI,paid
+INV-42-000931,Swiggy Bundl Technologies,1918.81,2026-03-18,UPI,paid
+INV-42-000932,Ola Fleet Technologies,8284.34,2025-05-02,card,paid
+INV-42-000933,Tata Consultancy Services,1884.34,2025-07-24,UPI,paid
+INV-42-000934,Swiggy Bundl Technologies,23447.03,2025-06-14,card,paid
+INV-42-000935,Meesho Inc,8169.28,2026-08-16,RTGS,paid
+INV-42-000936,Priya Menon Consulting,7120.09,2025-07-09,UPI,paid
+INV-42-000937,Freshworks Inc,5645.93,2025-08-08,UPI,paid
+INV-42-000938,Deepika Textiles Pvt Ltd,4736.81,2026-06-17,UPI,paid
+INV-42-000939,Priya Menon Consulting,8883.44,2025-12-02,UPI,paid
+INV-42-000940,BigBasket Supermarket Pvt Ltd,25982.56,2026-03-31,UPI,paid
+INV-42-000941,Sundaram Logistics Pvt Ltd,3727.26,2026-05-03,card,paid
+INV-42-000942,Zomato Ltd,18398.91,2026-02-10,UPI,paid
+INV-42-000943,Swiggy Bundl Technologies,3233.51,2025-04-15,NEFT,paid
+INV-42-000944,Swiggy Bundl Technologies,6230.83,2025-07-25,NEFT,paid
+INV-42-000945,Swiggy Bundl Technologies,6230.83,2025-07-25,RTGS,paid
+INV-42-000946,Tata Consultancy Services,17826.35,2025-10-07,RTGS,paid
+INV-42-000947,Vikram Enterprises,4160.68,2026-02-19,card,paid
+INV-42-000948,Swiggy Bundl Technologies,7481.64,2026-05-17,UPI,paid
+INV-42-000949,Swiggy Bundl Technologies,26386.5,2025-12-01,UPI,paid
+INV-42-000950,Swiggy Bundl Technologies,59467.49,2025-07-26,UPI,paid
+INV-42-000951,Nykaa E-Retail Pvt Ltd,11429.14,2026-07-08,UPI,paid
+INV-42-000952,Zomato Ltd,2291.08,2026-01-28,UPI,unpaid
+INV-42-000953,BigBasket Supermarket Pvt Ltd,24726.38,2025-06-18,UPI,paid
+INV-42-000954,Priya Menon Consulting,7928.76,2026-05-18,NEFT,paid
+INV-42-000955,Meesho Inc,6276.96,2026-06-03,UPI,paid
+INV-42-000956,Meesho Inc,4522.34,2025-10-19,UPI,paid
+INV-42-000957,Zomato Ltd,18014.9,2026-08-21,UPI,paid
+INV-42-000958,Infosys BPM Ltd,3135.87,2026-01-01,UPI,paid
+INV-42-000959,Cred Avenue Pvt Ltd,3135.87,2025-12-29,UPI,paid
+INV-42-000960,Meesho Inc,5142.42,2025-01-21,UPI,paid
+INV-42-000961,Cred Avenue Pvt Ltd,6331.67,2026-03-08,UPI,paid
+INV-42-000962,Meesho Inc,27045.97,2026-02-04,UPI,paid
+INV-42-000963,Nykaa E-Retail Pvt Ltd,11744.05,2026-05-24,UPI,paid
+INV-42-000964,Infosys BPM Ltd,10705.03,2026-03-23,UPI,paid
+INV-42-000965,Sundaram Logistics Pvt Ltd,4443.76,2025-11-01,card,paid
+INV-42-000966,Razorpay Software Pvt Ltd,12246.44,2026-08-16,UPI,paid
+INV-42-000967,Zomato Ltd,19657.44,2025-08-03,UPI,paid
+INV-42-000968,Ola Fleet Technologies,8186.42,2026-07-07,UPI,paid
+INV-42-000969,Razorpay Software Pvt Ltd,8710.2,2026-07-15,UPI,paid
+INV-42-000970,Priya Menon Consulting,30437.23,2025-08-07,NEFT,paid
+INV-42-000971,Vikram Enterprises,3012.18,2026-03-21,card,paid
+INV-42-000972,Zomato Ltd,3429.36,2025-09-04,UPI,paid
+INV-42-000973,Tata Consultancy Services,6999.45,2025-03-07,NEFT,paid
+INV-42-000974,Razorpay Software Pvt Ltd,5476.94,2025-08-30,UPI,paid
+INV-42-000975,Freshworks Inc,834.16,2026-04-21,UPI,paid
+INV-42-000976,BigBasket Supermarket Pvt Ltd,17762.69,2025-10-07,UPI,unpaid
+INV-42-000977,Ola Fleet Technologies,10908.58,2025-02-13,card,paid
+INV-42-000978,Zomato Ltd,26396.32,2026-02-21,card,paid
+INV-42-000979,PharmEasy Health Solutions,2999.59,2025-05-24,UPI,paid
+INV-42-000980,Nykaa E-Retail Pvt Ltd,1416.1,2026-08-18,card,paid
+INV-42-000981,Razorpay Software Pvt Ltd,17664.09,2025-05-06,RTGS,paid
+INV-42-000982,Ola Fleet Technologies,53451.88,2025-08-30,card,paid
+INV-42-000983,Swiggy Bundl Technologies,4409.6,2026-02-23,UPI,paid
+INV-42-000984,Nykaa E-Retail Pvt Ltd,4955.66,2025-09-10,card,paid
+INV-42-000985,Vikram Enterprises,3850.84,2025-11-12,UPI,paid
+INV-42-000986,Meesho Inc,38594.74,2025-02-25,NEFT,unpaid
+INV-42-000987,Razorpay Software Pvt Ltd,9116.68,2026-01-07,card,paid
+INV-42-000988,Urban Company,3905.13,2025-01-09,card,paid
+INV-42-000989,Sundaram Logistics Pvt Ltd,5351.36,2025-08-30,UPI,paid
+INV-42-000990,Swiggy Bundl Technologies,7056.6,2026-02-21,RTGS,paid
+INV-42-000991,Zomato Ltd,18936.44,2026-02-27,card,paid
+INV-42-000992,BigBasket Supermarket Pvt Ltd,3985.4,2025-03-09,UPI,paid
+INV-42-000993,Ola Fleet Technologies,15859.12,2025-01-29,RTGS,paid
+INV-42-000994,Freshworks Inc,6352.04,2025-01-04,UPI,paid
+INV-42-000995,Tata Consultancy Services,18638.25,2025-05-14,RTGS,paid
+INV-42-000996,Ola Fleet Technologies,4747.83,2025-05-17,UPI,paid
+INV-42-000997,Ola Fleet Technologies,14430.76,2026-03-01,UPI,paid
+INV-42-000998,Infosys BPM Ltd,26978.74,2025-01-22,card,paid
+INV-42-000999,Cred Avenue Pvt Ltd,66088.47,2026-04-19,UPI,paid
+INV-42-001000,Swiggy Bundl Technologies,6200.87,2025-09-24,UPI,paid
+INV-42-001001,Freshworks Inc,9002.95,2026-06-23,UPI,unpaid
+INV-42-001002,BigBasket Supermarket Pvt Ltd,10982.82,2025-07-28,UPI,paid
+INV-42-001003,Ola Fleet Technologies,10982.82,2025-07-31,UPI,paid
+INV-42-001004,Infosys BPM Ltd,7089.17,2025-08-09,card,paid
+INV-42-001005,Rahul Sharma,6547.33,2025-05-30,UPI,paid
+INV-42-001006,Zomato Ltd,3509.32,2026-02-12,NEFT,paid
+INV-42-001007,Priya Menon Consulting,13228.38,2025-04-08,NEFT,paid
+INV-42-001008,Vikram Enterprises,7559.0,2025-02-16,UPI,paid
+INV-42-001009,Infosys BPM Ltd,2965.96,2025-12-14,card,paid
+INV-42-001010,Tata Consultancy Services,8558.97,2025-04-30,UPI,paid
+INV-42-001011,PharmEasy Health Solutions,16836.09,2025-09-28,UPI,paid
+INV-42-001012,Swiggy Bundl Technologies,16628.87,2025-06-04,NEFT,paid
+INV-42-001013,Cred Avenue Pvt Ltd,7228.33,2025-02-25,UPI,paid
+INV-42-001014,Razorpay Software Pvt Ltd,14246.44,2026-05-22,UPI,paid
+INV-42-001015,Priya Menon Consulting,7745.98,2025-06-01,UPI,paid
+INV-42-001016,PharmEasy Health Solutions,4479.06,2026-06-05,RTGS,paid
+INV-42-001017,Rahul Sharma,3711.15,2025-04-07,card,paid
+INV-42-001018,Rahul Sharma,12840.56,2025-04-19,RTGS,paid
+INV-42-001019,Zomato Ltd,36304.87,2026-04-10,NEFT,paid
+INV-42-001020,Cred Avenue Pvt Ltd,6152.18,2026-04-09,UPI,paid
+INV-42-001021,Anand Freelance Studio,41737.72,2025-08-05,card,paid
+INV-42-001022,Tata Consultancy Services,48862.52,2026-07-15,card,paid
+INV-42-001023,BigBasket Supermarket Pvt Ltd,15520.39,2026-02-17,UPI,paid
+INV-42-001024,Cred Avenue Pvt Ltd,2564.46,2026-03-19,NEFT,paid
+INV-42-001025,Lenskart Solutions Pvt Ltd,10397.81,2025-04-09,RTGS,paid
+INV-42-001026,Nykaa E-Retail Pvt Ltd,25249.96,2026-07-31,NEFT,paid
+INV-42-001027,BigBasket Supermarket Pvt Ltd,6310.46,2026-03-13,UPI,paid
+INV-42-001028,Sundaram Logistics Pvt Ltd,17554.44,2025-06-08,card,paid
+INV-42-001029,Cred Avenue Pvt Ltd,2421.39,2025-03-23,card,paid
+INV-42-001030,Swiggy Bundl Technologies,24482.62,2025-10-30,NEFT,paid
+INV-42-001031,Lenskart Solutions Pvt Ltd,8453.41,2026-02-27,UPI,paid
+INV-42-001032,Meesho Inc,4860.95,2025-03-25,RTGS,paid
+INV-42-001033,Anand Freelance Studio,6197.84,2026-02-07,UPI,paid
+INV-42-001034,Priya Menon Consulting,2860.75,2026-04-06,NEFT,paid
+INV-42-001035,Sundaram Logistics Pvt Ltd,16405.8,2025-07-09,UPI,paid
+INV-42-001036,Freshworks Inc,7225.53,2026-05-14,UPI,paid
+INV-42-001037,Meesho Inc,32334.14,2025-03-31,UPI,paid
+INV-42-001038,Swiggy Bundl Technologies,16333.43,2025-05-29,NEFT,paid
+INV-42-001039,Cred Avenue Pvt Ltd,14092.92,2025-11-05,RTGS,paid
+INV-42-001040,BigBasket Supermarket Pvt Ltd,15749.95,2026-05-12,UPI,paid
+INV-42-001041,Meesho Inc,2776.74,2026-02-06,UPI,paid
+INV-42-001042,Cred Avenue Pvt Ltd,62768.32,2026-07-22,card,paid
+INV-42-001043,BigBasket Supermarket Pvt Ltd,8733.14,2026-05-15,UPI,paid
+INV-42-001044,Zomato Ltd,10551.83,2025-10-02,card,paid
+INV-42-001045,Nykaa E-Retail Pvt Ltd,7102.31,2025-12-22,UPI,paid
+INV-42-001046,Swiggy Bundl Technologies,15647.09,2026-03-25,UPI,paid
+INV-42-001047,Lenskart Solutions Pvt Ltd,4341.02,2026-04-25,UPI,paid
+INV-42-001048,Priya Menon Consulting,22181.2,2026-04-29,RTGS,paid
+INV-42-001049,Cred Avenue Pvt Ltd,2122.76,2026-05-10,UPI,paid
+INV-42-001050,Meesho Inc,2821.15,2026-05-21,UPI,paid
+INV-42-001051,Zomato Ltd,6233.37,2026-05-31,UPI,paid
+INV-42-001052,BigBasket Supermarket Pvt Ltd,9960.95,2025-08-18,UPI,paid
+INV-42-001053,Deepika Textiles Pvt Ltd,49465.75,2026-07-25,UPI,unpaid
+INV-42-001054,Rahul Sharma,8706.99,2025-02-21,card,paid
+INV-42-001055,BigBasket Supermarket Pvt Ltd,14665.07,2025-04-19,RTGS,paid
+INV-42-001056,PharmEasy Health Solutions,1988.32,2026-06-04,UPI,paid
+INV-42-001057,PharmEasy Health Solutions,4561.04,2026-06-03,UPI,paid
+INV-42-001058,Swiggy Bundl Technologies,2531.6,2025-05-06,RTGS,paid
+INV-42-001059,BigBasket Supermarket Pvt Ltd,14050.36,2026-05-01,UPI,paid
+INV-42-001060,Swiggy Bundl Technologies,3628.63,2026-01-05,NEFT,paid
+INV-42-001061,Deepika Textiles Pvt Ltd,10048.15,2025-05-22,RTGS,paid
+INV-42-001062,BigBasket Supermarket Pvt Ltd,5263.56,2026-01-06,card,paid
+INV-42-001063,Deepika Textiles Pvt Ltd,16255.28,2025-03-13,UPI,paid
+INV-42-001064,Sundaram Logistics Pvt Ltd,26308.03,2025-06-04,card,paid
+INV-42-001065,Cred Avenue Pvt Ltd,21374.73,2026-06-17,card,paid
+INV-42-001066,PharmEasy Health Solutions,94052.91,2025-11-18,card,paid
+INV-42-001067,Tata Consultancy Services,13896.75,2026-02-18,UPI,paid
+INV-42-001068,Urban Company,29127.1,2025-12-20,card,paid
+INV-42-001069,BigBasket Supermarket Pvt Ltd,4150.02,2025-02-07,UPI,paid
+INV-42-001070,Anand Freelance Studio,27532.17,2026-07-08,UPI,paid
+INV-42-001071,Urban Company,9279.75,2025-06-13,UPI,paid
+INV-42-001072,Urban Company,879.41,2025-11-08,NEFT,paid
+INV-42-001073,Swiggy Bundl Technologies,879.41,2025-11-09,UPI,paid
+INV-42-001074,Cred Avenue Pvt Ltd,6399.97,2025-05-08,UPI,paid
+INV-42-001075,Zomato Ltd,5852.08,2026-08-19,NEFT,paid
+INV-42-001076,Cred Avenue Pvt Ltd,9201.1,2025-12-25,UPI,paid
+INV-42-001077,Deepika Textiles Pvt Ltd,9201.1,2025-12-27,NEFT,paid
+INV-42-001078,Priya Menon Consulting,8436.81,2025-12-02,UPI,paid
+INV-42-001079,Deepika Textiles Pvt Ltd,7460.23,2026-03-12,RTGS,paid
+INV-42-001080,Zomato Ltd,25471.17,2026-04-02,UPI,paid
+INV-42-001081,BigBasket Supermarket Pvt Ltd,12229.98,2025-09-28,NEFT,paid
+INV-42-001082,Sundaram Logistics Pvt Ltd,14966.67,2025-06-16,UPI,paid
+INV-42-001083,Priya Menon Consulting,1168.4,2026-06-26,UPI,paid
+INV-42-001084,Nykaa E-Retail Pvt Ltd,10564.53,2025-05-04,UPI,paid
+INV-42-001085,Urban Company,3466.46,2026-01-19,UPI,paid
+INV-42-001086,Ola Fleet Technologies,2108.24,2025-02-19,card,paid
+INV-42-001087,Tata Consultancy Services,1237.01,2025-01-03,UPI,paid
+INV-42-001088,PharmEasy Health Solutions,6014.46,2026-08-03,UPI,paid
+INV-42-001089,Infosys BPM Ltd,4196.08,2026-04-17,RTGS,paid
+INV-42-001090,Swiggy Bundl Technologies,11924.15,2026-02-24,UPI,paid
+INV-42-001091,Infosys BPM Ltd,7175.43,2025-04-01,card,paid
+INV-42-001092,Zomato Ltd,7175.43,2025-04-03,NEFT,paid
+INV-42-001093,Tata Consultancy Services,15205.42,2025-03-29,UPI,paid
+INV-42-001094,Meesho Inc,1625.58,2025-07-13,RTGS,paid
+INV-42-001095,Zomato Ltd,13656.07,2025-01-20,UPI,paid
+INV-42-001096,Ola Fleet Technologies,28129.65,2025-03-28,RTGS,paid
+INV-42-001097,BigBasket Supermarket Pvt Ltd,2191.96,2026-03-01,UPI,paid
+INV-42-001098,Infosys BPM Ltd,8868.52,2025-07-07,UPI,paid
+INV-42-001099,Tata Consultancy Services,6820.46,2025-11-30,UPI,paid
+INV-42-001100,Tata Consultancy Services,18356.08,2025-05-04,UPI,paid
+INV-42-001101,Meesho Inc,3540.49,2026-06-01,UPI,paid
+INV-42-001102,Zomato Ltd,7393.82,2026-05-11,UPI,paid
+INV-42-001103,Lenskart Solutions Pvt Ltd,9396.38,2026-07-23,NEFT,paid
+INV-42-001104,Meesho Inc,4710.03,2026-05-28,UPI,paid
+INV-42-001105,Infosys BPM Ltd,8960.41,2026-07-23,UPI,unpaid
+INV-42-001106,BigBasket Supermarket Pvt Ltd,16572.5,2025-06-21,UPI,paid
+INV-42-001107,Nykaa E-Retail Pvt Ltd,20772.69,2026-01-25,card,paid
+INV-42-001108,Freshworks Inc,16846.52,2025-06-15,NEFT,paid
+INV-42-001109,Tata Consultancy Services,6739.14,2025-05-24,NEFT,paid
+INV-42-001110,PharmEasy Health Solutions,3289.29,2025-11-22,card,unpaid
+INV-42-001111,Cred Avenue Pvt Ltd,2870.61,2025-11-26,UPI,paid
+INV-42-001112,Meesho Inc,5609.96,2025-06-27,UPI,paid
+INV-42-001113,Priya Menon Consulting,19484.84,2025-03-21,UPI,paid
+INV-42-001114,Ola Fleet Technologies,19484.84,2025-03-24,UPI,paid
+INV-42-001115,Sundaram Logistics Pvt Ltd,5020.33,2026-02-01,UPI,paid
+INV-42-001116,Priya Menon Consulting,1973.29,2025-07-17,UPI,paid
+INV-42-001117,Zomato Ltd,6366.32,2025-11-07,RTGS,paid
+INV-42-001118,Sundaram Logistics Pvt Ltd,7805.9,2025-08-03,UPI,paid
+INV-42-001119,Cred Avenue Pvt Ltd,11152.41,2026-08-02,UPI,paid
+INV-42-001120,Anand Freelance Studio,13187.39,2025-01-24,card,paid
+INV-42-001121,Urban Company,3404.19,2026-04-10,UPI,paid
+INV-42-001122,Rahul Sharma,39540.13,2025-11-27,UPI,paid
+INV-42-001123,Tata Consultancy Services,13650.28,2026-01-06,UPI,unpaid
+INV-42-001124,Anand Freelance Studio,8718.35,2026-02-06,UPI,paid
+INV-42-001125,Meesho Inc,29177.15,2025-03-18,card,paid
+INV-42-001126,Tata Consultancy Services,2245.64,2025-01-25,NEFT,paid
+INV-42-001127,Tata Consultancy Services,5260.9,2025-09-02,card,paid
+INV-42-001128,Ola Fleet Technologies,8432.09,2025-03-16,RTGS,paid
+INV-42-001129,Deepika Textiles Pvt Ltd,12831.17,2025-03-29,card,paid
+INV-42-001130,Infosys BPM Ltd,10948.22,2025-04-15,NEFT,paid
+INV-42-001131,Zomato Ltd,10948.22,2025-04-16,RTGS,paid
+INV-42-001132,Meesho Inc,2940.95,2025-01-11,UPI,paid
+INV-42-001133,BigBasket Supermarket Pvt Ltd,9961.85,2025-01-27,UPI,paid
+INV-42-001134,Freshworks Inc,1780.56,2025-03-11,NEFT,paid
+INV-42-001135,Lenskart Solutions Pvt Ltd,2500.2,2025-12-30,UPI,paid
+INV-42-001136,BigBasket Supermarket Pvt Ltd,1148.52,2025-03-03,UPI,paid
+INV-42-001137,Urban Company,11669.06,2026-08-21,card,paid
+INV-42-001138,Swiggy Bundl Technologies,5169.06,2026-01-13,card,paid
+INV-42-001139,Cred Avenue Pvt Ltd,3946.02,2026-07-27,card,paid
+INV-42-001140,Freshworks Inc,15818.04,2026-05-03,NEFT,paid
+INV-42-001141,Swiggy Bundl Technologies,5798.22,2025-02-13,UPI,paid
+INV-42-001142,Cred Avenue Pvt Ltd,14174.9,2025-08-07,UPI,paid
+INV-42-001143,Deepika Textiles Pvt Ltd,14174.9,2025-08-09,RTGS,paid
+INV-42-001144,Infosys BPM Ltd,3344.27,2025-01-07,UPI,paid
+INV-42-001145,Zomato Ltd,3506.96,2025-07-19,NEFT,paid
+INV-42-001146,Infosys BPM Ltd,5288.1,2025-09-26,NEFT,paid
+INV-42-001147,PharmEasy Health Solutions,5288.1,2025-09-25,UPI,paid
+INV-42-001148,Freshworks Inc,5381.92,2025-05-21,UPI,paid
+INV-42-001149,Swiggy Bundl Technologies,21353.03,2025-09-03,UPI,paid
+INV-42-001150,Freshworks Inc,9965.26,2026-03-21,card,paid
+INV-42-001151,Swiggy Bundl Technologies,3768.48,2026-01-19,UPI,paid
+INV-42-001152,Cred Avenue Pvt Ltd,20460.44,2025-10-29,RTGS,paid
+INV-42-001153,Zomato Ltd,17211.74,2025-03-25,RTGS,paid
+INV-42-001154,Meesho Inc,3501.09,2026-06-06,UPI,paid
+INV-42-001155,Freshworks Inc,16177.48,2026-05-10,NEFT,paid
+INV-42-001156,Tata Consultancy Services,1163.91,2026-08-21,NEFT,paid
+INV-42-001157,Lenskart Solutions Pvt Ltd,7356.67,2025-08-12,UPI,paid
+INV-42-001158,Meesho Inc,23725.48,2026-07-18,UPI,paid
+INV-42-001159,Zomato Ltd,23725.48,2026-07-21,UPI,paid
+INV-42-001160,Meesho Inc,7033.23,2026-03-13,UPI,paid
+INV-42-001161,Infosys BPM Ltd,8060.91,2025-01-26,UPI,paid
+INV-42-001162,Cred Avenue Pvt Ltd,6392.63,2026-05-29,UPI,paid
+INV-42-001163,Deepika Textiles Pvt Ltd,4555.16,2025-12-04,UPI,paid
+INV-42-001164,Deepika Textiles Pvt Ltd,15662.05,2025-05-22,card,paid
+INV-42-001165,Anand Freelance Studio,1418.86,2026-02-18,card,paid
+INV-42-001166,Deepika Textiles Pvt Ltd,16823.32,2025-08-03,UPI,paid
+INV-42-001167,Deepika Textiles Pvt Ltd,33976.55,2026-04-18,UPI,paid
+INV-42-001168,PharmEasy Health Solutions,1220.17,2026-03-04,UPI,paid
+INV-42-001169,Urban Company,5126.09,2025-05-12,UPI,paid
+INV-42-001170,Nykaa E-Retail Pvt Ltd,11849.55,2025-08-19,UPI,paid
+INV-42-001171,BigBasket Supermarket Pvt Ltd,20545.79,2025-11-30,NEFT,paid
+INV-42-001172,Zomato Ltd,9771.91,2026-01-26,UPI,paid
+INV-42-001173,Urban Company,4722.79,2026-08-07,card,paid
+INV-42-001174,Tata Consultancy Services,1702.04,2025-07-01,UPI,paid
+INV-42-001175,Nykaa E-Retail Pvt Ltd,21985.59,2025-08-27,UPI,paid
+INV-42-001176,BigBasket Supermarket Pvt Ltd,3027.37,2025-03-12,UPI,paid
+INV-42-001177,Freshworks Inc,18557.73,2026-05-02,UPI,paid
+INV-42-001178,Vikram Enterprises,18557.73,2026-05-03,NEFT,paid
+INV-42-001179,Rahul Sharma,3610.27,2026-06-23,UPI,paid
+INV-42-001180,Nykaa E-Retail Pvt Ltd,7631.65,2025-04-04,UPI,paid
+INV-42-001181,BigBasket Supermarket Pvt Ltd,23684.84,2025-11-01,UPI,paid
+INV-42-001182,PharmEasy Health Solutions,6905.93,2026-03-19,UPI,paid
+INV-42-001183,Freshworks Inc,9649.77,2025-02-14,UPI,paid
+INV-42-001184,Swiggy Bundl Technologies,9649.77,2025-02-17,card,paid
+INV-42-001185,Rahul Sharma,4558.61,2025-05-05,card,paid
+INV-42-001186,Swiggy Bundl Technologies,14921.97,2026-04-07,UPI,paid
+INV-42-001187,Zomato Ltd,13412.17,2025-12-18,NEFT,paid
+INV-42-001188,BigBasket Supermarket Pvt Ltd,21102.34,2026-04-21,UPI,paid
+INV-42-001189,Urban Company,15303.39,2025-01-19,NEFT,paid
+INV-42-001190,Swiggy Bundl Technologies,12686.66,2025-01-12,NEFT,paid
+INV-42-001191,Infosys BPM Ltd,11439.16,2025-02-18,RTGS,paid
+INV-42-001192,Cred Avenue Pvt Ltd,6347.62,2025-02-23,NEFT,paid
+INV-42-001193,Infosys BPM Ltd,4386.27,2025-09-02,UPI,paid
+INV-42-001194,Zomato Ltd,10900.77,2025-04-09,RTGS,paid
+INV-42-001195,Swiggy Bundl Technologies,3361.77,2025-04-21,RTGS,paid
+INV-42-001196,Cred Avenue Pvt Ltd,151917.4,2026-02-09,card,paid
+INV-42-001197,Freshworks Inc,6198.31,2026-02-16,NEFT,paid
+INV-42-001198,Freshworks Inc,2290.45,2025-10-13,NEFT,paid
+INV-42-001199,Zomato Ltd,4349.74,2026-05-27,card,paid
+INV-42-001200,Urban Company,20765.17,2025-05-17,UPI,paid
+INV-42-001201,PharmEasy Health Solutions,1220.1,2026-05-09,UPI,paid
+INV-42-001202,Lenskart Solutions Pvt Ltd,6895.91,2025-08-27,UPI,paid
+INV-42-001203,Zomato Ltd,3789.0,2026-03-15,RTGS,paid
+INV-42-001204,Zomato Ltd,6152.24,2025-06-05,UPI,paid
+INV-42-001205,Razorpay Software Pvt Ltd,3990.63,2025-05-18,UPI,paid
+INV-42-001206,Deepika Textiles Pvt Ltd,34085.56,2025-10-23,RTGS,paid
+INV-42-001207,Anand Freelance Studio,5968.48,2025-02-25,card,paid
+INV-42-001208,Razorpay Software Pvt Ltd,22725.67,2026-01-26,UPI,paid
+INV-42-001209,Cred Avenue Pvt Ltd,2159.57,2025-07-17,UPI,paid
+INV-42-001210,Vikram Enterprises,4025.35,2026-07-17,RTGS,unpaid
+INV-42-001211,Razorpay Software Pvt Ltd,2847.28,2025-09-08,UPI,paid
+INV-42-001212,Tata Consultancy Services,4476.22,2026-01-04,UPI,paid
+INV-42-001213,BigBasket Supermarket Pvt Ltd,8356.77,2025-06-09,RTGS,paid
+INV-42-001214,Zomato Ltd,2311.44,2025-11-04,NEFT,paid
+INV-42-001215,Anand Freelance Studio,4029.19,2026-04-10,UPI,paid
+INV-42-001216,Nykaa E-Retail Pvt Ltd,3284.55,2025-07-20,UPI,paid
+INV-42-001217,Zomato Ltd,8135.02,2026-05-19,UPI,paid
+INV-42-001218,BigBasket Supermarket Pvt Ltd,14869.76,2025-11-12,NEFT,paid
+INV-42-001219,BigBasket Supermarket Pvt Ltd,5381.02,2025-07-18,RTGS,paid
+INV-42-001220,Deepika Textiles Pvt Ltd,14709.95,2026-05-16,NEFT,paid
+INV-42-001221,Zomato Ltd,5958.73,2025-09-10,UPI,paid
+INV-42-001222,Ola Fleet Technologies,15136.39,2025-06-01,UPI,paid
+INV-42-001223,Rahul Sharma,3122.67,2025-06-15,UPI,paid
+INV-42-001224,Cred Avenue Pvt Ltd,23590.65,2025-03-24,UPI,paid
+INV-42-001225,BigBasket Supermarket Pvt Ltd,16017.58,2025-11-06,UPI,paid
+INV-42-001226,PharmEasy Health Solutions,13353.29,2025-04-02,UPI,paid
+INV-42-001227,Ola Fleet Technologies,15736.11,2025-08-03,card,paid
+INV-42-001228,Tata Consultancy Services,15337.73,2025-10-23,NEFT,paid
+INV-42-001229,Infosys BPM Ltd,12002.05,2025-07-06,UPI,paid
+INV-42-001230,Meesho Inc,4650.0,2025-07-07,RTGS,paid
+INV-42-001231,Sundaram Logistics Pvt Ltd,22604.83,2025-04-22,card,paid
+INV-42-001232,Tata Consultancy Services,6241.49,2025-12-17,UPI,paid
+INV-42-001233,Nykaa E-Retail Pvt Ltd,27198.61,2025-02-12,UPI,paid
+INV-42-001234,Zomato Ltd,7613.36,2026-03-16,UPI,paid
+INV-42-001235,Infosys BPM Ltd,5568.15,2026-01-05,NEFT,paid
+INV-42-001236,Zomato Ltd,5814.45,2025-04-13,UPI,paid
+INV-42-001237,BigBasket Supermarket Pvt Ltd,21297.45,2025-09-12,UPI,paid
+INV-42-001238,Cred Avenue Pvt Ltd,7591.26,2025-07-12,UPI,paid
+INV-42-001239,Vikram Enterprises,3828.91,2025-02-16,card,paid
+INV-42-001240,Rahul Sharma,3647.97,2025-03-25,UPI,paid
+INV-42-001241,Vikram Enterprises,7274.24,2025-04-13,NEFT,paid
+INV-42-001242,Freshworks Inc,2571.02,2026-08-09,RTGS,paid
+INV-42-001243,Zomato Ltd,8074.7,2026-07-16,card,paid
+INV-42-001244,Lenskart Solutions Pvt Ltd,31469.95,2026-07-08,UPI,paid
+INV-42-001245,Deepika Textiles Pvt Ltd,10623.95,2026-03-22,card,paid
+INV-42-001246,Lenskart Solutions Pvt Ltd,5247.42,2025-10-15,UPI,paid
+INV-42-001247,Nykaa E-Retail Pvt Ltd,2420.58,2026-05-19,UPI,paid
+INV-42-001248,PharmEasy Health Solutions,12539.4,2026-01-22,card,paid
+INV-42-001249,Anand Freelance Studio,24483.66,2026-03-24,RTGS,paid
+INV-42-001250,Swiggy Bundl Technologies,12422.88,2026-01-12,UPI,paid
+INV-42-001251,Infosys BPM Ltd,13776.96,2026-07-03,UPI,paid
+INV-42-001252,BigBasket Supermarket Pvt Ltd,64124.7,2025-05-10,UPI,paid
+INV-42-001253,Freshworks Inc,5709.68,2026-04-17,UPI,paid
+INV-42-001254,Tata Consultancy Services,2087.69,2025-05-31,NEFT,paid
+INV-42-001255,Rahul Sharma,38797.49,2025-11-24,UPI,paid
+INV-42-001256,Swiggy Bundl Technologies,6662.64,2026-05-22,UPI,unpaid
+INV-42-001257,Zomato Ltd,14260.88,2025-08-04,RTGS,paid
+INV-42-001258,Freshworks Inc,13372.0,2025-06-13,card,paid
+INV-42-001259,Tata Consultancy Services,15575.29,2026-06-25,NEFT,paid
+INV-42-001260,Lenskart Solutions Pvt Ltd,16106.48,2025-04-10,UPI,paid
+INV-42-001261,Meesho Inc,14713.63,2025-06-17,NEFT,paid
+INV-42-001262,Nykaa E-Retail Pvt Ltd,17607.72,2025-07-20,NEFT,paid
+INV-42-001263,Anand Freelance Studio,11652.2,2025-06-01,UPI,paid
+INV-42-001264,Infosys BPM Ltd,7186.74,2026-02-18,UPI,paid
+INV-42-001265,BigBasket Supermarket Pvt Ltd,3810.99,2025-06-26,NEFT,paid
+INV-42-001266,Priya Menon Consulting,30800.47,2026-04-20,card,paid
+INV-42-001267,Tata Consultancy Services,11776.44,2025-05-03,UPI,paid
+INV-42-001268,Cred Avenue Pvt Ltd,18282.75,2026-08-10,card,paid
+INV-42-001269,Priya Menon Consulting,1741.28,2026-01-29,UPI,paid
+INV-42-001270,BigBasket Supermarket Pvt Ltd,9158.63,2025-03-07,NEFT,paid
+INV-42-001271,Urban Company,4971.95,2026-02-08,NEFT,paid
+INV-42-001272,Ola Fleet Technologies,7811.06,2026-08-22,UPI,paid
+INV-42-001273,Cred Avenue Pvt Ltd,13278.09,2025-05-01,UPI,paid
+INV-42-001274,Freshworks Inc,12376.21,2025-05-06,UPI,paid
+INV-42-001275,Cred Avenue Pvt Ltd,3441.82,2025-02-05,UPI,paid
+INV-42-001276,Tata Consultancy Services,4086.0,2025-05-24,NEFT,paid
+INV-42-001277,Urban Company,25802.77,2026-07-06,UPI,paid
+INV-42-001278,Rahul Sharma,4876.27,2026-07-20,UPI,paid
+INV-42-001279,Swiggy Bundl Technologies,9936.98,2025-09-19,UPI,paid
+INV-42-001280,Swiggy Bundl Technologies,2374.43,2026-03-12,card,paid
+INV-42-001281,Freshworks Inc,10655.34,2025-07-17,NEFT,paid
+INV-42-001282,Cred Avenue Pvt Ltd,8275.93,2025-06-07,UPI,paid
+INV-42-001283,Infosys BPM Ltd,20995.55,2025-10-04,UPI,paid
+INV-42-001284,Urban Company,5897.05,2025-10-07,UPI,paid
+INV-42-001285,Tata Consultancy Services,13333.62,2026-06-24,NEFT,paid
+INV-42-001286,Ola Fleet Technologies,7831.99,2026-08-09,card,paid
+INV-42-001287,Meesho Inc,16955.87,2026-02-03,UPI,paid
+INV-42-001288,Rahul Sharma,21903.52,2026-02-17,UPI,paid
+INV-42-001289,Zomato Ltd,8306.56,2025-05-10,UPI,paid
+INV-42-001290,Razorpay Software Pvt Ltd,48562.61,2026-01-15,NEFT,paid
+INV-42-001291,Meesho Inc,11978.13,2025-12-29,RTGS,paid
+INV-42-001292,Tata Consultancy Services,1197.2,2025-08-23,UPI,paid
+INV-42-001293,Vikram Enterprises,6568.1,2025-04-03,NEFT,paid
+INV-42-001294,Razorpay Software Pvt Ltd,1849.4,2025-03-28,NEFT,paid
+INV-42-001295,Nykaa E-Retail Pvt Ltd,6381.24,2025-05-20,UPI,paid
+INV-42-001296,Sundaram Logistics Pvt Ltd,5539.38,2025-01-08,NEFT,paid
+INV-42-001297,Deepika Textiles Pvt Ltd,1784.76,2026-06-25,NEFT,paid
+INV-42-001298,BigBasket Supermarket Pvt Ltd,3665.66,2025-05-17,UPI,paid
+INV-42-001299,BigBasket Supermarket Pvt Ltd,6015.76,2025-04-26,UPI,paid
+INV-42-001300,Ola Fleet Technologies,4328.15,2025-09-29,UPI,paid
+INV-42-001301,Meesho Inc,4326.41,2026-06-12,RTGS,paid
+INV-42-001302,BigBasket Supermarket Pvt Ltd,11559.52,2025-12-31,UPI,paid
+INV-42-001303,Tata Consultancy Services,3188.41,2025-07-10,UPI,paid
+INV-42-001304,BigBasket Supermarket Pvt Ltd,3005.87,2025-06-07,UPI,paid
+INV-42-001305,Zomato Ltd,14112.18,2026-04-27,UPI,paid
+INV-42-001306,Infosys BPM Ltd,14112.18,2026-04-26,card,paid
+INV-42-001307,Tata Consultancy Services,7267.31,2026-03-21,UPI,paid
+INV-42-001308,Priya Menon Consulting,3496.04,2025-05-17,UPI,paid
+INV-42-001309,Lenskart Solutions Pvt Ltd,4210.09,2026-05-06,card,paid
+INV-42-001310,PharmEasy Health Solutions,8413.07,2026-02-03,UPI,paid
+INV-42-001311,Ola Fleet Technologies,3360.6,2025-01-14,RTGS,paid
+INV-42-001312,Rahul Sharma,15491.69,2025-10-24,UPI,paid
+INV-42-001313,BigBasket Supermarket Pvt Ltd,15846.37,2025-07-11,UPI,paid
+INV-42-001314,PharmEasy Health Solutions,15026.05,2025-04-16,NEFT,paid
+INV-42-001315,Freshworks Inc,10608.74,2025-05-16,UPI,paid
+INV-42-001316,Freshworks Inc,5492.36,2025-08-25,UPI,paid
+INV-42-001317,Zomato Ltd,7195.92,2025-04-23,UPI,paid
+INV-42-001318,Infosys BPM Ltd,6727.96,2025-02-18,UPI,paid
+INV-42-001319,Cred Avenue Pvt Ltd,5511.97,2025-10-14,card,paid
+INV-42-001320,Freshworks Inc,24044.47,2025-11-08,UPI,paid
+INV-42-001321,Rahul Sharma,13097.25,2026-01-05,NEFT,paid
+INV-42-001322,Deepika Textiles Pvt Ltd,8698.56,2025-10-10,UPI,paid
+INV-42-001323,PharmEasy Health Solutions,1962.99,2025-07-15,UPI,paid
+INV-42-001324,Swiggy Bundl Technologies,4523.54,2025-07-26,UPI,paid
+INV-42-001325,Swiggy Bundl Technologies,5229.86,2026-07-28,card,paid
+INV-42-001326,BigBasket Supermarket Pvt Ltd,2568.82,2026-05-31,RTGS,paid
+INV-42-001327,Meesho Inc,2568.82,2026-05-29,NEFT,paid
+INV-42-001328,Zomato Ltd,13318.68,2025-07-14,NEFT,paid
+INV-42-001329,Rahul Sharma,1020.7,2026-01-29,NEFT,paid
+INV-42-001330,Meesho Inc,10637.65,2025-01-10,card,paid
+INV-42-001331,BigBasket Supermarket Pvt Ltd,15921.14,2025-11-07,card,paid
+INV-42-001332,Tata Consultancy Services,3797.94,2026-07-01,UPI,paid
+INV-42-001333,Swiggy Bundl Technologies,1490.95,2025-09-12,card,paid
+INV-42-001334,Swiggy Bundl Technologies,15135.74,2026-01-13,UPI,paid
+INV-42-001335,PharmEasy Health Solutions,5321.43,2025-10-29,UPI,paid
+INV-42-001336,Ola Fleet Technologies,15376.82,2025-10-14,UPI,paid
+INV-42-001337,Cred Avenue Pvt Ltd,9926.26,2026-03-29,UPI,paid
+INV-42-001338,Meesho Inc,55426.6,2025-06-09,UPI,paid
+INV-42-001339,BigBasket Supermarket Pvt Ltd,2857.87,2026-05-23,UPI,paid
+INV-42-001340,PharmEasy Health Solutions,3156.11,2025-07-04,NEFT,paid
+INV-42-001341,Swiggy Bundl Technologies,3564.07,2025-07-12,UPI,paid
+INV-42-001342,Razorpay Software Pvt Ltd,2198.84,2025-01-13,NEFT,paid
+INV-42-001343,Zomato Ltd,68285.43,2025-02-14,UPI,paid
+INV-42-001344,Tata Consultancy Services,43977.27,2025-01-10,card,paid
+INV-42-001345,Anand Freelance Studio,3453.22,2025-07-27,UPI,paid
+INV-42-001346,Lenskart Solutions Pvt Ltd,16370.45,2026-05-06,UPI,paid
+INV-42-001347,Priya Menon Consulting,10142.2,2025-02-15,UPI,paid
+INV-42-001348,Urban Company,14844.53,2025-08-18,UPI,paid
+INV-42-001349,Swiggy Bundl Technologies,11046.57,2026-01-29,NEFT,paid
+INV-42-001350,Lenskart Solutions Pvt Ltd,2063.28,2025-08-18,UPI,paid
+INV-42-001351,Infosys BPM Ltd,9923.02,2025-03-28,card,unpaid
+INV-42-001352,Freshworks Inc,9113.75,2026-03-12,UPI,paid
+INV-42-001353,Tata Consultancy Services,17196.35,2025-04-17,UPI,paid
+INV-42-001354,Infosys BPM Ltd,71977.06,2025-06-02,RTGS,paid
+INV-42-001355,Swiggy Bundl Technologies,5403.89,2026-05-05,RTGS,paid
+INV-42-001356,BigBasket Supermarket Pvt Ltd,12200.52,2025-11-27,card,paid
+INV-42-001357,Infosys BPM Ltd,4993.11,2026-02-28,NEFT,paid
+INV-42-001358,Swiggy Bundl Technologies,5430.52,2026-07-06,UPI,paid
+INV-42-001359,Ola Fleet Technologies,5297.02,2026-03-08,UPI,paid
+INV-42-001360,Ola Fleet Technologies,5040.37,2026-01-06,UPI,paid
+INV-42-001361,Zomato Ltd,67945.98,2025-04-23,UPI,unpaid
+INV-42-001362,PharmEasy Health Solutions,5595.02,2026-07-19,card,paid
+INV-42-001363,Razorpay Software Pvt Ltd,13438.16,2025-01-27,NEFT,paid
+INV-42-001364,Infosys BPM Ltd,13438.16,2025-01-27,NEFT,paid
+INV-42-001365,Zomato Ltd,2584.35,2025-03-22,UPI,paid
+INV-42-001366,Ola Fleet Technologies,4676.88,2026-04-27,NEFT,paid
+INV-42-001367,Priya Menon Consulting,4788.5,2025-12-12,UPI,paid
+INV-42-001368,Zomato Ltd,14124.45,2025-06-27,UPI,paid
+INV-42-001369,Ola Fleet Technologies,76086.7,2026-07-22,NEFT,paid
+INV-42-001370,Meesho Inc,5499.53,2025-06-10,UPI,paid
+INV-42-001371,Infosys BPM Ltd,6885.01,2026-02-06,UPI,paid
+INV-42-001372,Urban Company,7548.04,2026-02-19,RTGS,paid
+INV-42-001373,Ola Fleet Technologies,10734.01,2025-04-22,UPI,paid
+INV-42-001374,Deepika Textiles Pvt Ltd,5802.01,2025-06-16,UPI,paid
+INV-42-001375,Meesho Inc,14375.39,2026-07-19,UPI,paid
+INV-42-001376,Razorpay Software Pvt Ltd,1825.48,2025-02-15,NEFT,paid
+INV-42-001377,Zomato Ltd,2490.9,2025-10-17,card,paid
+INV-42-001378,Tata Consultancy Services,6234.67,2025-05-13,NEFT,paid
+INV-42-001379,BigBasket Supermarket Pvt Ltd,12267.13,2025-06-03,UPI,paid
+INV-42-001380,Nykaa E-Retail Pvt Ltd,1561.2,2025-03-22,card,paid
+INV-42-001381,Anand Freelance Studio,22697.52,2025-06-14,card,paid
+INV-42-001382,Sundaram Logistics Pvt Ltd,11523.95,2025-12-16,UPI,paid
+INV-42-001383,Tata Consultancy Services,11743.81,2025-03-18,card,paid
+INV-42-001384,Sundaram Logistics Pvt Ltd,14698.91,2025-03-31,UPI,paid
+INV-42-001385,Freshworks Inc,5775.27,2026-08-14,UPI,paid
+INV-42-001386,Freshworks Inc,14268.63,2026-04-30,card,paid
+INV-42-001387,BigBasket Supermarket Pvt Ltd,33627.81,2026-01-08,card,paid
+INV-42-001388,PharmEasy Health Solutions,2151.48,2025-11-18,UPI,paid
+INV-42-001389,Nykaa E-Retail Pvt Ltd,17033.55,2025-02-28,NEFT,paid
+INV-42-001390,Ola Fleet Technologies,5519.49,2026-02-13,card,paid
+INV-42-001391,PharmEasy Health Solutions,12102.12,2026-04-25,NEFT,paid
+INV-42-001392,Nykaa E-Retail Pvt Ltd,13592.97,2025-12-03,UPI,paid
+INV-42-001393,Sundaram Logistics Pvt Ltd,13592.97,2025-12-02,UPI,paid
+INV-42-001394,Nykaa E-Retail Pvt Ltd,2972.56,2025-08-07,UPI,paid
+INV-42-001395,Meesho Inc,500.0,2026-01-06,RTGS,paid
+INV-42-001396,Zomato Ltd,6575.51,2026-04-08,card,paid
+INV-42-001397,Rahul Sharma,905.21,2025-04-05,card,paid
+INV-42-001398,Sundaram Logistics Pvt Ltd,5479.2,2026-03-06,UPI,paid
+INV-42-001399,Deepika Textiles Pvt Ltd,29037.6,2026-08-08,UPI,paid
+INV-42-001400,Deepika Textiles Pvt Ltd,9533.98,2026-08-16,NEFT,paid
+INV-42-001401,Sundaram Logistics Pvt Ltd,13832.04,2025-06-04,card,paid
+INV-42-001402,Nykaa E-Retail Pvt Ltd,2073.71,2026-02-21,UPI,paid
+INV-42-001403,Sundaram Logistics Pvt Ltd,14389.16,2026-08-16,UPI,paid
+INV-42-001404,Sundaram Logistics Pvt Ltd,6176.34,2025-06-20,NEFT,paid
+INV-42-001405,Freshworks Inc,1829.13,2025-01-15,UPI,paid
+INV-42-001406,Tata Consultancy Services,1560.71,2025-05-08,NEFT,paid
+INV-42-001407,BigBasket Supermarket Pvt Ltd,6544.7,2026-07-10,UPI,paid
+INV-42-001408,Urban Company,2488.76,2026-03-24,NEFT,paid
+INV-42-001409,Vikram Enterprises,22603.78,2026-07-12,UPI,paid
+INV-42-001410,Meesho Inc,2933.06,2026-03-07,UPI,paid
+INV-42-001411,Urban Company,23652.57,2026-04-21,UPI,paid
+INV-42-001412,Priya Menon Consulting,6314.5,2025-10-18,UPI,paid
+INV-42-001413,Tata Consultancy Services,24191.63,2025-11-22,UPI,paid
+INV-42-001414,Sundaram Logistics Pvt Ltd,2133.33,2025-02-22,RTGS,unpaid
+INV-42-001415,Swiggy Bundl Technologies,8496.54,2025-04-12,NEFT,paid
+INV-42-001416,Swiggy Bundl Technologies,9851.43,2025-09-24,RTGS,paid
+INV-42-001417,Tata Consultancy Services,1992.85,2026-07-11,card,paid
+INV-42-001418,Infosys BPM Ltd,12460.85,2026-04-10,NEFT,paid
+INV-42-001419,Freshworks Inc,10966.42,2025-07-18,UPI,paid
+INV-42-001420,Deepika Textiles Pvt Ltd,55464.46,2025-02-22,UPI,paid
+INV-42-001421,Cred Avenue Pvt Ltd,13466.31,2025-04-16,UPI,paid
+INV-42-001422,Swiggy Bundl Technologies,3830.26,2025-07-04,UPI,paid
+INV-42-001423,Infosys BPM Ltd,19099.9,2026-05-18,RTGS,paid
+INV-42-001424,Nykaa E-Retail Pvt Ltd,10360.19,2026-03-06,UPI,paid
+INV-42-001425,Lenskart Solutions Pvt Ltd,14484.42,2025-01-11,card,paid
+INV-42-001426,Cred Avenue Pvt Ltd,15071.32,2025-12-18,card,paid
+INV-42-001427,Meesho Inc,8824.39,2025-09-18,card,paid
+INV-42-001428,Zomato Ltd,1793.17,2025-06-06,UPI,paid
+INV-42-001429,Lenskart Solutions Pvt Ltd,3663.66,2025-07-24,card,paid
+INV-42-001430,Urban Company,2330.18,2026-05-23,UPI,paid
+INV-42-001431,Lenskart Solutions Pvt Ltd,5008.86,2025-10-15,card,paid
+INV-42-001432,Ola Fleet Technologies,9528.73,2025-07-30,card,paid
+INV-42-001433,PharmEasy Health Solutions,5087.02,2025-11-23,NEFT,paid
+INV-42-001434,BigBasket Supermarket Pvt Ltd,9562.36,2025-03-07,UPI,paid
+INV-42-001435,Sundaram Logistics Pvt Ltd,4247.14,2026-06-28,UPI,paid
+INV-42-001436,Swiggy Bundl Technologies,4247.14,2026-06-25,RTGS,paid
+INV-42-001437,Freshworks Inc,4909.67,2026-01-16,UPI,paid
+INV-42-001438,Swiggy Bundl Technologies,4943.26,2025-11-26,card,paid
+INV-42-001439,Infosys BPM Ltd,11299.21,2025-04-16,NEFT,paid
+INV-42-001440,Vikram Enterprises,34346.19,2026-08-11,card,paid
+INV-42-001441,Deepika Textiles Pvt Ltd,5357.18,2025-07-21,UPI,paid
+INV-42-001442,Zomato Ltd,5456.38,2026-04-09,UPI,paid
+INV-42-001443,Infosys BPM Ltd,9556.88,2026-08-13,card,paid
+INV-42-001444,Tata Consultancy Services,19600.0,2026-07-01,card,paid
+INV-42-001445,Tata Consultancy Services,19600.0,2026-06-28,UPI,paid
+INV-42-001446,Ola Fleet Technologies,6717.18,2025-11-21,RTGS,paid
+INV-42-001447,Urban Company,3850.46,2026-02-07,UPI,paid
+INV-42-001448,Freshworks Inc,14522.29,2025-11-27,card,paid
+INV-42-001449,Razorpay Software Pvt Ltd,8589.34,2025-02-23,UPI,paid
+INV-42-001450,Swiggy Bundl Technologies,4103.23,2026-01-24,UPI,paid
+INV-42-001451,Swiggy Bundl Technologies,7559.35,2025-06-01,RTGS,paid
+INV-42-001452,Sundaram Logistics Pvt Ltd,6361.46,2025-05-06,UPI,paid
+INV-42-001453,Meesho Inc,6361.46,2025-05-04,NEFT,paid
+INV-42-001454,Infosys BPM Ltd,16055.51,2025-07-30,NEFT,paid
+INV-42-001455,Nykaa E-Retail Pvt Ltd,2106.36,2026-04-25,RTGS,paid
+INV-42-001456,Swiggy Bundl Technologies,2701.27,2026-06-25,UPI,paid
+INV-42-001457,Vikram Enterprises,20618.35,2026-06-01,UPI,paid
+INV-42-001458,Lenskart Solutions Pvt Ltd,5868.52,2026-06-10,UPI,paid
+INV-42-001459,Zomato Ltd,5549.83,2026-08-15,NEFT,paid
+INV-42-001460,PharmEasy Health Solutions,13335.04,2026-04-17,UPI,paid
+INV-42-001461,Cred Avenue Pvt Ltd,7335.18,2026-07-18,UPI,paid
+INV-42-001462,Swiggy Bundl Technologies,8158.97,2025-02-24,UPI,paid
+INV-42-001463,Zomato Ltd,652.04,2025-07-18,UPI,paid
+INV-42-001464,Meesho Inc,8867.4,2026-03-20,UPI,paid
+INV-42-001465,Razorpay Software Pvt Ltd,34063.43,2025-09-02,UPI,paid
+INV-42-001466,Razorpay Software Pvt Ltd,15571.19,2026-02-06,UPI,paid
+INV-42-001467,Ola Fleet Technologies,14563.14,2025-06-25,RTGS,paid
+INV-42-001468,Tata Consultancy Services,14168.77,2025-04-07,UPI,paid
+INV-42-001469,Cred Avenue Pvt Ltd,11495.36,2025-03-13,UPI,paid
+INV-42-001470,Lenskart Solutions Pvt Ltd,11495.36,2025-03-12,UPI,paid
+INV-42-001471,Nykaa E-Retail Pvt Ltd,5934.19,2025-09-28,card,paid
+INV-42-001472,Deepika Textiles Pvt Ltd,2518.94,2026-05-01,NEFT,paid
+INV-42-001473,Razorpay Software Pvt Ltd,24117.52,2025-06-21,RTGS,paid
+INV-42-001474,Swiggy Bundl Technologies,16420.52,2026-05-18,NEFT,paid
+INV-42-001475,Razorpay Software Pvt Ltd,7841.58,2025-01-14,RTGS,unpaid
+INV-42-001476,Tata Consultancy Services,8794.85,2026-05-11,UPI,paid
+INV-42-001477,Anand Freelance Studio,40734.54,2025-05-26,UPI,paid
+INV-42-001478,Meesho Inc,13781.15,2025-07-31,NEFT,paid
+INV-42-001479,Vikram Enterprises,49657.3,2026-04-06,card,paid
+INV-42-001480,Freshworks Inc,21438.44,2025-12-06,UPI,paid
+INV-42-001481,Sundaram Logistics Pvt Ltd,5960.93,2026-06-17,NEFT,paid
+INV-42-001482,Swiggy Bundl Technologies,23208.33,2025-12-22,UPI,paid
+INV-42-001483,Nykaa E-Retail Pvt Ltd,13859.69,2025-06-03,UPI,unpaid
+INV-42-001484,Urban Company,2936.27,2025-03-08,RTGS,paid
+INV-42-001485,Zomato Ltd,3557.17,2025-02-24,UPI,paid
+INV-42-001486,Infosys BPM Ltd,19621.96,2026-07-29,UPI,paid
+INV-42-001487,Tata Consultancy Services,9350.07,2025-08-13,UPI,paid
+INV-42-001488,Razorpay Software Pvt Ltd,12695.92,2026-02-13,card,paid
+INV-42-001489,Razorpay Software Pvt Ltd,5200.57,2026-08-01,UPI,paid
+INV-42-001490,Ola Fleet Technologies,4182.87,2025-07-24,UPI,paid
+INV-42-001491,Meesho Inc,12534.34,2026-01-20,RTGS,paid
+INV-42-001492,Swiggy Bundl Technologies,9266.2,2026-05-31,card,paid
+INV-42-001493,Nykaa E-Retail Pvt Ltd,6682.75,2026-02-25,UPI,paid
+INV-42-001494,Zomato Ltd,12731.59,2025-05-24,NEFT,paid
+INV-42-001495,Deepika Textiles Pvt Ltd,12731.59,2025-05-23,NEFT,paid
+INV-42-001496,Cred Avenue Pvt Ltd,1407.32,2026-04-19,RTGS,paid
+INV-42-001497,BigBasket Supermarket Pvt Ltd,34709.98,2025-12-08,NEFT,paid
+INV-42-001498,Meesho Inc,70881.46,2025-05-05,NEFT,paid
+INV-42-001499,Anand Freelance Studio,8027.78,2025-06-08,UPI,paid
+INV-42-001500,Sundaram Logistics Pvt Ltd,11242.82,2025-01-01,UPI,paid
+INV-42-001501,Urban Company,5242.64,2025-01-26,RTGS,paid
+INV-42-001502,Zomato Ltd,3039.24,2025-07-08,RTGS,paid
+INV-42-001503,Urban Company,38504.99,2025-05-07,UPI,paid
+INV-42-001504,Freshworks Inc,34059.51,2025-06-24,UPI,paid
+INV-42-001505,Freshworks Inc,7766.35,2025-04-13,card,paid
+INV-42-001506,Rahul Sharma,4648.7,2025-04-20,UPI,paid
+INV-42-001507,Swiggy Bundl Technologies,5541.14,2026-02-03,UPI,paid
+INV-42-001508,Cred Avenue Pvt Ltd,40021.57,2025-02-13,card,paid
+INV-42-001509,Swiggy Bundl Technologies,24103.24,2025-01-10,card,paid
+INV-42-001510,PharmEasy Health Solutions,8164.91,2026-06-22,UPI,paid
+INV-42-001511,Cred Avenue Pvt Ltd,3588.42,2025-12-14,UPI,paid
+INV-42-001512,Swiggy Bundl Technologies,29382.12,2026-02-08,UPI,paid
+INV-42-001513,Nykaa E-Retail Pvt Ltd,1490.78,2026-06-04,RTGS,paid
+INV-42-001514,Swiggy Bundl Technologies,4389.06,2026-02-18,UPI,paid
+INV-42-001515,Anand Freelance Studio,2350.76,2026-05-27,card,paid
+INV-42-001516,Deepika Textiles Pvt Ltd,12971.87,2025-06-28,NEFT,paid
+INV-42-001517,Sundaram Logistics Pvt Ltd,16171.1,2026-01-19,NEFT,paid
+INV-42-001518,Lenskart Solutions Pvt Ltd,3240.47,2026-01-22,UPI,paid
+INV-42-001519,Urban Company,3218.98,2025-10-20,UPI,paid
+INV-42-001520,BigBasket Supermarket Pvt Ltd,9994.2,2025-03-30,NEFT,paid
+INV-42-001521,Rahul Sharma,20913.47,2026-02-22,NEFT,paid
+INV-42-001522,Infosys BPM Ltd,17102.68,2025-07-14,RTGS,paid
+INV-42-001523,Nykaa E-Retail Pvt Ltd,4453.69,2026-07-27,card,paid
+INV-42-001524,BigBasket Supermarket Pvt Ltd,37692.16,2026-08-06,UPI,paid
+INV-42-001525,Tata Consultancy Services,3764.28,2026-07-08,UPI,paid
+INV-42-001526,Vikram Enterprises,19358.96,2026-01-02,UPI,paid
+INV-42-001527,Sundaram Logistics Pvt Ltd,1726.62,2026-06-15,card,paid
+INV-42-001528,BigBasket Supermarket Pvt Ltd,2602.73,2025-09-27,NEFT,paid
+INV-42-001529,BigBasket Supermarket Pvt Ltd,3446.51,2025-12-04,card,paid
+INV-42-001530,PharmEasy Health Solutions,5217.1,2026-08-01,card,paid
+INV-42-001531,Deepika Textiles Pvt Ltd,9787.0,2026-07-19,UPI,paid
+INV-42-001532,Anand Freelance Studio,2405.77,2025-08-19,NEFT,paid
+INV-42-001533,Tata Consultancy Services,76076.83,2026-07-02,NEFT,paid
+INV-42-001534,Rahul Sharma,1925.86,2026-02-01,RTGS,paid
+INV-42-001535,BigBasket Supermarket Pvt Ltd,7108.05,2026-03-25,UPI,paid
+INV-42-001536,Lenskart Solutions Pvt Ltd,5719.47,2025-03-01,UPI,paid
+INV-42-001537,Zomato Ltd,4710.39,2026-07-04,NEFT,paid
+INV-42-001538,Zomato Ltd,49580.31,2025-03-20,UPI,unpaid
+INV-42-001539,Tata Consultancy Services,3937.01,2025-09-08,card,paid
+INV-42-001540,BigBasket Supermarket Pvt Ltd,16456.81,2025-03-20,UPI,paid
+INV-42-001541,Nykaa E-Retail Pvt Ltd,14253.7,2025-08-14,UPI,paid
+INV-42-001542,Infosys BPM Ltd,14849.75,2025-09-08,UPI,paid
+INV-42-001543,Priya Menon Consulting,8148.78,2026-02-25,NEFT,paid
+INV-42-001544,Tata Consultancy Services,4767.4,2026-06-18,UPI,paid
+INV-42-001545,Freshworks Inc,2771.07,2025-05-26,UPI,paid
+INV-42-001546,BigBasket Supermarket Pvt Ltd,3424.43,2025-11-04,RTGS,paid
+INV-42-001547,Tata Consultancy Services,11336.44,2026-01-27,UPI,paid
+INV-42-001548,Freshworks Inc,3441.17,2025-02-23,NEFT,paid
+INV-42-001549,Deepika Textiles Pvt Ltd,14646.01,2025-09-26,RTGS,paid
+INV-42-001550,Deepika Textiles Pvt Ltd,1923.42,2026-03-21,card,paid
+INV-42-001551,Lenskart Solutions Pvt Ltd,61287.54,2026-07-21,UPI,paid
+INV-42-001552,Rahul Sharma,7102.15,2026-08-05,RTGS,paid
+INV-42-001553,Sundaram Logistics Pvt Ltd,2788.42,2025-10-08,UPI,paid
+INV-42-001554,Urban Company,5354.28,2025-10-08,UPI,paid
+INV-42-001555,Deepika Textiles Pvt Ltd,27502.17,2025-05-08,UPI,paid
+INV-42-001556,Ola Fleet Technologies,21266.95,2025-01-18,UPI,paid
+INV-42-001557,Sundaram Logistics Pvt Ltd,6658.86,2025-08-12,UPI,paid
+INV-42-001558,Zomato Ltd,31782.73,2025-03-07,UPI,paid
+INV-42-001559,Deepika Textiles Pvt Ltd,3885.2,2025-08-21,NEFT,paid
+INV-42-001560,Meesho Inc,30490.14,2025-02-12,NEFT,paid
+INV-42-001561,Vikram Enterprises,26210.11,2025-02-15,NEFT,paid
+INV-42-001562,Zomato Ltd,6785.75,2025-08-31,UPI,paid
+INV-42-001563,Ola Fleet Technologies,10948.66,2026-03-13,card,paid
+INV-42-001564,Tata Consultancy Services,15820.1,2026-02-22,card,paid
+INV-42-001565,Vikram Enterprises,6083.01,2025-06-03,card,paid
+INV-42-001566,Meesho Inc,21422.26,2026-06-05,RTGS,paid
+INV-42-001567,Vikram Enterprises,5175.71,2025-06-03,UPI,paid
+INV-42-001568,Zomato Ltd,3441.05,2026-08-12,NEFT,unpaid
+INV-42-001569,Urban Company,26156.71,2026-06-22,UPI,paid
+INV-42-001570,Freshworks Inc,29922.06,2025-12-03,UPI,paid
+INV-42-001571,Infosys BPM Ltd,6180.28,2025-04-29,NEFT,paid
+INV-42-001572,Vikram Enterprises,6966.62,2026-07-28,UPI,paid
+INV-42-001573,Cred Avenue Pvt Ltd,10881.5,2026-03-05,UPI,paid
+INV-42-001574,Ola Fleet Technologies,10881.5,2026-03-08,UPI,paid
+INV-42-001575,Deepika Textiles Pvt Ltd,5747.39,2025-05-22,NEFT,paid
+INV-42-001576,Infosys BPM Ltd,2989.25,2026-06-02,card,paid
+INV-42-001577,Cred Avenue Pvt Ltd,3659.81,2026-07-22,NEFT,paid
+INV-42-001578,Swiggy Bundl Technologies,2081.83,2026-06-27,card,paid
+INV-42-001579,Infosys BPM Ltd,5765.2,2025-10-28,UPI,paid
+INV-42-001580,Lenskart Solutions Pvt Ltd,5765.2,2025-10-31,NEFT,paid
+INV-42-001581,Sundaram Logistics Pvt Ltd,5397.27,2026-02-23,NEFT,paid
+INV-42-001582,BigBasket Supermarket Pvt Ltd,30533.26,2025-07-07,NEFT,paid
+INV-42-001583,Ola Fleet Technologies,8242.61,2025-01-08,NEFT,paid
+INV-42-001584,Cred Avenue Pvt Ltd,5815.38,2026-06-05,NEFT,paid
+INV-42-001585,Deepika Textiles Pvt Ltd,3583.82,2025-02-19,NEFT,paid
+INV-42-001586,Meesho Inc,20467.59,2025-11-27,UPI,paid
+INV-42-001587,Freshworks Inc,20467.59,2025-11-30,UPI,paid
+INV-42-001588,Anand Freelance Studio,8686.61,2025-11-18,UPI,paid
+INV-42-001589,Swiggy Bundl Technologies,4348.92,2025-06-23,UPI,paid
+INV-42-001590,Sundaram Logistics Pvt Ltd,10928.73,2025-07-31,NEFT,paid
+INV-42-001591,Deepika Textiles Pvt Ltd,10928.73,2025-08-01,UPI,paid
+INV-42-001592,Sundaram Logistics Pvt Ltd,11003.17,2025-01-07,UPI,paid
+INV-42-001593,Zomato Ltd,11003.17,2025-01-10,UPI,paid
+INV-42-001594,Meesho Inc,17118.84,2026-04-10,UPI,paid
+INV-42-001595,Priya Menon Consulting,21121.13,2026-03-19,UPI,paid
+INV-42-001596,Swiggy Bundl Technologies,2885.53,2025-12-29,RTGS,paid
+INV-42-001597,Freshworks Inc,5088.94,2026-06-10,NEFT,paid
+INV-42-001598,Rahul Sharma,8438.96,2026-07-26,NEFT,paid
+INV-42-001599,Zomato Ltd,3298.46,2025-08-14,NEFT,paid
+INV-42-001600,Swiggy Bundl Technologies,49952.2,2025-10-17,UPI,paid
+INV-42-001601,Swiggy Bundl Technologies,8874.9,2025-08-08,UPI,paid
+INV-42-001602,Urban Company,4686.69,2026-03-05,NEFT,paid
+INV-42-001603,Cred Avenue Pvt Ltd,4320.44,2026-06-28,NEFT,paid
+INV-42-001604,Tata Consultancy Services,4515.31,2026-05-12,UPI,paid
+INV-42-001605,Meesho Inc,8911.81,2025-08-13,UPI,paid
+INV-42-001606,Deepika Textiles Pvt Ltd,3646.16,2025-04-29,UPI,paid
+INV-42-001607,Cred Avenue Pvt Ltd,5480.88,2025-05-12,RTGS,unpaid
+INV-42-001608,Ola Fleet Technologies,7875.99,2025-08-29,UPI,paid
+INV-42-001609,Freshworks Inc,20271.25,2026-07-30,RTGS,paid
+INV-42-001610,Tata Consultancy Services,5999.75,2026-02-13,UPI,paid
+INV-42-001611,Nykaa E-Retail Pvt Ltd,2457.73,2025-02-16,UPI,paid
+INV-42-001612,Meesho Inc,4236.09,2025-04-23,card,paid
+INV-42-001613,Tata Consultancy Services,9560.08,2025-01-22,RTGS,paid
+INV-42-001614,Priya Menon Consulting,10266.79,2026-06-16,UPI,paid
+INV-42-001615,Sundaram Logistics Pvt Ltd,19220.18,2025-08-23,UPI,paid
+INV-42-001616,Infosys BPM Ltd,6008.27,2025-09-12,card,paid
+INV-42-001617,Zomato Ltd,5967.45,2025-06-10,UPI,paid
+INV-42-001618,Cred Avenue Pvt Ltd,10943.78,2025-05-07,RTGS,paid
+INV-42-001619,BigBasket Supermarket Pvt Ltd,8295.62,2026-03-02,UPI,paid
+INV-42-001620,Urban Company,10133.94,2025-11-16,RTGS,paid
+INV-42-001621,Anand Freelance Studio,4607.59,2025-04-13,UPI,paid
+INV-42-001622,Nykaa E-Retail Pvt Ltd,5679.42,2026-02-21,NEFT,paid
+INV-42-001623,Lenskart Solutions Pvt Ltd,8672.11,2025-01-18,card,paid
+INV-42-001624,Vikram Enterprises,33559.23,2026-04-09,UPI,paid
+INV-42-001625,Swiggy Bundl Technologies,10085.87,2026-07-29,UPI,paid
+INV-42-001626,Nykaa E-Retail Pvt Ltd,5168.92,2026-04-30,UPI,paid
+INV-42-001627,Deepika Textiles Pvt Ltd,2112.66,2026-02-26,UPI,paid
+INV-42-001628,Swiggy Bundl Technologies,4297.46,2026-02-21,card,paid
+INV-42-001629,Freshworks Inc,9783.65,2026-05-27,UPI,paid
+INV-42-001630,Tata Consultancy Services,15742.87,2025-03-25,card,paid
+INV-42-001631,Zomato Ltd,8392.07,2025-07-22,UPI,paid
+INV-42-001632,Urban Company,6497.33,2026-03-22,card,paid
+INV-42-001633,PharmEasy Health Solutions,4810.03,2026-01-16,NEFT,paid
+INV-42-001634,Tata Consultancy Services,34500.98,2026-01-16,UPI,paid
+INV-42-001635,BigBasket Supermarket Pvt Ltd,81033.72,2025-05-19,UPI,paid
+INV-42-001636,Nykaa E-Retail Pvt Ltd,5750.54,2026-04-27,UPI,paid
+INV-42-001637,Cred Avenue Pvt Ltd,9473.65,2026-07-27,card,paid
+INV-42-001638,Zomato Ltd,4175.71,2026-03-13,NEFT,paid
+INV-42-001639,Cred Avenue Pvt Ltd,6631.56,2026-07-09,NEFT,paid
+INV-42-001640,Meesho Inc,3705.89,2025-07-02,UPI,paid
+INV-42-001641,Ola Fleet Technologies,14418.51,2025-12-05,NEFT,paid
+INV-42-001642,Meesho Inc,58174.74,2025-08-03,UPI,paid
+INV-42-001643,Sundaram Logistics Pvt Ltd,4215.32,2025-01-01,UPI,paid
+INV-42-001644,Zomato Ltd,8368.71,2026-04-29,UPI,paid
+INV-42-001645,Deepika Textiles Pvt Ltd,8368.71,2026-04-30,UPI,paid
+INV-42-001646,Deepika Textiles Pvt Ltd,13275.74,2026-06-19,UPI,paid
+INV-42-001647,Meesho Inc,4770.81,2025-10-12,NEFT,paid
+INV-42-001648,Urban Company,7536.57,2025-05-04,NEFT,paid
+INV-42-001649,Infosys BPM Ltd,2551.73,2026-04-23,RTGS,paid
+INV-42-001650,BigBasket Supermarket Pvt Ltd,34890.34,2025-07-15,UPI,paid
+INV-42-001651,Deepika Textiles Pvt Ltd,2091.93,2026-06-23,UPI,paid
+INV-42-001652,Tata Consultancy Services,8138.57,2025-10-07,UPI,paid
+INV-42-001653,Nykaa E-Retail Pvt Ltd,2929.12,2026-08-09,RTGS,paid
+INV-42-001654,Lenskart Solutions Pvt Ltd,7875.87,2026-07-13,RTGS,paid
+INV-42-001655,Zomato Ltd,16628.26,2025-07-01,card,paid
+INV-42-001656,BigBasket Supermarket Pvt Ltd,10161.6,2025-04-10,card,paid
+INV-42-001657,PharmEasy Health Solutions,20173.76,2025-12-07,RTGS,paid
+INV-42-001658,Tata Consultancy Services,89985.99,2026-06-13,UPI,paid
+INV-42-001659,BigBasket Supermarket Pvt Ltd,10677.82,2025-07-17,RTGS,paid
+INV-42-001660,Anand Freelance Studio,2555.38,2025-10-10,NEFT,paid
+INV-42-001661,BigBasket Supermarket Pvt Ltd,30430.07,2025-01-04,UPI,paid
+INV-42-001662,Swiggy Bundl Technologies,5896.29,2025-03-30,NEFT,paid
+INV-42-001663,Swiggy Bundl Technologies,2472.37,2025-01-21,RTGS,paid
+INV-42-001664,Freshworks Inc,6562.58,2025-09-10,UPI,paid
+INV-42-001665,Vikram Enterprises,13810.48,2026-01-24,NEFT,paid
+INV-42-001666,Swiggy Bundl Technologies,5608.62,2025-07-12,UPI,paid
+INV-42-001667,Sundaram Logistics Pvt Ltd,4175.51,2025-04-05,UPI,paid
+INV-42-001668,Infosys BPM Ltd,12063.04,2025-06-24,UPI,paid
+INV-42-001669,Infosys BPM Ltd,8727.46,2026-03-21,UPI,paid
+INV-42-001670,Ola Fleet Technologies,1800.98,2026-05-31,NEFT,paid
+INV-42-001671,Tata Consultancy Services,8316.22,2025-08-12,UPI,paid
+INV-42-001672,Swiggy Bundl Technologies,10943.24,2025-05-24,UPI,paid
+INV-42-001673,Meesho Inc,96350.7,2025-11-27,NEFT,paid
+INV-42-001674,PharmEasy Health Solutions,2179.44,2025-12-09,UPI,paid
+INV-42-001675,Freshworks Inc,6236.33,2026-07-14,UPI,paid
+INV-42-001676,BigBasket Supermarket Pvt Ltd,6236.33,2026-07-11,NEFT,paid
+INV-42-001677,Priya Menon Consulting,15952.55,2025-09-07,UPI,paid
+INV-42-001678,Tata Consultancy Services,12015.28,2025-08-28,RTGS,paid
+INV-42-001679,Nykaa E-Retail Pvt Ltd,4722.17,2026-08-15,UPI,paid
+INV-42-001680,Swiggy Bundl Technologies,4722.17,2026-08-12,UPI,paid
+INV-42-001681,Meesho Inc,15385.2,2026-08-05,RTGS,paid
+INV-42-001682,Tata Consultancy Services,2304.23,2025-12-21,UPI,paid
+INV-42-001683,Zomato Ltd,5804.39,2025-08-30,card,paid
+INV-42-001684,Anand Freelance Studio,2438.3,2026-01-19,UPI,paid
+INV-42-001685,Swiggy Bundl Technologies,9200.06,2025-08-06,card,paid
+INV-42-001686,Ola Fleet Technologies,31063.81,2025-04-09,UPI,paid
+INV-42-001687,Vikram Enterprises,6439.96,2025-10-17,RTGS,paid
+INV-42-001688,BigBasket Supermarket Pvt Ltd,6791.7,2026-05-16,NEFT,paid
+INV-42-001689,Ola Fleet Technologies,16114.58,2025-03-21,NEFT,paid
+INV-42-001690,Freshworks Inc,3678.74,2025-12-14,UPI,paid
+INV-42-001691,Swiggy Bundl Technologies,3300.41,2026-05-08,UPI,paid
+INV-42-001692,BigBasket Supermarket Pvt Ltd,1579.18,2025-04-19,UPI,unpaid
+INV-42-001693,Rahul Sharma,4200.81,2026-01-29,NEFT,paid
+INV-42-001694,Cred Avenue Pvt Ltd,12771.75,2025-02-25,UPI,paid
+INV-42-001695,Cred Avenue Pvt Ltd,18212.26,2026-04-07,UPI,paid
+INV-42-001696,Priya Menon Consulting,3904.37,2026-03-11,UPI,paid
+INV-42-001697,Rahul Sharma,3589.22,2025-09-22,UPI,paid
+INV-42-001698,Anand Freelance Studio,7532.32,2025-10-16,UPI,paid
+INV-42-001699,BigBasket Supermarket Pvt Ltd,5702.21,2025-10-31,RTGS,paid
+INV-42-001700,Razorpay Software Pvt Ltd,4686.19,2026-04-03,UPI,paid
+INV-42-001701,Meesho Inc,6445.98,2026-02-10,UPI,paid
+INV-42-001702,Swiggy Bundl Technologies,21033.89,2026-03-18,card,paid
+INV-42-001703,BigBasket Supermarket Pvt Ltd,75251.83,2026-06-21,NEFT,paid
+INV-42-001704,Tata Consultancy Services,51161.44,2025-04-14,UPI,paid
+INV-42-001705,Zomato Ltd,23308.47,2025-11-07,NEFT,paid
+INV-42-001706,Ola Fleet Technologies,11106.95,2026-08-11,UPI,paid
+INV-42-001707,BigBasket Supermarket Pvt Ltd,45221.75,2025-10-11,UPI,paid
+INV-42-001708,BigBasket Supermarket Pvt Ltd,4071.62,2025-01-06,UPI,paid
+INV-42-001709,BigBasket Supermarket Pvt Ltd,3714.85,2025-11-22,UPI,paid
+INV-42-001710,Priya Menon Consulting,2675.13,2026-04-17,NEFT,paid
+INV-42-001711,Tata Consultancy Services,704.16,2025-01-13,UPI,paid
+INV-42-001712,Ola Fleet Technologies,8075.71,2025-06-24,NEFT,paid
+INV-42-001713,Zomato Ltd,12867.04,2025-12-20,UPI,paid
+INV-42-001714,Urban Company,2405.61,2026-04-08,NEFT,paid
+INV-42-001715,Cred Avenue Pvt Ltd,3664.3,2026-03-18,UPI,paid
+INV-42-001716,Deepika Textiles Pvt Ltd,2200.26,2025-08-29,UPI,paid
+INV-42-001717,Infosys BPM Ltd,6607.21,2025-04-24,NEFT,paid
+INV-42-001718,Swiggy Bundl Technologies,40687.0,2026-02-15,NEFT,paid
+INV-42-001719,Freshworks Inc,19099.43,2026-01-07,NEFT,paid
+INV-42-001720,Rahul Sharma,14256.87,2026-05-30,UPI,paid
+INV-42-001721,PharmEasy Health Solutions,7983.4,2026-04-06,UPI,paid
+INV-42-001722,BigBasket Supermarket Pvt Ltd,26391.17,2025-04-11,UPI,paid
+INV-42-001723,Sundaram Logistics Pvt Ltd,5536.17,2025-08-18,UPI,paid
+INV-42-001724,Sundaram Logistics Pvt Ltd,14384.97,2025-01-24,UPI,paid
+INV-42-001725,Meesho Inc,7725.61,2026-01-15,UPI,paid
+INV-42-001726,Ola Fleet Technologies,5712.2,2025-07-17,card,paid
+INV-42-001727,Infosys BPM Ltd,16339.35,2025-07-24,UPI,paid
+INV-42-001728,Lenskart Solutions Pvt Ltd,3499.72,2025-09-08,NEFT,paid
+INV-42-001729,Razorpay Software Pvt Ltd,3208.99,2025-04-24,RTGS,paid
+INV-42-001730,PharmEasy Health Solutions,18694.89,2025-03-13,UPI,paid
+INV-42-001731,Rahul Sharma,6815.84,2026-07-05,UPI,paid
+INV-42-001732,Cred Avenue Pvt Ltd,8553.03,2026-05-08,RTGS,paid
+INV-42-001733,Ola Fleet Technologies,51240.14,2025-02-10,UPI,paid
+INV-42-001734,Urban Company,12140.54,2025-05-08,UPI,paid
+INV-42-001735,Deepika Textiles Pvt Ltd,14637.71,2025-06-23,UPI,paid
+INV-42-001736,Swiggy Bundl Technologies,3764.25,2025-09-28,UPI,paid
+INV-42-001737,Zomato Ltd,27235.4,2025-09-08,RTGS,paid
+INV-42-001738,Rahul Sharma,5035.67,2025-09-22,NEFT,paid
+INV-42-001739,Deepika Textiles Pvt Ltd,3775.46,2025-08-15,card,paid
+INV-42-001740,Priya Menon Consulting,2834.21,2026-08-05,NEFT,paid
+INV-42-001741,BigBasket Supermarket Pvt Ltd,2354.72,2025-05-12,UPI,paid
+INV-42-001742,Infosys BPM Ltd,10069.25,2025-08-05,NEFT,paid
+INV-42-001743,Zomato Ltd,5288.05,2026-06-14,UPI,paid
+INV-42-001744,Freshworks Inc,6093.96,2026-05-29,UPI,paid
+INV-42-001745,PharmEasy Health Solutions,7883.94,2026-06-22,UPI,paid
+INV-42-001746,Infosys BPM Ltd,10706.18,2025-08-19,UPI,paid
+INV-42-001747,Tata Consultancy Services,62130.64,2025-07-21,UPI,paid
+INV-42-001748,Lenskart Solutions Pvt Ltd,8503.72,2025-07-27,UPI,paid
+INV-42-001749,Cred Avenue Pvt Ltd,33418.23,2025-10-05,NEFT,paid
+INV-42-001750,Anand Freelance Studio,1665.37,2025-09-11,UPI,paid
+INV-42-001751,Freshworks Inc,1837.02,2025-07-01,UPI,paid
+INV-42-001752,Urban Company,3718.44,2025-03-07,card,paid
+INV-42-001753,Tata Consultancy Services,4461.09,2026-08-19,UPI,paid
+INV-42-001754,PharmEasy Health Solutions,2290.34,2026-03-29,UPI,paid
+INV-42-001755,Urban Company,3435.21,2026-08-06,UPI,paid
+INV-42-001756,Lenskart Solutions Pvt Ltd,14904.01,2025-07-19,NEFT,paid
+INV-42-001757,Deepika Textiles Pvt Ltd,6657.23,2025-06-30,UPI,paid
+INV-42-001758,Tata Consultancy Services,10991.19,2026-06-29,UPI,paid
+INV-42-001759,Urban Company,4782.95,2025-07-06,UPI,paid
+INV-42-001760,Sundaram Logistics Pvt Ltd,7673.94,2025-03-09,RTGS,paid
+INV-42-001761,Swiggy Bundl Technologies,18959.28,2026-07-06,RTGS,paid
+INV-42-001762,Swiggy Bundl Technologies,4457.28,2025-11-09,UPI,paid
+INV-42-001763,Swiggy Bundl Technologies,3675.41,2026-08-08,NEFT,paid
+INV-42-001764,Freshworks Inc,6677.98,2025-06-11,NEFT,paid
+INV-42-001765,Vikram Enterprises,61340.93,2025-10-03,UPI,paid
+INV-42-001766,Vikram Enterprises,18410.17,2025-11-10,UPI,paid
+INV-42-001767,Anand Freelance Studio,7078.99,2026-02-07,RTGS,paid
+INV-42-001768,Vikram Enterprises,2536.82,2025-05-24,card,paid
+INV-42-001769,Zomato Ltd,12072.17,2025-09-20,UPI,paid
+INV-42-001770,Tata Consultancy Services,15773.99,2026-07-28,NEFT,paid
+INV-42-001771,Meesho Inc,7133.98,2025-03-18,UPI,paid
+INV-42-001772,Nykaa E-Retail Pvt Ltd,15435.44,2025-02-17,RTGS,paid
+INV-42-001773,Sundaram Logistics Pvt Ltd,12394.37,2026-01-20,UPI,paid
+INV-42-001774,Infosys BPM Ltd,8992.39,2025-10-19,UPI,paid
+INV-42-001775,Deepika Textiles Pvt Ltd,2427.73,2026-02-28,RTGS,paid
+INV-42-001776,Meesho Inc,10520.36,2026-03-25,UPI,paid
+INV-42-001777,Deepika Textiles Pvt Ltd,3685.74,2025-10-26,NEFT,paid
+INV-42-001778,Deepika Textiles Pvt Ltd,54351.04,2025-11-18,card,paid
+INV-42-001779,Deepika Textiles Pvt Ltd,13177.06,2025-11-25,UPI,paid
+INV-42-001780,Tata Consultancy Services,20474.44,2025-09-19,NEFT,paid
+INV-42-001781,Swiggy Bundl Technologies,11890.49,2026-05-14,RTGS,paid
+INV-42-001782,Zomato Ltd,27082.67,2026-08-03,UPI,paid
+INV-42-001783,Nykaa E-Retail Pvt Ltd,72726.18,2026-05-19,UPI,paid
+INV-42-001784,Zomato Ltd,8967.74,2025-06-12,RTGS,paid
+INV-42-001785,Swiggy Bundl Technologies,43164.01,2025-07-15,RTGS,paid
+INV-42-001786,BigBasket Supermarket Pvt Ltd,4324.87,2025-06-05,NEFT,paid
+INV-42-001787,Cred Avenue Pvt Ltd,4799.72,2026-03-19,card,paid
+INV-42-001788,Tata Consultancy Services,11081.64,2025-01-09,UPI,paid
+INV-42-001789,Razorpay Software Pvt Ltd,2176.35,2025-12-01,UPI,paid
+INV-42-001790,Freshworks Inc,9379.58,2025-06-01,UPI,paid
+INV-42-001791,Zomato Ltd,22320.94,2025-05-11,UPI,paid
+INV-42-001792,Tata Consultancy Services,5595.23,2025-08-02,UPI,unpaid
+INV-42-001793,Sundaram Logistics Pvt Ltd,16171.19,2025-02-20,UPI,paid
+INV-42-001794,Freshworks Inc,2997.12,2025-04-06,card,paid
+INV-42-001795,Meesho Inc,8353.41,2025-08-03,UPI,paid
+INV-42-001796,Meesho Inc,14247.37,2025-07-15,UPI,paid
+INV-42-001797,Nykaa E-Retail Pvt Ltd,7561.24,2026-04-13,UPI,paid
+INV-42-001798,BigBasket Supermarket Pvt Ltd,5929.03,2025-03-08,UPI,paid
+INV-42-001799,Tata Consultancy Services,11652.01,2026-04-28,UPI,paid
+INV-42-001800,Anand Freelance Studio,15553.57,2025-01-10,UPI,unpaid
+INV-42-001801,Priya Menon Consulting,12473.44,2025-08-03,card,paid
+INV-42-001802,Infosys BPM Ltd,6932.7,2025-06-26,UPI,paid
+INV-42-001803,Swiggy Bundl Technologies,34264.16,2026-01-09,card,paid
+INV-42-001804,Swiggy Bundl Technologies,8059.13,2026-01-18,card,paid
+INV-42-001805,Tata Consultancy Services,15589.01,2026-04-27,UPI,paid
+INV-42-001806,Lenskart Solutions Pvt Ltd,2633.39,2026-06-22,UPI,paid
+INV-42-001807,Infosys BPM Ltd,3873.71,2025-03-09,UPI,paid
+INV-42-001808,Sundaram Logistics Pvt Ltd,26553.82,2025-05-18,card,paid
+INV-42-001809,Zomato Ltd,5624.3,2025-09-21,UPI,paid
+INV-42-001810,Infosys BPM Ltd,15037.89,2026-05-05,UPI,paid
+INV-42-001811,Meesho Inc,2463.92,2025-05-27,UPI,paid
+INV-42-001812,Swiggy Bundl Technologies,2179.94,2025-04-18,UPI,paid
+INV-42-001813,Anand Freelance Studio,2805.69,2026-04-19,NEFT,paid
+INV-42-001814,Meesho Inc,3029.54,2025-05-29,NEFT,paid
+INV-42-001815,Zomato Ltd,22457.07,2025-02-19,RTGS,paid
+INV-42-001816,Meesho Inc,7800.81,2026-08-15,UPI,paid
+INV-42-001817,BigBasket Supermarket Pvt Ltd,4214.09,2025-10-14,NEFT,unpaid
+INV-42-001818,Tata Consultancy Services,1190.73,2026-07-17,UPI,paid
+INV-42-001819,PharmEasy Health Solutions,14064.83,2026-01-10,UPI,paid
+INV-42-001820,Urban Company,14462.44,2025-10-30,UPI,paid
+INV-42-001821,BigBasket Supermarket Pvt Ltd,31611.81,2026-06-01,UPI,paid
+INV-42-001822,PharmEasy Health Solutions,8263.61,2025-08-16,RTGS,paid
+INV-42-001823,Anand Freelance Studio,9695.66,2026-07-31,card,paid
+INV-42-001824,Ola Fleet Technologies,6151.5,2026-06-28,UPI,paid
+INV-42-001825,Rahul Sharma,35476.99,2025-08-20,RTGS,paid
+INV-42-001826,Swiggy Bundl Technologies,17442.25,2026-02-15,UPI,paid
+INV-42-001827,Sundaram Logistics Pvt Ltd,25405.92,2025-05-20,NEFT,paid
+INV-42-001828,Zomato Ltd,25405.92,2025-05-19,UPI,paid
+INV-42-001829,Tata Consultancy Services,43840.8,2025-03-10,UPI,paid
+INV-42-001830,Swiggy Bundl Technologies,67158.45,2025-09-06,UPI,paid
+INV-42-001831,BigBasket Supermarket Pvt Ltd,9777.47,2025-12-25,UPI,paid
+INV-42-001832,Tata Consultancy Services,3084.9,2025-10-10,RTGS,unpaid
+INV-42-001833,Swiggy Bundl Technologies,5855.27,2026-04-28,UPI,paid
+INV-42-001834,Ola Fleet Technologies,9541.04,2025-06-07,UPI,paid
+INV-42-001835,Swiggy Bundl Technologies,7154.29,2026-05-14,RTGS,paid
+INV-42-001836,Urban Company,7154.29,2026-05-12,UPI,paid
+INV-42-001837,Sundaram Logistics Pvt Ltd,17033.73,2026-05-22,RTGS,paid
+INV-42-001838,BigBasket Supermarket Pvt Ltd,39376.69,2025-10-14,RTGS,unpaid
+INV-42-001839,Lenskart Solutions Pvt Ltd,11188.81,2025-09-15,card,paid
+INV-42-001840,Swiggy Bundl Technologies,15121.74,2026-05-22,UPI,paid
+INV-42-001841,Razorpay Software Pvt Ltd,7726.08,2026-08-03,UPI,paid
+INV-42-001842,Lenskart Solutions Pvt Ltd,5140.49,2025-04-11,NEFT,paid
+INV-42-001843,Deepika Textiles Pvt Ltd,4200.94,2026-03-08,RTGS,paid
+INV-42-001844,Zomato Ltd,12157.66,2026-04-17,NEFT,paid
+INV-42-001845,Vikram Enterprises,29737.9,2026-03-19,NEFT,paid
+INV-42-001846,Meesho Inc,45268.17,2025-09-17,UPI,paid
+INV-42-001847,Infosys BPM Ltd,21889.55,2025-02-18,UPI,paid
+INV-42-001848,Cred Avenue Pvt Ltd,13280.78,2026-07-26,RTGS,paid
+INV-42-001849,Tata Consultancy Services,6413.3,2025-06-26,RTGS,paid
+INV-42-001850,Tata Consultancy Services,16169.28,2025-08-22,UPI,paid
+INV-42-001851,Lenskart Solutions Pvt Ltd,2794.2,2026-05-25,NEFT,paid
+INV-42-001852,Freshworks Inc,23579.51,2025-12-12,RTGS,paid
+INV-42-001853,Deepika Textiles Pvt Ltd,23089.49,2025-04-25,UPI,paid
+INV-42-001854,Lenskart Solutions Pvt Ltd,23089.49,2025-04-24,NEFT,paid
+INV-42-001855,Deepika Textiles Pvt Ltd,8938.36,2025-03-19,UPI,paid
+INV-42-001856,Meesho Inc,21536.69,2025-09-27,UPI,paid
+INV-42-001857,Infosys BPM Ltd,3223.93,2025-10-28,NEFT,paid
+INV-42-001858,Priya Menon Consulting,4971.11,2025-05-29,UPI,paid
+INV-42-001859,Zomato Ltd,23601.93,2026-03-01,NEFT,paid
+INV-42-001860,Freshworks Inc,2960.66,2026-02-14,NEFT,unpaid
+INV-42-001861,Sundaram Logistics Pvt Ltd,29713.52,2026-01-08,RTGS,paid
+INV-42-001862,BigBasket Supermarket Pvt Ltd,29713.52,2026-01-07,UPI,paid
+INV-42-001863,Razorpay Software Pvt Ltd,8669.2,2025-05-18,UPI,paid
+INV-42-001864,Priya Menon Consulting,23952.28,2025-04-09,card,paid
+INV-42-001865,Urban Company,7672.78,2025-08-22,NEFT,paid
+INV-42-001866,Cred Avenue Pvt Ltd,7144.58,2025-02-24,UPI,paid
+INV-42-001867,Meesho Inc,2126.42,2025-02-28,card,paid
+INV-42-001868,Priya Menon Consulting,2854.74,2025-10-10,NEFT,paid
+INV-42-001869,Anand Freelance Studio,15486.41,2025-05-17,card,paid
+INV-42-001870,BigBasket Supermarket Pvt Ltd,9722.71,2025-12-05,UPI,paid
+INV-42-001871,Urban Company,4387.52,2025-11-19,card,paid
+INV-42-001872,Anand Freelance Studio,13068.8,2025-07-03,RTGS,paid
+INV-42-001873,Lenskart Solutions Pvt Ltd,13744.05,2025-04-07,card,paid
+INV-42-001874,Vikram Enterprises,6043.12,2026-05-01,UPI,paid
+INV-42-001875,Swiggy Bundl Technologies,3774.63,2025-09-16,UPI,paid
+INV-42-001876,BigBasket Supermarket Pvt Ltd,11059.22,2025-04-07,UPI,paid
+INV-42-001877,Meesho Inc,6402.53,2026-06-26,UPI,paid
+INV-42-001878,Tata Consultancy Services,23683.56,2026-01-19,card,paid
+INV-42-001879,Freshworks Inc,10179.05,2025-08-12,card,unpaid
+INV-42-001880,Rahul Sharma,3456.62,2025-07-01,card,paid
+INV-42-001881,PharmEasy Health Solutions,4514.16,2026-04-01,UPI,paid
+INV-42-001882,Urban Company,16140.36,2025-10-26,UPI,paid
+INV-42-001883,Meesho Inc,4580.52,2025-07-17,NEFT,paid
+INV-42-001884,Lenskart Solutions Pvt Ltd,9147.3,2026-04-04,card,unpaid
+INV-42-001885,Zomato Ltd,5134.07,2026-05-18,UPI,paid
+INV-42-001886,Infosys BPM Ltd,59396.66,2025-04-12,RTGS,paid
+INV-42-001887,Cred Avenue Pvt Ltd,34723.3,2026-06-29,UPI,paid
+INV-42-001888,Cred Avenue Pvt Ltd,5495.43,2025-07-22,UPI,paid
+INV-42-001889,BigBasket Supermarket Pvt Ltd,5583.06,2026-05-19,UPI,paid
+INV-42-001890,Meesho Inc,50219.01,2025-02-26,UPI,paid
+INV-42-001891,Vikram Enterprises,3936.74,2026-08-08,UPI,paid
+INV-42-001892,Anand Freelance Studio,8566.11,2025-11-07,UPI,paid
+INV-42-001893,Urban Company,39444.54,2026-03-21,NEFT,paid
+INV-42-001894,Freshworks Inc,4175.5,2025-08-08,UPI,paid
+INV-42-001895,Lenskart Solutions Pvt Ltd,11542.24,2025-07-28,UPI,paid
+INV-42-001896,Meesho Inc,2603.93,2025-04-30,card,paid
+INV-42-001897,Razorpay Software Pvt Ltd,18081.07,2026-02-16,UPI,paid
+INV-42-001898,Razorpay Software Pvt Ltd,73433.97,2026-03-09,NEFT,paid
+INV-42-001899,Lenskart Solutions Pvt Ltd,126053.15,2026-02-24,NEFT,paid
+INV-42-001900,BigBasket Supermarket Pvt Ltd,21068.02,2025-01-11,NEFT,paid
+INV-42-001901,Priya Menon Consulting,6418.6,2025-08-17,UPI,paid
+INV-42-001902,Swiggy Bundl Technologies,8677.58,2025-09-20,card,paid
+INV-42-001903,Priya Menon Consulting,5086.64,2026-08-07,UPI,paid
+INV-42-001904,BigBasket Supermarket Pvt Ltd,17088.8,2025-03-30,NEFT,paid
+INV-42-001905,Swiggy Bundl Technologies,3707.26,2026-02-02,UPI,paid
+INV-42-001906,Ola Fleet Technologies,2874.05,2026-03-25,NEFT,paid
+INV-42-001907,Deepika Textiles Pvt Ltd,13448.5,2025-07-13,RTGS,paid
+INV-42-001908,Zomato Ltd,16997.91,2025-06-29,UPI,paid
+INV-42-001909,Cred Avenue Pvt Ltd,6646.54,2025-10-26,UPI,paid
+INV-42-001910,Cred Avenue Pvt Ltd,3265.68,2025-01-26,card,paid
+INV-42-001911,Razorpay Software Pvt Ltd,8950.77,2025-05-27,UPI,paid
+INV-42-001912,Swiggy Bundl Technologies,2011.96,2025-01-18,NEFT,paid
+INV-42-001913,Vikram Enterprises,6414.58,2025-04-17,NEFT,paid
+INV-42-001914,Zomato Ltd,2661.97,2026-08-04,UPI,paid
+INV-42-001915,Cred Avenue Pvt Ltd,9010.09,2026-05-03,card,paid
+INV-42-001916,Tata Consultancy Services,11221.44,2025-09-01,NEFT,paid
+INV-42-001917,Infosys BPM Ltd,32286.08,2025-06-06,UPI,paid
+INV-42-001918,Freshworks Inc,2384.54,2026-02-02,card,paid
+INV-42-001919,Infosys BPM Ltd,2928.37,2026-07-09,card,paid
+INV-42-001920,Swiggy Bundl Technologies,10369.65,2026-02-20,UPI,unpaid
+INV-42-001921,Anand Freelance Studio,7032.86,2026-01-08,UPI,paid
+INV-42-001922,Swiggy Bundl Technologies,8615.36,2025-07-15,NEFT,paid
+INV-42-001923,Anand Freelance Studio,16141.02,2026-04-20,UPI,paid
+INV-42-001924,BigBasket Supermarket Pvt Ltd,10750.32,2025-05-25,UPI,paid
+INV-42-001925,BigBasket Supermarket Pvt Ltd,21419.03,2025-07-24,UPI,paid
+INV-42-001926,Swiggy Bundl Technologies,5595.59,2025-07-04,card,paid
+INV-42-001927,Freshworks Inc,9188.61,2026-07-31,RTGS,paid
+INV-42-001928,Meesho Inc,14001.11,2025-11-21,UPI,paid
+INV-42-001929,Swiggy Bundl Technologies,21456.01,2026-06-28,NEFT,paid
+INV-42-001930,Rahul Sharma,13155.81,2025-01-09,card,paid
+INV-42-001931,Tata Consultancy Services,3419.04,2025-08-07,UPI,paid
+INV-42-001932,Cred Avenue Pvt Ltd,7153.65,2025-06-29,UPI,paid
+INV-42-001933,Urban Company,16811.06,2026-03-02,UPI,paid
+INV-42-001934,BigBasket Supermarket Pvt Ltd,10471.42,2025-10-15,NEFT,paid
+INV-42-001935,Sundaram Logistics Pvt Ltd,10471.42,2025-10-13,NEFT,paid
+INV-42-001936,BigBasket Supermarket Pvt Ltd,12793.32,2026-01-26,UPI,paid
+INV-42-001937,Deepika Textiles Pvt Ltd,5541.08,2026-08-09,UPI,paid
+INV-42-001938,Sundaram Logistics Pvt Ltd,39802.55,2025-12-14,card,paid
+INV-42-001939,Zomato Ltd,39802.55,2025-12-13,UPI,paid
+INV-42-001940,Infosys BPM Ltd,31471.78,2025-11-25,UPI,paid
+INV-42-001941,Deepika Textiles Pvt Ltd,7931.23,2026-03-04,card,paid
+INV-42-001942,Razorpay Software Pvt Ltd,25685.75,2025-01-25,UPI,paid
+INV-42-001943,Zomato Ltd,4529.52,2026-04-05,card,paid
+INV-42-001944,Zomato Ltd,4529.52,2026-04-04,NEFT,paid
+INV-42-001945,BigBasket Supermarket Pvt Ltd,1911.62,2025-05-14,card,paid
+INV-42-001946,Zomato Ltd,9538.44,2025-07-24,card,paid
+INV-42-001947,Zomato Ltd,19448.83,2025-12-10,UPI,paid
+INV-42-001948,Sundaram Logistics Pvt Ltd,5441.68,2025-05-16,card,paid
+INV-42-001949,Urban Company,7914.75,2026-04-06,card,paid
+INV-42-001950,Rahul Sharma,4581.88,2025-04-27,UPI,paid
+INV-42-001951,Deepika Textiles Pvt Ltd,5002.65,2025-03-08,UPI,paid
+INV-42-001952,Deepika Textiles Pvt Ltd,36098.58,2025-06-09,NEFT,paid
+INV-42-001953,Sundaram Logistics Pvt Ltd,10963.15,2025-04-19,NEFT,unpaid
+INV-42-001954,Swiggy Bundl Technologies,1446.55,2025-04-04,UPI,paid
+INV-42-001955,Razorpay Software Pvt Ltd,4495.61,2026-05-03,RTGS,paid
+INV-42-001956,Nykaa E-Retail Pvt Ltd,14765.01,2025-03-04,UPI,paid
+INV-42-001957,Zomato Ltd,21889.36,2026-07-10,NEFT,paid
+INV-42-001958,Swiggy Bundl Technologies,13328.59,2025-11-26,RTGS,paid
+INV-42-001959,BigBasket Supermarket Pvt Ltd,16945.2,2026-02-27,UPI,paid
+INV-42-001960,BigBasket Supermarket Pvt Ltd,53832.07,2026-06-28,UPI,paid
+INV-42-001961,Rahul Sharma,5419.09,2025-03-05,UPI,paid
+INV-42-001962,Lenskart Solutions Pvt Ltd,5419.09,2025-03-04,UPI,paid
+INV-42-001963,BigBasket Supermarket Pvt Ltd,114805.58,2026-04-02,UPI,paid
+INV-42-001964,Swiggy Bundl Technologies,41212.67,2026-01-06,NEFT,paid
+INV-42-001965,Sundaram Logistics Pvt Ltd,11987.1,2025-11-23,UPI,paid
+INV-42-001966,Nykaa E-Retail Pvt Ltd,8086.97,2025-11-17,UPI,paid
+INV-42-001967,Razorpay Software Pvt Ltd,1563.34,2026-02-24,UPI,paid
+INV-42-001968,Lenskart Solutions Pvt Ltd,4644.45,2026-04-09,UPI,paid
+INV-42-001969,Infosys BPM Ltd,16639.81,2025-06-02,UPI,paid
+INV-42-001970,Ola Fleet Technologies,10959.28,2025-07-08,UPI,paid
+INV-42-001971,Nykaa E-Retail Pvt Ltd,5213.79,2026-05-25,UPI,paid
+INV-42-001972,Vikram Enterprises,8942.96,2026-05-14,NEFT,paid
+INV-42-001973,BigBasket Supermarket Pvt Ltd,23362.96,2025-03-03,UPI,paid
+INV-42-001974,Vikram Enterprises,18234.89,2025-05-25,UPI,paid
+INV-42-001975,Ola Fleet Technologies,7109.18,2025-11-12,NEFT,paid
+INV-42-001976,Tata Consultancy Services,12978.08,2025-05-13,UPI,paid
+INV-42-001977,Infosys BPM Ltd,11314.47,2026-08-02,card,paid
+INV-42-001978,BigBasket Supermarket Pvt Ltd,6890.49,2025-12-01,NEFT,paid
+INV-42-001979,Lenskart Solutions Pvt Ltd,66548.45,2026-05-03,RTGS,paid
+INV-42-001980,Infosys BPM Ltd,66548.45,2026-05-04,RTGS,paid
+INV-42-001981,Lenskart Solutions Pvt Ltd,28544.43,2025-08-31,RTGS,paid
+INV-42-001982,Urban Company,19503.17,2025-04-08,UPI,paid
+INV-42-001983,Tata Consultancy Services,8813.23,2025-09-30,UPI,paid
+INV-42-001984,Freshworks Inc,34431.3,2026-01-08,RTGS,paid
+INV-42-001985,Razorpay Software Pvt Ltd,10997.04,2026-05-10,NEFT,paid
+INV-42-001986,Vikram Enterprises,7828.69,2026-07-04,UPI,paid
+INV-42-001987,Freshworks Inc,42469.21,2025-10-30,NEFT,paid
+INV-42-001988,Freshworks Inc,15414.24,2026-01-21,UPI,paid
+INV-42-001989,Zomato Ltd,5265.13,2025-01-26,UPI,paid
+INV-42-001990,BigBasket Supermarket Pvt Ltd,3279.12,2025-06-01,UPI,paid
+INV-42-001991,Swiggy Bundl Technologies,7145.65,2025-10-08,UPI,paid
+INV-42-001992,Meesho Inc,3627.72,2025-11-27,card,paid
+INV-42-001993,PharmEasy Health Solutions,9215.19,2025-11-19,RTGS,paid
+INV-42-001994,Zomato Ltd,6973.52,2025-07-02,UPI,paid
+INV-42-001995,Zomato Ltd,3745.72,2026-08-06,UPI,paid
+INV-42-001996,Anand Freelance Studio,15606.26,2025-03-11,UPI,paid
+INV-42-001997,Swiggy Bundl Technologies,11656.08,2026-01-04,card,paid
+INV-42-001998,BigBasket Supermarket Pvt Ltd,17380.43,2026-07-13,UPI,paid
+INV-42-001999,Ola Fleet Technologies,15753.64,2025-04-02,RTGS,paid
+INV-42-002000,Swiggy Bundl Technologies,19135.37,2025-09-03,UPI,paid
