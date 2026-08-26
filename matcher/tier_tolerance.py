@@ -1,10 +1,3 @@
-"""Tier 2: tolerance match.
-
-Relaxes amount and settlement-lag independently, but only accepts a candidate if at
-least one dimension is still near-exact -- this is what stops two independently-loose
-thresholds from compounding into an accept-everything net.
-"""
-
 from __future__ import annotations
 
 from . import config
@@ -44,14 +37,6 @@ def match(
         if not _accept(amount_delta_abs, settlement_lag_days):
             continue
 
-        # Both dimensions normalize against the REALISTIC achievable range, not the
-        # full configured band width: a genuine rounding_fee_variance/late_settlement
-        # case can never land near the unadjusted floor of 0 (the generator's own
-        # ROUNDING_VARIANCE_MIN/LATE_SETTLEMENT_EXTRA_DAYS_MIN guarantee a nonzero
-        # minimum distortion), so normalizing from 0 compresses every real case into
-        # a narrow band regardless of how close-to-boundary vs. far-from-boundary it
-        # actually is. See config.py::TIER2_LAG_REALISTIC_MIN_OVERSHOOT_DAYS and
-        # MATCHER_STATUS.md's calibration section for the empirical evidence.
         amount_floor = config.TIER2_AMOUNT_TOLERANCE_MIN
         amount_span = config.TIER2_AMOUNT_TOLERANCE_MAX - amount_floor
         amount_delta_normalized = max(0.0, min(1.0, (amount_delta_abs - amount_floor) / amount_span))
