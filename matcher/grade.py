@@ -1,9 +1,3 @@
-"""Compares matcher output to data/answer_key/ground_truth.json.
-
-This is the only matcher module (besides its own CLI) allowed to read
-data/answer_key/ -- the matcher proper never sees it.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -48,13 +42,7 @@ def grade_generic_entries(entries: list[dict], matches_by_bank: dict, escalation
             matched_ids = set(match["matched_invoice_ids"])
             correct_ids = matched_ids == true_ids
             if expected_tier not in _DETERMINISTIC_TIERS:
-                # Two very different findings live here: a trusted signal (UTR/order_id)
-                # resolving something ground truth expected to need fuzzy/LLM work is
-                # informative, not alarming, AS LONG AS the ids are actually correct
-                # (e.g. entity_name_variant resolved via UTR, ignoring the distorted
-                # display name entirely). If the ids are WRONG, this is a genuine false
-                # positive: the matcher confidently claimed a match for a case ground
-                # truth says has none (e.g. hallucinating invoices for an orphan_payment).
+                
                 outcome = "overconfident_but_correct" if correct_ids else "overconfident_and_wrong"
             elif match["tier"] == expected_tier and correct_ids:
                 outcome = "true_positive"
@@ -91,8 +79,8 @@ def precision_recall_by_tier(graded_entries: list[dict]) -> dict:
 def grade_ambiguous_subset_sum(entries: list[dict], matches_by_bank: dict, escalations_by_bank: dict) -> dict:
     total = 0
     correctly_flagged = 0
-    incorrectly_resolved = 0  # subset_sum tier, but uniquely -- ground truth says ambiguous
-    resolved_by_stronger_signal = 0  # resolved via exact/tolerance -- shouldn't happen post-fix
+    incorrectly_resolved = 0  
+    resolved_by_stronger_signal = 0  
     missed_other = 0
     examples: list[dict] = []
 
@@ -136,7 +124,7 @@ def grade_ambiguous_subset_sum(entries: list[dict], matches_by_bank: dict, escal
         "resolved_by_stronger_signal_than_intended": resolved_by_stronger_signal,
         "resolved_by_stronger_signal_rate": rate_resolved_by_stronger_signal,
         "ambiguous_missed_other": missed_other,
-        "examples": examples[:10],  # cap for readability; full data is in matches.json/escalations.json
+        "examples": examples[:10],  
     }
 
 
@@ -173,7 +161,7 @@ def grade_duplicate_collisions(collision_groups: list[dict], entries: list[dict]
         entry1 = invoice_to_entry.get(id1)
         entry2 = invoice_to_entry.get(id2)
         if entry1 is None or entry2 is None:
-            continue  # one side is itself an orphan_invoice with no bank-side entry
+            continue  
         m1 = matches_by_bank.get(entry1["bank_record_id"])
         m2 = matches_by_bank.get(entry2["bank_record_id"])
         cross_assigned = False
