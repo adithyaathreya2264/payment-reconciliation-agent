@@ -1,14 +1,3 @@
-"""LLM client abstraction: real Anthropic- and Groq-backed clients, plus a zero-cost
-mock for testing the tool-calling loop's plumbing without network access or spend.
-
-llm_tier.py's bounded loop is written entirely against the Anthropic-shaped
-`messages`/`tools`/`tool_choice` inputs and LLMResponse's minimal output shape
-(content blocks, stop_reason, token usage) -- it has no provider-specific code at
-all. Every client, including GroqLLMClient, is responsible for translating that one
-shape into whatever its own API needs internally; this keeps llm_tier.py's
-orchestration completely untouched regardless of which provider is behind it.
-"""
-
 from __future__ import annotations
 
 import json
@@ -37,16 +26,6 @@ class LLMResponse:
 
 
 class ContextTooLargeError(Exception):
-    """Raised by any LLMClient whose provider has a hard per-request token ceiling
-    the current call cannot fit under, even with no other traffic in the rate-limit
-    window (see GroqLLMClient -- discovered via a real 413 from Groq on a
-    10-candidate-subset case before the deduped-pool context fix in
-    llm_tier.py::build_context cut typical context size ~4x). Distinct from the
-    rate limiter's wait-then-retry path: waiting cannot help here, since the request
-    is too large regardless of how empty the window is. llm_tier.py catches this to
-    produce an honest insufficient_evidence deferral rather than a crash -- a real,
-    reported limitation, not a silent failure or a forced guess. Anthropic's client
-    is not expected to ever raise this in practice (1M-token context window)."""
 
     def __init__(self, estimated_tokens: int, limit: int):
         self.estimated_tokens = estimated_tokens
@@ -67,8 +46,6 @@ class LLMClient(Protocol):
 
 
 class AnthropicLLMClient:
-    """Real Anthropic API calls. Requires the `anthropic` package and credentials
-    resolvable by the SDK (ANTHROPIC_API_KEY, an `ant auth login` profile, etc.)."""
 
     def __init__(self, model: str):
         import anthropic
@@ -115,19 +92,7 @@ class AnthropicLLMClient:
 
 
 class _TokenPerMinuteThrottle:
-    """Sleep-based rate limiter: tracks actual tokens consumed in a rolling 60-second
-    window and blocks before a call that would push cumulative usage over the
-    configured TPM ceiling. Lives inside GroqLLMClient (not llm_tier.py) -- Claude
-    never needed this, and the isolation principle says provider-specific
-    infrastructure stays behind the LLMClient interface, not leaked into the
-    orchestration loop.
-
-    Token usage for the call about to be made isn't known until the response comes
-    back (Groq doesn't report it up front), so capacity is checked against a
-    conservative pre-call ESTIMATE (rough chars/4 heuristic for the input, plus the
-    full max_tokens reserved as a worst-case output) before sending, and the ledger
-    is corrected to the real total afterwards via record()."""
-
+ 
     def __init__(self, tpm_limit: int):
         self._tpm_limit = tpm_limit
         self._window: deque[tuple[float, int]] = deque()
@@ -147,15 +112,7 @@ class _TokenPerMinuteThrottle:
             if used + estimated_tokens <= self._tpm_limit:
                 return
             if not self._window:
-                # Window is already fully empty -- nothing left to age out -- but the
-                # pre-call estimate alone still exceeds the ceiling. This happens for
-                # a large-context case (many candidate subsets): the estimate reserves
-                # the full max_tokens as a worst-case output allowance on top of the
-                # chars/4 input estimate, which can overshoot the true need. There is
-                # nothing further to wait for at this point, so proceed rather than
-                # loop forever or crash (found via a real IndexError on a 10-subset
-                # dry-run case, not spotted by code review) -- record() after the real
-                # call will correct the ledger to actual usage regardless.
+
                 return
             oldest_ts = self._window[0][0]
             sleep_for = max(60 - (now - oldest_ts) + 0.1, 0.1)
@@ -166,9 +123,7 @@ class _TokenPerMinuteThrottle:
 
 
 def _estimate_tokens(system: str, messages: list[dict], max_tokens: int) -> int:
-    """Rough chars/4 heuristic for the input side, plus the full max_tokens reserved
-    as a worst-case output allowance -- deliberately conservative (over-throttles
-    slightly rather than risking a 429)."""
+
     text_len = len(system) + sum(len(json.dumps(m)) for m in messages)
     return text_len // 4 + max_tokens
 
@@ -198,7 +153,7 @@ def _anthropic_messages_to_openai(system: str, messages: list[dict]) -> list[dic
             openai_messages.append({"role": "user", "content": content})
 
         elif role == "user" and isinstance(content, list):
-            # Anthropic shape: a list of tool_result blocks -> one OpenAI "tool" message each
+            
             for block in content:
                 openai_messages.append({
                     "role": "tool",
@@ -226,35 +181,17 @@ def _anthropic_messages_to_openai(system: str, messages: list[dict]) -> list[dic
 
 
 class GroqLLMClient:
-    """Real calls to Groq's OpenAI-compatible API. Uses the `openai` package pointed
-    at Groq's base URL -- not the `groq` package, since it hasn't been confirmed to
-    match this project's tool-calling shape, per the instruction to only reach for it
-    after that confirmation. Requires GROQ_API_KEY to be set (or passed explicitly).
-
-    Translates llm_tier.py's Anthropic-shaped tools/tool_choice/messages into OpenAI's
-    function-calling shape on every call -- see the module-level `_anthropic_*`
-    helpers above. `strict` is deliberately NOT set on the translated tool schemas:
-    Groq's docs confirm gpt-oss-120b supports tool_choice (including forcing a named
-    function) and structured JSON output via response_format, but strict per-tool
-    schema enforcement specifically was not confirmed for this model as of this
-    writing -- left off rather than assumed.
-    """
 
     def __init__(self, model: str, tpm_limit: int, api_key: str | None = None, account_tpm_limit: int | None = None):
         import os
 
         import openai
 
-        # openai.OpenAI() only auto-reads OPENAI_API_KEY -- Groq's own env var
-        # (GROQ_API_KEY) is not one it knows about, so it must be read explicitly here.
         api_key = api_key or os.environ.get("GROQ_API_KEY")
         self._client = openai.OpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1")
         self._model = model
         self._throttle = _TokenPerMinuteThrottle(tpm_limit)
-        # The account's real hard ceiling -- a single request above this can never be
-        # sent no matter how much rate-limit headroom is available. Defaults to
-        # tpm_limit if not given separately (conservative: treats the throttle target
-        # as the hard cap too).
+        
         self._account_tpm_limit = account_tpm_limit if account_tpm_limit is not None else tpm_limit
 
     def create_message(
@@ -309,11 +246,6 @@ class GroqLLMClient:
 
 
 class MockLLMClient:
-    """Zero-cost stand-in for testing the escalation-tier plumbing. Never calls the
-    optional lookup tool -- immediately submits a fixed, deliberately unopinionated
-    decision (insufficient_evidence, empty candidate_ids) so the loop, JSON output
-    shapes, and reporting can be exercised end-to-end with no network access and no
-    claim of real reasoning. Not used for any grading/accuracy claim."""
 
     def __init__(self, decision: str = "insufficient_evidence", confidence: float = 0.3):
         self._decision = decision
